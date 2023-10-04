@@ -1,0 +1,15 @@
+{
+    "PartName": "HC-3000 WRECKER",
+    "Manufacturer": "RAD",
+    "AP": 1130.0,
+    "AntiKineticDefense": 200.0,
+    "AntiEnergyDefense": 170.0,
+    "AntiExplosiveDefense": 187.0,
+    "AttitudeStability": 322.0,
+    "SystemRecovery": 55.0,
+    "ScanDistance": 270.0,
+    "ScanEffectDuration": 3.0,
+    "Weight": 3800.0,
+    "ENLoad": 102.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

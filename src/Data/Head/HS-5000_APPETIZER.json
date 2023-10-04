@@ -1,0 +1,15 @@
+{
+    "PartName": "HS-5000 APPETIZER",
+    "Manufacturer": "RAD",
+    "AP": 760.0,
+    "AntiKineticDefense": 176.0,
+    "AntiEnergyDefense": 180.0,
+    "AntiExplosiveDefense": 176.0,
+    "AttitudeStability": 326.0,
+    "SystemRecovery": 78.0,
+    "ScanDistance": 610.0,
+    "ScanEffectDuration": 6.0,
+    "Weight": 3000.0,
+    "ENLoad": 103.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

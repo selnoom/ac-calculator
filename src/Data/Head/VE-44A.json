@@ -1,0 +1,15 @@
+{
+    "PartName": "VE-44A",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 1060.0,
+    "AntiKineticDefense": 179.0,
+    "AntiEnergyDefense": 188.0,
+    "AntiExplosiveDefense": 178.0,
+    "AttitudeStability": 393.0,
+    "SystemRecovery": 104.0,
+    "ScanDistance": 490.0,
+    "ScanEffectDuration": 12.6,
+    "Weight": 3640.0,
+    "ENLoad": 182.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

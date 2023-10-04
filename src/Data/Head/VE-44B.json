@@ -1,0 +1,15 @@
+{
+    "PartName": "VE-44B",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 1040.0,
+    "AntiKineticDefense": 167.0,
+    "AntiEnergyDefense": 181.0,
+    "AntiExplosiveDefense": 166.0,
+    "AttitudeStability": 435.0,
+    "SystemRecovery": 154.0,
+    "ScanDistance": 700.0,
+    "ScanEffectDuration": 18.0,
+    "Weight": 4320.0,
+    "ENLoad": 265.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

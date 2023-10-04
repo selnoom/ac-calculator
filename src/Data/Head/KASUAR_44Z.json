@@ -1,0 +1,15 @@
+{
+    "PartName": "KASUAR/44Z",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 400.0,
+    "AntiKineticDefense": 149.0,
+    "AntiEnergyDefense": 157.0,
+    "AntiExplosiveDefense": 151.0,
+    "AttitudeStability": 498.0,
+    "SystemRecovery": 108.0,
+    "ScanDistance": 620.0,
+    "ScanEffectDuration": 5.4,
+    "Weight": 2590.0,
+    "ENLoad": 254.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

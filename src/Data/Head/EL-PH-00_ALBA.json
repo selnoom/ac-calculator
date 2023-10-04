@@ -1,0 +1,15 @@
+{
+    "PartName": "EL-PH-00 ALBA",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 600.0,
+    "AntiKineticDefense": 171.0,
+    "AntiEnergyDefense": 171.0,
+    "AntiExplosiveDefense": 171.0,
+    "AttitudeStability": 414.0,
+    "SystemRecovery": 105.0,
+    "ScanDistance": 500.0,
+    "ScanEffectDuration": 3.6,
+    "Weight": 2800.0,
+    "ENLoad": 205.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

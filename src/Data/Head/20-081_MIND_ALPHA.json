@@ -1,0 +1,15 @@
+{
+    "PartName": "20-081 MIND ALPHA",
+    "Manufacturer": "ALLMIND",
+    "AP": 820.0,
+    "AntiKineticDefense": 178.0,
+    "AntiEnergyDefense": 186.0,
+    "AntiExplosiveDefense": 173.0,
+    "AttitudeStability": 365.0,
+    "SystemRecovery": 103.0,
+    "ScanDistance": 320.0,
+    "ScanEffectDuration": 6.0,
+    "Weight": 3350.0,
+    "ENLoad": 142.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

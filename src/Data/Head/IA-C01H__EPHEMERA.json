@@ -1,0 +1,15 @@
+{
+    "PartName": "IA-C01H: EPHEMERA",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AP": 990.0,
+    "AntiKineticDefense": 160.0,
+    "AntiEnergyDefense": 189.0,
+    "AntiExplosiveDefense": 186.0,
+    "AttitudeStability": 480.0,
+    "SystemRecovery": 132.0,
+    "ScanDistance": 550.0,
+    "ScanEffectDuration": 4.8,
+    "Weight": 4330.0,
+    "ENLoad": 233.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

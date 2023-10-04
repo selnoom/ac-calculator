@@ -1,0 +1,15 @@
+{
+    "PartName": "NACHTREIHER/44E",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 590.0,
+    "AntiKineticDefense": 153.0,
+    "AntiEnergyDefense": 155.0,
+    "AntiExplosiveDefense": 152.0,
+    "AttitudeStability": 422.0,
+    "SystemRecovery": 92.0,
+    "ScanDistance": 280.0,
+    "ScanEffectDuration": 13.2,
+    "Weight": 2320.0,
+    "ENLoad": 210.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

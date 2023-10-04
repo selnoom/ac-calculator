@@ -1,0 +1,15 @@
+{
+    "PartName": "HD-033M VERRILL",
+    "Manufacturer": "BALAM",
+    "AP": 1080.0,
+    "AntiKineticDefense": 188.0,
+    "AntiEnergyDefense": 185.0,
+    "AntiExplosiveDefense": 185.0,
+    "AttitudeStability": 469.0,
+    "SystemRecovery": 107.0,
+    "ScanDistance": 510.0,
+    "ScanEffectDuration": 7.8,
+    "Weight": 3830.0,
+    "ENLoad": 240.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}

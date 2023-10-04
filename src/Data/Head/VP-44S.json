@@ -1,0 +1,15 @@
+{
+    "PartName": "VP-44S",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 850.0,
+    "AntiKineticDefense": 170.0,
+    "AntiEnergyDefense": 172.0,
+    "AntiExplosiveDefense": 168.0,
+    "AttitudeStability": 378.0,
+    "SystemRecovery": 112.0,
+    "ScanDistance": 520.0,
+    "ScanEffectDuration": 7.2,
+    "Weight": 3080.0,
+    "ENLoad": 148.0,
+    "imagePath": "PLACEHOLDER_FOR_IMAGE"
+}
