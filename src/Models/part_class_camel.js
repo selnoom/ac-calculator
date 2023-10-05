@@ -20,7 +20,6 @@ class Part {
         this.MeleeAttackThrust = null;
         this.IdealRange = null;
         this.MeleeSpecialization = null;
-        this.Unnamed1 = null;
         this.QBEnConsumption = null;
         this.ComboChgAttackPowerTotal = null;
         this.ScanEffectDurationEnLoad = null;

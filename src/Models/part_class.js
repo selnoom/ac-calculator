@@ -20,7 +20,6 @@ class Part {
         this.Melee_Attack_Thrust = null;
         this.Ideal_Range = null;
         this.Melee_Specialization = null;
-        this.Unnamed:_1 = null;
         this.QB_EN_Consumption = null;
         this.Combo_Chg__Attack_Power_TOTAL = null;
         this.Scan_Effect_Duration__EN_Load = null;
@@ -96,9 +95,7 @@ class Part {
         this.Chg__Accum__Impact = null;
         this.Expl__Def__Weight = null;
         this.Upward_Thrust = null;
-        this.Preface: = null;
         this.Effective_Range = null;
-        this.Unnamed:_0 = null;
         this.NET_Load_Limit = null;
         this.AP = null;
         this.Combo_Accum__Impact_TOTAL = null;

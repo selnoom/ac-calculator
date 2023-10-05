@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;  /* Width of the vertical scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;  /* Darker track for the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;  /* Lighter thumb for the scrollbar */
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}

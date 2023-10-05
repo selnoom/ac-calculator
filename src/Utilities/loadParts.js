@@ -1,6 +1,7 @@
-import LegData from '../Data/legs.json';
-import Part from '../Models/Part';
+const headContext = require.context('../Data/Head', false, /\.json$/);
 
-export const loadLegs = () => {
-  return LegData.map(leg => new Part(leg.id, leg.type, leg.slot, leg.weight, leg.enLoad, leg.imageUrl, leg.features));
-};
+export const loadHeads = () => {
+    // Use the keys() method to get all the filenames and map over them to get their default export
+    const heads = headContext.keys().map(headContext);
+    return heads;
+}
