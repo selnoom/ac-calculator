@@ -1,0 +1,16 @@
+{
+    "PartName": "EL-PC-00 ALBA",
+    "Class": null,
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 2850.0,
+    "AntiKineticDefense": 370.0,
+    "AntiEnergyDefense": 370.0,
+    "AntiExplosiveDefense": 370.0,
+    "AttitudeStability": 368.0,
+    "BoosterEfficiencyAdj": 115.0,
+    "GeneratorOutputAdj": 101.0,
+    "GeneratorSupplyAdj": 105.0,
+    "Weight": 12000.0,
+    "ENLoad": 315.0,
+    "imagePath": "images/bodys/EL-PC-00_ALBA.png"
+}

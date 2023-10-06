@@ -1,0 +1,12 @@
+{
+    "PartName": "DF-GN-06 MING-TANG",
+    "Manufacturer": "DAFENG",
+    "ENCapacity": 2900.0,
+    "ENRecharge": 1250.0,
+    "SupplyRecovery": 666.0,
+    "PostRecoveryENSupply": 440.0,
+    "EnergyFirearmSpec": 76.0,
+    "Weight": 6320.0,
+    "ENOutput": 3160.0,
+    "imagePath": "images/generators/DF-GN-06_MING-TANG.png"
+}

@@ -1,0 +1,12 @@
+{
+    "PartName": "IA-C01F: OCELLUS",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "CloseRangeAssist": 90.0,
+    "MediumRangeAssist": 12.0,
+    "LongRangeAssist": 3.0,
+    "MissileLockCorrection": 85.0,
+    "MultiLockCorrection": 50.0,
+    "Weight": 130.0,
+    "ENLoad": 292.0,
+    "imagePath": "images/fcs/IA-C01F__OCELLUS.png"
+}

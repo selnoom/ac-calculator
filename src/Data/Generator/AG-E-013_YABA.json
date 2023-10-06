@@ -1,0 +1,12 @@
+{
+    "PartName": "AG-E-013 YABA",
+    "Manufacturer": "BAWS",
+    "ENCapacity": 2550.0,
+    "ENRecharge": 1000.0,
+    "SupplyRecovery": 500.0,
+    "PostRecoveryENSupply": 1000.0,
+    "EnergyFirearmSpec": 75.0,
+    "Weight": 5080.0,
+    "ENOutput": 3000.0,
+    "imagePath": "images/generators/AG-E-013_YABA.png"
+}

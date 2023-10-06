@@ -1,0 +1,12 @@
+{
+    "PartName": "DF-GN-08 SAN-TAI",
+    "Manufacturer": "DAFENG",
+    "ENCapacity": 4420.0,
+    "ENRecharge": 1176.0,
+    "SupplyRecovery": 625.0,
+    "PostRecoveryENSupply": 810.0,
+    "EnergyFirearmSpec": 88.0,
+    "Weight": 10060.0,
+    "ENOutput": 3210.0,
+    "imagePath": "images/generators/DF-GN-08_SAN-TAI.png"
+}

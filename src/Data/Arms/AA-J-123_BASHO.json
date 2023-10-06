@@ -1,0 +1,15 @@
+{
+    "PartName": "AA-J-123 BASHO",
+    "Manufacturer": "BAWS",
+    "AP": 2430.0,
+    "AntiKineticDefense": 240.0,
+    "AntiEnergyDefense": 191.0,
+    "AntiExplosiveDefense": 260.0,
+    "ArmsLoadLimit": 10520.0,
+    "RecoilControl": 66.0,
+    "FirearmSpecialization": 53.0,
+    "MeleeSpecialization": 158.0,
+    "Weight": 10480.0,
+    "ENLoad": 210.0,
+    "imagePath": "images/arms/AA-J-123_BASHO.png"
+}

@@ -1,0 +1,15 @@
+{
+    "PartName": "DF-AR-09 TIAN-LAO",
+    "Manufacturer": "DAFENG",
+    "AP": 3070.0,
+    "AntiKineticDefense": 305.0,
+    "AntiEnergyDefense": 251.0,
+    "AntiExplosiveDefense": 277.0,
+    "ArmsLoadLimit": 17200.0,
+    "RecoilControl": 135.0,
+    "FirearmSpecialization": 95.0,
+    "MeleeSpecialization": 68.0,
+    "Weight": 26740.0,
+    "ENLoad": 266.0,
+    "imagePath": "images/arms/DF-AR-09_TIAN-LAO.png"
+}

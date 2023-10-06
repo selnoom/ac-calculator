@@ -1,0 +1,16 @@
+{
+    "PartName": "AH-J-120 BASHO",
+    "Class": null,
+    "Manufacturer": "BAWS",
+    "AP": 3580.0,
+    "AntiKineticDefense": 435.0,
+    "AntiEnergyDefense": 398.0,
+    "AntiExplosiveDefense": 460.0,
+    "AttitudeStability": 476.0,
+    "BoosterEfficiencyAdj": 119.0,
+    "GeneratorOutputAdj": 83.0,
+    "GeneratorSupplyAdj": 94.0,
+    "Weight": 16100.0,
+    "ENLoad": 300.0,
+    "imagePath": "images/bodys/AH-J-120_BASHO.png"
+}

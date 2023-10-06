@@ -1,0 +1,16 @@
+{
+    "PartName": "VP-424",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 5600.0,
+    "AntiKineticDefense": 366.0,
+    "AntiEnergyDefense": 384.0,
+    "AntiExplosiveDefense": 386.0,
+    "AttitudeStability": 1366.0,
+    "LoadLimit": 69800.0,
+    "NETLoadLimit": "=I26-M26",
+    "JumpDistance": 103.0,
+    "JumpHeight": 18.0,
+    "Weight": 31600.0,
+    "ENLoad": 760.0,
+    "imagePath": "images/legs/VP-424.png"
+}

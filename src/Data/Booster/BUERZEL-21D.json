@@ -1,0 +1,19 @@
+{
+    "PartName": "BUERZEL/21D",
+    "Manufacturer": "SCHNEIDER",
+    "Thrust": 6167.0,
+    "UpwardThrust": 4834.0,
+    "UpwardENConsumption": 710.0,
+    "QBThrust": 18050.0,
+    "QBJetDuration": 0.26,
+    "QBENConsumption": 536.0,
+    "QBReloadTime": 0.91,
+    "QBReloadIdealWeight": 100600.0,
+    "ABThrust": 10085.0,
+    "ABENConsumption": 378.0,
+    "MeleeAttackThrust": 10402.0,
+    "MeleeAtkENConsump": 588.0,
+    "Weight": 2240.0,
+    "ENLoad": 480.0,
+    "imagePath": "images/boosters/BUERZEL-21D.png"
+}

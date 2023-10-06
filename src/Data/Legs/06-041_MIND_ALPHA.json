@@ -1,0 +1,16 @@
+{
+    "PartName": "06-041 MIND ALPHA",
+    "Manufacturer": "ALLMIND",
+    "AP": 4360.0,
+    "AntiKineticDefense": 370.0,
+    "AntiEnergyDefense": 390.0,
+    "AntiExplosiveDefense": 356.0,
+    "AttitudeStability": 794.0,
+    "LoadLimit": 63810.0,
+    "NETLoadLimit": "=I19-M19",
+    "JumpDistance": 83.0,
+    "JumpHeight": 22.0,
+    "Weight": 22110.0,
+    "ENLoad": 432.0,
+    "imagePath": "images/legs/06-041_MIND_ALPHA.png"
+}

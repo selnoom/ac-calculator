@@ -1,0 +1,12 @@
+{
+    "PartName": "VP-20D",
+    "Manufacturer": "ARQUEBUS CORP",
+    "ENCapacity": 3250.0,
+    "ENRecharge": 714.0,
+    "SupplyRecovery": 384.0,
+    "PostRecoveryENSupply": 1400.0,
+    "EnergyFirearmSpec": 98.0,
+    "Weight": 11030.0,
+    "ENOutput": 4430.0,
+    "imagePath": "images/generators/VP-20D.png"
+}

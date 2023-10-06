@@ -1,0 +1,16 @@
+{
+    "PartName": "CC-3000 WRECKER",
+    "Class": "Heavy",
+    "Manufacturer": "RAD",
+    "AP": 3940.0,
+    "AntiKineticDefense": 468.0,
+    "AntiEnergyDefense": 434.0,
+    "AntiExplosiveDefense": 461.0,
+    "AttitudeStability": 532.0,
+    "BoosterEfficiencyAdj": 80.0,
+    "GeneratorOutputAdj": 96.0,
+    "GeneratorSupplyAdj": 100.0,
+    "Weight": 19000.0,
+    "ENLoad": 310.0,
+    "imagePath": "images/bodys/CC-3000_WRECKER.png"
+}

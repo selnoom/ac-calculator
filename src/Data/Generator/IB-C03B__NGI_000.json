@@ -1,0 +1,12 @@
+{
+    "PartName": "IB-C03B: NGI 000",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "ENCapacity": 4400.0,
+    "ENRecharge": 250.0,
+    "SupplyRecovery": 312.0,
+    "PostRecoveryENSupply": 3300.0,
+    "EnergyFirearmSpec": 110.0,
+    "Weight": 8950.0,
+    "ENOutput": 4340.0,
+    "imagePath": "images/generators/IB-C03B__NGI_000.png"
+}

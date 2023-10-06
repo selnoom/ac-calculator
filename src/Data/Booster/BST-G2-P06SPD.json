@@ -1,0 +1,19 @@
+{
+    "PartName": "BST-G2/P06SPD",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "Thrust": 6801.0,
+    "UpwardThrust": 4800.0,
+    "UpwardENConsumption": 672.0,
+    "QBThrust": 18600.0,
+    "QBJetDuration": 0.36,
+    "QBENConsumption": 700.0,
+    "QBReloadTime": 0.5,
+    "QBReloadIdealWeight": 76000.0,
+    "ABThrust": 8685.0,
+    "ABENConsumption": 381.0,
+    "MeleeAttackThrust": 10652.0,
+    "MeleeAtkENConsump": 507.0,
+    "Weight": 1420.0,
+    "ENLoad": 390.0,
+    "imagePath": "images/boosters/BST-G2-P06SPD.png"
+}

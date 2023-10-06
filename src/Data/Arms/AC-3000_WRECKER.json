@@ -1,0 +1,15 @@
+{
+    "PartName": "AC-3000 WRECKER",
+    "Manufacturer": "RAD",
+    "AP": 2030.0,
+    "AntiKineticDefense": 232.0,
+    "AntiEnergyDefense": 170.0,
+    "AntiExplosiveDefense": 237.0,
+    "ArmsLoadLimit": 15800.0,
+    "RecoilControl": 232.0,
+    "FirearmSpecialization": 26.0,
+    "MeleeSpecialization": 13.0,
+    "Weight": 14650.0,
+    "ENLoad": 220.0,
+    "imagePath": "images/arms/AC-3000_WRECKER.png"
+}

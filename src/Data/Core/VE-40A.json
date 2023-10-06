@@ -1,0 +1,16 @@
+{
+    "PartName": "VE-40A",
+    "Class": "Heavy",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 4320.0,
+    "AntiKineticDefense": 447.0,
+    "AntiEnergyDefense": 495.0,
+    "AntiExplosiveDefense": 458.0,
+    "AttitudeStability": 521.0,
+    "BoosterEfficiencyAdj": 81.0,
+    "GeneratorOutputAdj": 122.0,
+    "GeneratorSupplyAdj": 95.0,
+    "Weight": 21100.0,
+    "ENLoad": 432.0,
+    "imagePath": "images/bodys/VE-40A.png"
+}

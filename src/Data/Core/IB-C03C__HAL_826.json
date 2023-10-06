@@ -1,0 +1,16 @@
+{
+    "PartName": "IB-C03C: HAL 826",
+    "Class": "Heavy",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AP": 3670.0,
+    "AntiKineticDefense": 451.0,
+    "AntiEnergyDefense": 469.0,
+    "AntiExplosiveDefense": 463.0,
+    "AttitudeStability": 385.0,
+    "BoosterEfficiencyAdj": 96.0,
+    "GeneratorOutputAdj": 120.0,
+    "GeneratorSupplyAdj": 108.0,
+    "Weight": 18520.0,
+    "ENLoad": 366.0,
+    "imagePath": "images/bodys/IB-C03C__HAL_826.png"
+}

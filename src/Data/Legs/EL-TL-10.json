@@ -1,0 +1,16 @@
+{
+    "PartName": "EL-TL-10",
+    "Manufacturer": "FIRMEZA",
+    "AP": 3600.0,
+    "AntiKineticDefense": 328.0,
+    "AntiEnergyDefense": 266.0,
+    "AntiExplosiveDefense": 270.0,
+    "AttitudeStability": 737.0,
+    "LoadLimit": 52100.0,
+    "NETLoadLimit": "=I17-M17",
+    "JumpDistance": 115.0,
+    "JumpHeight": 28.0,
+    "Weight": 11200.0,
+    "ENLoad": 378.0,
+    "imagePath": "images/legs/EL-TL-10.png"
+}

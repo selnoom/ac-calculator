@@ -1,0 +1,15 @@
+{
+    "PartName": "04-101 MIND ALPHA",
+    "Manufacturer": "ALLMIND",
+    "AP": 2300.0,
+    "AntiKineticDefense": 245.0,
+    "AntiEnergyDefense": 260.0,
+    "AntiExplosiveDefense": 246.0,
+    "ArmsLoadLimit": 15550.0,
+    "RecoilControl": 132.0,
+    "FirearmSpecialization": 103.0,
+    "MeleeSpecialization": 79.0,
+    "Weight": 16960.0,
+    "ENLoad": 358.0,
+    "imagePath": "images/arms/04-101_MIND_ALPHA.png"
+}

@@ -1,0 +1,15 @@
+{
+    "PartName": "EL-TA-10 FIRMEZA",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 1900.0,
+    "AntiKineticDefense": 210.0,
+    "AntiEnergyDefense": 214.0,
+    "AntiExplosiveDefense": 187.0,
+    "ArmsLoadLimit": 13540.0,
+    "RecoilControl": 86.0,
+    "FirearmSpecialization": 122.0,
+    "MeleeSpecialization": 110.0,
+    "Weight": 11220.0,
+    "ENLoad": 270.0,
+    "imagePath": "images/arms/EL-TA-10_FIRMEZA.png"
+}

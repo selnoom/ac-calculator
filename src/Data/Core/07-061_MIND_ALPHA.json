@@ -1,0 +1,16 @@
+{
+    "PartName": "07-061 MIND ALPHA",
+    "Class": null,
+    "Manufacturer": "ALLMIND",
+    "AP": 3520.0,
+    "AntiKineticDefense": 440.0,
+    "AntiEnergyDefense": 455.0,
+    "AntiExplosiveDefense": 445.0,
+    "AttitudeStability": 455.0,
+    "BoosterEfficiencyAdj": 95.0,
+    "GeneratorOutputAdj": 112.0,
+    "GeneratorSupplyAdj": 104.0,
+    "Weight": 16510.0,
+    "ENLoad": 364.0,
+    "imagePath": "images/bodys/07-061_MIND_ALPHA.png"
+}

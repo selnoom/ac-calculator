@@ -1,0 +1,16 @@
+{
+    "PartName": "EL-PL-00 ALBA",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 3850.0,
+    "AntiKineticDefense": 316.0,
+    "AntiEnergyDefense": 316.0,
+    "AntiExplosiveDefense": 316.0,
+    "AttitudeStability": 724.0,
+    "LoadLimit": 50100.0,
+    "NETLoadLimit": "=I18-M18",
+    "JumpDistance": 80.0,
+    "JumpHeight": 33.0,
+    "Weight": 13150.0,
+    "ENLoad": 360.0,
+    "imagePath": "images/legs/EL-PL-00_ALBA.png"
+}

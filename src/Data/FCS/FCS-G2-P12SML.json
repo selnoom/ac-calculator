@@ -1,0 +1,12 @@
+{
+    "PartName": "FCS-G2/P12SML",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "CloseRangeAssist": 28.0,
+    "MediumRangeAssist": 52.0,
+    "LongRangeAssist": 30.0,
+    "MissileLockCorrection": 132.0,
+    "MultiLockCorrection": 120.0,
+    "Weight": 130.0,
+    "ENLoad": 278.0,
+    "imagePath": "images/fcs/FCS-G2-P12SML.png"
+}

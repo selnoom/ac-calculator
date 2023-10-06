@@ -1,0 +1,16 @@
+{
+    "PartName": "NACHTREIHER/42E",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 3500.0,
+    "AntiKineticDefense": 295.0,
+    "AntiEnergyDefense": 330.0,
+    "AntiExplosiveDefense": 298.0,
+    "AttitudeStability": 711.0,
+    "LoadLimit": 48650.0,
+    "NETLoadLimit": "=I12-M12",
+    "JumpDistance": 228.0,
+    "JumpHeight": 52.0,
+    "Weight": 14030.0,
+    "ENLoad": 462.0,
+    "imagePath": "images/legs/NACHTREIHER-42E.png"
+}

@@ -1,0 +1,12 @@
+{
+    "PartName": "VE-21A",
+    "Manufacturer": "ARQUEBUS CORP",
+    "CloseRangeAssist": 10.0,
+    "MediumRangeAssist": 36.0,
+    "LongRangeAssist": 92.0,
+    "MissileLockCorrection": 65.0,
+    "MultiLockCorrection": 79.0,
+    "Weight": 85.0,
+    "ENLoad": 364.0,
+    "imagePath": "images/fcs/VE-21A.png"
+}

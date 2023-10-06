@@ -1,0 +1,15 @@
+{
+    "PartName": "AR-012 MELANDER C3",
+    "Manufacturer": "BALAM",
+    "AP": 2010.0,
+    "AntiKineticDefense": 239.0,
+    "AntiEnergyDefense": 212.0,
+    "AntiExplosiveDefense": 233.0,
+    "ArmsLoadLimit": 12000.0,
+    "RecoilControl": 92.0,
+    "FirearmSpecialization": 128.0,
+    "MeleeSpecialization": 102.0,
+    "Weight": 12300.0,
+    "ENLoad": 232.0,
+    "imagePath": "images/arms/AR-012_MELANDER_C3.png"
+}

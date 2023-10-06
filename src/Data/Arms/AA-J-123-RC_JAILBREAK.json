@@ -1,0 +1,15 @@
+{
+    "PartName": "AA-J-123/RC JAILBREAK",
+    "Manufacturer": "BAWS",
+    "AP": 1000.0,
+    "AntiKineticDefense": 200.0,
+    "AntiEnergyDefense": 190.0,
+    "AntiExplosiveDefense": 235.0,
+    "ArmsLoadLimit": 10520.0,
+    "RecoilControl": 45.0,
+    "FirearmSpecialization": 45.0,
+    "MeleeSpecialization": 112.0,
+    "Weight": 8480.0,
+    "ENLoad": 210.0,
+    "imagePath": "images/arms/AA-J-123-RC_JAILBREAK.png"
+}

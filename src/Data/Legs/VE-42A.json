@@ -1,0 +1,16 @@
+{
+    "PartName": "VE-42A",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 5200.0,
+    "AntiKineticDefense": 397.0,
+    "AntiEnergyDefense": 453.0,
+    "AntiExplosiveDefense": 394.0,
+    "AttitudeStability": 877.0,
+    "LoadLimit": 85700.0,
+    "NETLoadLimit": "=I13-M13",
+    "JumpDistance": 30.0,
+    "JumpHeight": 14.0,
+    "Weight": 28950.0,
+    "ENLoad": 465.0,
+    "imagePath": "images/legs/VE-42A.png"
+}

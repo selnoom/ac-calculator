@@ -1,0 +1,16 @@
+{
+    "PartName": "IA-C01L: EPHEMERA",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AP": 3800.0,
+    "AntiKineticDefense": 297.0,
+    "AntiEnergyDefense": 352.0,
+    "AntiExplosiveDefense": 352.0,
+    "AttitudeStability": 755.0,
+    "LoadLimit": 55050.0,
+    "NETLoadLimit": "=I20-M20",
+    "JumpDistance": 99.0,
+    "JumpHeight": 27.0,
+    "Weight": 15200.0,
+    "ENLoad": 398.0,
+    "imagePath": "images/legs/IA-C01L__EPHEMERA.png"
+}

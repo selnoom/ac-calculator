@@ -1,0 +1,19 @@
+{
+    "PartName": "BC-0200 GRIDWALKER",
+    "Manufacturer": "RAD",
+    "Thrust": 6401.0,
+    "UpwardThrust": 6334.0,
+    "UpwardENConsumption": 660.0,
+    "QBThrust": 19000.0,
+    "QBJetDuration": 0.33,
+    "QBENConsumption": 660.0,
+    "QBReloadTime": 0.7,
+    "QBReloadIdealWeight": 60900.0,
+    "ABThrust": 8585.0,
+    "ABENConsumption": 387.0,
+    "MeleeAttackThrust": 11468.0,
+    "MeleeAtkENConsump": 520.0,
+    "Weight": 2010.0,
+    "ENLoad": 244.0,
+    "imagePath": "images/boosters/BC-0200_GRIDWALKER.png"
+}

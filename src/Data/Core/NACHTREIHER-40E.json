@@ -1,0 +1,16 @@
+{
+    "PartName": "NACHTREIHER/40E",
+    "Class": "Light",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 2630.0,
+    "AntiKineticDefense": 349.0,
+    "AntiEnergyDefense": 359.0,
+    "AntiExplosiveDefense": 331.0,
+    "AttitudeStability": 349.0,
+    "BoosterEfficiencyAdj": 126.0,
+    "GeneratorOutputAdj": 84.0,
+    "GeneratorSupplyAdj": 109.0,
+    "Weight": 9820.0,
+    "ENLoad": 330.0,
+    "imagePath": "images/bodys/NACHTREIHER-40E.png"
+}

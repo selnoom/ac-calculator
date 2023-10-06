@@ -1,0 +1,15 @@
+{
+    "PartName": "VP-46D",
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 1620.0,
+    "AntiKineticDefense": 196.0,
+    "AntiEnergyDefense": 230.0,
+    "AntiExplosiveDefense": 190.0,
+    "ArmsLoadLimit": 11800.0,
+    "RecoilControl": 70.0,
+    "FirearmSpecialization": 133.0,
+    "MeleeSpecialization": 117.0,
+    "Weight": 10990.0,
+    "ENLoad": 248.0,
+    "imagePath": "images/arms/VP-46D.png"
+}

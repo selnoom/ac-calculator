@@ -1,0 +1,16 @@
+{
+    "PartName": "IB-C03L: HAL 826",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AP": 4000.0,
+    "AntiKineticDefense": 359.0,
+    "AntiEnergyDefense": 380.0,
+    "AntiExplosiveDefense": 351.0,
+    "AttitudeStability": 806.0,
+    "LoadLimit": 64900.0,
+    "NETLoadLimit": "=I21-M21",
+    "JumpDistance": 100.0,
+    "JumpHeight": 27.0,
+    "Weight": 20890.0,
+    "ENLoad": 385.0,
+    "imagePath": "images/legs/IB-C03L__HAL_826.png"
+}

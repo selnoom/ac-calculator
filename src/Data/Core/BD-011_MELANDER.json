@@ -1,0 +1,16 @@
+{
+    "PartName": "BD-011 MELANDER",
+    "Class": "Medium",
+    "Manufacturer": "BALAM",
+    "AP": 3230.0,
+    "AntiKineticDefense": 438.0,
+    "AntiEnergyDefense": 380.0,
+    "AntiExplosiveDefense": 429.0,
+    "AttitudeStability": 458.0,
+    "BoosterEfficiencyAdj": 98.0,
+    "GeneratorOutputAdj": 105.0,
+    "GeneratorSupplyAdj": 97.0,
+    "Weight": 15800.0,
+    "ENLoad": 304.0,
+    "imagePath": "images/bodys/BD-011_MELANDER.png"
+}

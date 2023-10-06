@@ -1,0 +1,16 @@
+{
+    "PartName": "IA-C01C: EPHMERA",
+    "Class": null,
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AP": 3110.0,
+    "AntiKineticDefense": 335.0,
+    "AntiEnergyDefense": 452.0,
+    "AntiExplosiveDefense": 430.0,
+    "AttitudeStability": 363.0,
+    "BoosterEfficiencyAdj": 101.0,
+    "GeneratorOutputAdj": 126.0,
+    "GeneratorSupplyAdj": 96.0,
+    "Weight": 13200.0,
+    "ENLoad": 412.0,
+    "imagePath": "images/bodys/IA-C01C__EPHMERA.png"
+}

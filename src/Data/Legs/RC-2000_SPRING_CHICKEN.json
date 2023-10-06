@@ -1,0 +1,16 @@
+{
+    "PartName": "RC-2000 SPRING CHICKEN",
+    "Manufacturer": "RAD",
+    "AP": 4080.0,
+    "AntiKineticDefense": 357.0,
+    "AntiEnergyDefense": 334.0,
+    "AntiExplosiveDefense": 360.0,
+    "AttitudeStability": 586.0,
+    "LoadLimit": 68360.0,
+    "NETLoadLimit": "=I24-M24",
+    "JumpDistance": 317.0,
+    "JumpHeight": 70.0,
+    "Weight": 25890.0,
+    "ENLoad": 402.0,
+    "imagePath": "images/legs/RC-2000_SPRING_CHICKEN.png"
+}

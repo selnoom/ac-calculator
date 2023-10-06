@@ -1,0 +1,19 @@
+{
+    "PartName": "FLUEGEL",
+    "Manufacturer": "SCHNEIDER",
+    "Thrust": 6101.0,
+    "UpwardThrust": 5134.0,
+    "UpwardENConsumption": 680.0,
+    "QBThrust": 20000.0,
+    "QBJetDuration": 0.4,
+    "QBENConsumption": 600.0,
+    "QBReloadTime": 0.5,
+    "QBReloadIdealWeight": 73800.0,
+    "ABThrust": 8668.0,
+    "ABENConsumption": 398.0,
+    "MeleeAttackThrust": 9918.0,
+    "MeleeAtkENConsump": 543.0,
+    "Weight": 1980.0,
+    "ENLoad": 282.0,
+    "imagePath": "images/boosters/FLUEGEL.png"
+}

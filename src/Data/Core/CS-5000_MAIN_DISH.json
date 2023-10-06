@@ -1,0 +1,16 @@
+{
+    "PartName": "CS-5000 MAIN DISH",
+    "Class": "Heavy",
+    "Manufacturer": "RAD",
+    "AP": 3890.0,
+    "AntiKineticDefense": 476.0,
+    "AntiEnergyDefense": 489.0,
+    "AntiExplosiveDefense": 469.0,
+    "AttitudeStability": 641.0,
+    "BoosterEfficiencyAdj": 79.0,
+    "GeneratorOutputAdj": 97.0,
+    "GeneratorSupplyAdj": 112.0,
+    "Weight": 23600.0,
+    "ENLoad": 413.0,
+    "imagePath": "images/bodys/CS-5000_MAIN_DISH.png"
+}

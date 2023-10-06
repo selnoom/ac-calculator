@@ -1,0 +1,12 @@
+{
+    "PartName": "DF-GN-02 LING-TAI",
+    "Manufacturer": "DAFENG",
+    "ENCapacity": 2000.0,
+    "ENRecharge": 2000.0,
+    "SupplyRecovery": 833.0,
+    "PostRecoveryENSupply": 280.0,
+    "EnergyFirearmSpec": 61.0,
+    "Weight": 3860.0,
+    "ENOutput": 2340.0,
+    "imagePath": "images/generators/DF-GN-02_LING-TAI.png"
+}

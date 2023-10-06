@@ -1,0 +1,16 @@
+{
+    "PartName": "VP-40S",
+    "Class": null,
+    "Manufacturer": "ARQUEBUS CORP",
+    "AP": 3160.0,
+    "AntiKineticDefense": 427.0,
+    "AntiEnergyDefense": 436.0,
+    "AntiExplosiveDefense": 389.0,
+    "AttitudeStability": 446.0,
+    "BoosterEfficiencyAdj": 102.0,
+    "GeneratorOutputAdj": 106.0,
+    "GeneratorSupplyAdj": 102.0,
+    "Weight": 15030.0,
+    "ENLoad": 337.0,
+    "imagePath": "images/bodys/VP-40S.png"
+}

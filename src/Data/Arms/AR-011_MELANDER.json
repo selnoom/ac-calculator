@@ -1,0 +1,15 @@
+{
+    "PartName": "AR-011 MELANDER",
+    "Manufacturer": "BALAM",
+    "AP": 2260.0,
+    "AntiKineticDefense": 247.0,
+    "AntiEnergyDefense": 217.0,
+    "AntiExplosiveDefense": 234.0,
+    "ArmsLoadLimit": 15100.0,
+    "RecoilControl": 107.0,
+    "FirearmSpecialization": 100.0,
+    "MeleeSpecialization": 96.0,
+    "Weight": 13650.0,
+    "ENLoad": 265.0,
+    "imagePath": "images/arms/AR-011_MELANDER.png"
+}

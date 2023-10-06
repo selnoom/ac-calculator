@@ -1,0 +1,16 @@
+{
+    "PartName": "2C-3000 WRECKER",
+    "Manufacturer": "RAD",
+    "AP": 4220.0,
+    "AntiKineticDefense": 350.0,
+    "AntiEnergyDefense": 312.0,
+    "AntiExplosiveDefense": 383.0,
+    "AttitudeStability": 943.0,
+    "LoadLimit": 68900.0,
+    "NETLoadLimit": "=I15-M15",
+    "JumpDistance": 76.0,
+    "JumpHeight": 17.0,
+    "Weight": 21680.0,
+    "ENLoad": 680.0,
+    "imagePath": "images/legs/2C-3000_WRECKER.png"
+}

@@ -1,0 +1,19 @@
+{
+    "PartName": "BC-0600 12345",
+    "Manufacturer": "RAD",
+    "Thrust": 5801.0,
+    "UpwardThrust": 4700.0,
+    "UpwardENConsumption": 800.0,
+    "QBThrust": 18900.0,
+    "QBJetDuration": 0.54,
+    "QBENConsumption": 520.0,
+    "QBReloadTime": 0.8,
+    "QBReloadIdealWeight": 97000.0,
+    "ABThrust": 8084.0,
+    "ABENConsumption": 372.0,
+    "MeleeAttackThrust": 8118.0,
+    "MeleeAtkENConsump": 496.0,
+    "Weight": 1360.0,
+    "ENLoad": 180.0,
+    "imagePath": "images/boosters/BC-0600_12345.png"
+}

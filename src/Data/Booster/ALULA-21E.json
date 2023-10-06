@@ -1,0 +1,19 @@
+{
+    "PartName": "ALULA/21E",
+    "Manufacturer": "SCHNEIDER",
+    "Thrust": 6668.0,
+    "UpwardThrust": 4650.0,
+    "UpwardENConsumption": 760.0,
+    "QBThrust": 21650.0,
+    "QBJetDuration": 0.3,
+    "QBENConsumption": 690.0,
+    "QBReloadTime": 0.35,
+    "QBReloadIdealWeight": 62400.0,
+    "ABThrust": 9085.0,
+    "ABENConsumption": 435.0,
+    "MeleeAttackThrust": 10868.0,
+    "MeleeAtkENConsump": 575.0,
+    "Weight": 1900.0,
+    "ENLoad": 410.0,
+    "imagePath": "images/boosters/ALULA-21E.png"
+}

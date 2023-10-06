@@ -1,0 +1,15 @@
+{
+    "PartName": "AC-2000 TOOL ARM",
+    "Manufacturer": "RAD",
+    "AP": 1990.0,
+    "AntiKineticDefense": 207.0,
+    "AntiEnergyDefense": 204.0,
+    "AntiExplosiveDefense": 209.0,
+    "ArmsLoadLimit": 13300.0,
+    "RecoilControl": 90.0,
+    "FirearmSpecialization": 96.0,
+    "MeleeSpecialization": 100.0,
+    "Weight": 11300.0,
+    "ENLoad": 216.0,
+    "imagePath": "images/arms/AC-2000_TOOL_ARM.png"
+}

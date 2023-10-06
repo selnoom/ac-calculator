@@ -1,0 +1,16 @@
+{
+    "PartName": "AH-J-120/RC JAILBREAK",
+    "Class": null,
+    "Manufacturer": "BAWS",
+    "AP": 2400.0,
+    "AntiKineticDefense": 405.0,
+    "AntiEnergyDefense": 368.0,
+    "AntiExplosiveDefense": 420.0,
+    "AttitudeStability": 403.0,
+    "BoosterEfficiencyAdj": 119.0,
+    "GeneratorOutputAdj": 83.0,
+    "GeneratorSupplyAdj": 94.0,
+    "Weight": 12350.0,
+    "ENLoad": 300.0,
+    "imagePath": "images/bodys/AH-J-120-RC_JAILBREAK.png"
+}

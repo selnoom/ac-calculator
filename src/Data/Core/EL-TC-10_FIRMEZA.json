@@ -1,0 +1,16 @@
+{
+    "PartName": "EL-TC-10 FIRMEZA",
+    "Class": "Light",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 2500.0,
+    "AntiKineticDefense": 384.0,
+    "AntiEnergyDefense": 360.0,
+    "AntiExplosiveDefense": 375.0,
+    "AttitudeStability": 410.0,
+    "BoosterEfficiencyAdj": 111.0,
+    "GeneratorOutputAdj": 104.0,
+    "GeneratorSupplyAdj": 89.0,
+    "Weight": 10890.0,
+    "ENLoad": 351.0,
+    "imagePath": "images/bodys/EL-TC-10_FIRMEZA.png"
+}

@@ -1,0 +1,15 @@
+{
+    "PartName": "EL-PA-00 ALBA",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AP": 1750.0,
+    "AntiKineticDefense": 205.0,
+    "AntiEnergyDefense": 205.0,
+    "AntiExplosiveDefense": 205.0,
+    "ArmsLoadLimit": 11350.0,
+    "RecoilControl": 69.0,
+    "FirearmSpecialization": 136.0,
+    "MeleeSpecialization": 85.0,
+    "Weight": 9810.0,
+    "ENLoad": 315.0,
+    "imagePath": "images/arms/EL-PA-00_ALBA.png"
+}

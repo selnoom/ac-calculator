@@ -1,0 +1,19 @@
+{
+    "PartName": "IB-C03B: NGI 001",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "Thrust": 6467.0,
+    "UpwardThrust": 5501.0,
+    "UpwardENConsumption": 750.0,
+    "QBThrust": 22200.0,
+    "QBJetDuration": 0.43,
+    "QBENConsumption": 740.0,
+    "QBReloadTime": 0.63,
+    "QBReloadIdealWeight": 90200.0,
+    "ABThrust": 8835.0,
+    "ABENConsumption": 405.0,
+    "MeleeAttackThrust": 10535.0,
+    "MeleeAtkENConsump": 558.0,
+    "Weight": 1930.0,
+    "ENLoad": 342.0,
+    "imagePath": "images/boosters/IB-C03B__NGI_001.png"
+}

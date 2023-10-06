@@ -1,0 +1,16 @@
+{
+    "PartName": "KASUAR/42Z",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 3400.0,
+    "AntiKineticDefense": 293.0,
+    "AntiEnergyDefense": 328.0,
+    "AntiExplosiveDefense": 290.0,
+    "AttitudeStability": 530.0,
+    "LoadLimit": 47820.0,
+    "NETLoadLimit": "=I22-M22",
+    "JumpDistance": 386.0,
+    "JumpHeight": 80.0,
+    "Weight": 19060.0,
+    "ENLoad": 388.0,
+    "imagePath": "images/legs/KASUAR-42Z.png"
+}

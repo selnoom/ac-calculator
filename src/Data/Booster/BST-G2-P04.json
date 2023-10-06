@@ -1,0 +1,19 @@
+{
+    "PartName": "BST-G2/P04",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "Thrust": 6001.0,
+    "UpwardThrust": 4900.0,
+    "UpwardENConsumption": 650.0,
+    "QBThrust": 20600.0,
+    "QBJetDuration": 0.38,
+    "QBENConsumption": 560.0,
+    "QBReloadTime": 0.56,
+    "QBReloadIdealWeight": 82000.0,
+    "ABThrust": 8501.0,
+    "ABENConsumption": 353.0,
+    "MeleeAttackThrust": 9668.0,
+    "MeleeAtkENConsump": 470.0,
+    "Weight": 1710.0,
+    "ENLoad": 250.0,
+    "imagePath": "images/boosters/BST-G2-P04.png"
+}

@@ -1,0 +1,12 @@
+{
+    "PartName": "IA-C01G: AORTA",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "ENCapacity": 3000.0,
+    "ENRecharge": 238.0,
+    "SupplyRecovery": 333.0,
+    "PostRecoveryENSupply": 2000.0,
+    "EnergyFirearmSpec": 105.0,
+    "Weight": 4330.0,
+    "ENOutput": 3500.0,
+    "imagePath": "images/generators/IA-C01G__AORTA.png"
+}

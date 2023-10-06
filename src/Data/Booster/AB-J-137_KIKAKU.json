@@ -1,0 +1,19 @@
+{
+    "PartName": "AB-J-137 KIKAKU",
+    "Manufacturer": "BAWS",
+    "Thrust": 5667.0,
+    "UpwardThrust": 4584.0,
+    "UpwardENConsumption": 656.0,
+    "QBThrust": 19150.0,
+    "QBJetDuration": 0.31,
+    "QBENConsumption": 550.0,
+    "QBReloadTime": 0.55,
+    "QBReloadIdealWeight": 75800.0,
+    "ABThrust": 8218.0,
+    "ABENConsumption": 320.0,
+    "MeleeAttackThrust": 14019.0,
+    "MeleeAtkENConsump": 425.0,
+    "Weight": 1820.0,
+    "ENLoad": 266.0,
+    "imagePath": "images/boosters/AB-J-137_KIKAKU.png"
+}

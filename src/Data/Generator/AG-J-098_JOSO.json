@@ -1,0 +1,12 @@
+{
+    "PartName": "AG-J-098 JOSO",
+    "Manufacturer": "BAWS",
+    "ENCapacity": 2200.0,
+    "ENRecharge": 769.0,
+    "SupplyRecovery": 400.0,
+    "PostRecoveryENSupply": 400.0,
+    "EnergyFirearmSpec": 52.0,
+    "Weight": 3420.0,
+    "ENOutput": 2600.0,
+    "imagePath": "images/generators/AG-J-098_JOSO.png"
+}

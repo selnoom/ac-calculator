@@ -1,0 +1,16 @@
+{
+    "PartName": "LG-011 MELANDER",
+    "Manufacturer": "BALAM",
+    "AP": 4150.0,
+    "AntiKineticDefense": 369.0,
+    "AntiEnergyDefense": 340.0,
+    "AntiExplosiveDefense": 361.0,
+    "AttitudeStability": 743.0,
+    "LoadLimit": 60520.0,
+    "NETLoadLimit": "=I8-M8",
+    "JumpDistance": 87.0,
+    "JumpHeight": 22.0,
+    "Weight": 18700.0,
+    "ENLoad": 365.0,
+    "imagePath": "images/legs/LG-011_MELANDER.png"
+}

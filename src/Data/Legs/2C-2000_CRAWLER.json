@@ -1,0 +1,16 @@
+{
+    "PartName": "2C-2000 CRAWLER",
+    "Manufacturer": "RAD",
+    "AP": 3650.0,
+    "AntiKineticDefense": 326.0,
+    "AntiEnergyDefense": 322.0,
+    "AntiExplosiveDefense": 337.0,
+    "AttitudeStability": 749.0,
+    "LoadLimit": 51200.0,
+    "NETLoadLimit": "=I14-M14",
+    "JumpDistance": 90.0,
+    "JumpHeight": 24.0,
+    "Weight": 16300.0,
+    "ENLoad": 280.0,
+    "imagePath": "images/legs/2C-2000_CRAWLER.png"
+}

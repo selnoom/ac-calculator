@@ -1,0 +1,19 @@
+{
+    "PartName": "BST-G1/P10",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "Thrust": 5734.0,
+    "UpwardThrust": 4667.0,
+    "UpwardENConsumption": 630.0,
+    "QBThrust": 17600.0,
+    "QBJetDuration": 0.39,
+    "QBENConsumption": 480.0,
+    "QBReloadTime": 0.6,
+    "QBReloadIdealWeight": 65200.0,
+    "ABThrust": 8735.0,
+    "ABENConsumption": 377.0,
+    "MeleeAttackThrust": 8218.0,
+    "MeleeAtkENConsump": 529.0,
+    "Weight": 1300.0,
+    "ENLoad": 130.0,
+    "imagePath": "images/boosters/BST-G1-P10.png"
+}

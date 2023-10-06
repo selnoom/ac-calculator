@@ -1,0 +1,16 @@
+{
+    "PartName": "LG-013 MELANDER C3",
+    "Manufacturer": "BALAM",
+    "AP": 3880.0,
+    "AntiKineticDefense": 363.0,
+    "AntiEnergyDefense": 339.0,
+    "AntiExplosiveDefense": 357.0,
+    "AttitudeStability": 735.0,
+    "LoadLimit": 55440.0,
+    "NETLoadLimit": "=I9-M9",
+    "JumpDistance": 98.0,
+    "JumpHeight": 26.0,
+    "Weight": 17210.0,
+    "ENLoad": 355.0,
+    "imagePath": "images/legs/LG-013_MELANDER_C3.png"
+}

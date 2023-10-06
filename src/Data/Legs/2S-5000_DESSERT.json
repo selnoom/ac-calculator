@@ -1,0 +1,16 @@
+{
+    "PartName": "2S-5000 DESSERT",
+    "Manufacturer": "RAD",
+    "AP": 4410.0,
+    "AntiKineticDefense": 396.0,
+    "AntiEnergyDefense": 408.0,
+    "AntiExplosiveDefense": 382.0,
+    "AttitudeStability": 897.0,
+    "LoadLimit": 77100.0,
+    "NETLoadLimit": "=I16-M16",
+    "JumpDistance": 50.0,
+    "JumpHeight": 19.0,
+    "Weight": 25880.0,
+    "ENLoad": 420.0,
+    "imagePath": "images/legs/2S-5000_DESSERT.png"
+}

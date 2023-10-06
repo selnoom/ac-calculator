@@ -1,0 +1,12 @@
+{
+    "PartName": "AG-T-005 HOKUSHI",
+    "Manufacturer": "BAWS",
+    "ENCapacity": 2710.0,
+    "ENRecharge": 952.0,
+    "SupplyRecovery": 370.0,
+    "PostRecoveryENSupply": 850.0,
+    "EnergyFirearmSpec": 70.0,
+    "Weight": 7080.0,
+    "ENOutput": 3810.0,
+    "imagePath": "images/generators/AG-T-005_HOKUSHI.png"
+}

@@ -1,0 +1,16 @@
+{
+    "PartName": "CC-2000 ORBITER",
+    "Class": null,
+    "Manufacturer": "RAD",
+    "AP": 2780.0,
+    "AntiKineticDefense": 393.0,
+    "AntiEnergyDefense": 366.0,
+    "AntiExplosiveDefense": 374.0,
+    "AttitudeStability": 407.0,
+    "BoosterEfficiencyAdj": 100.0,
+    "GeneratorOutputAdj": 103.0,
+    "GeneratorSupplyAdj": 93.0,
+    "Weight": 12650.0,
+    "ENLoad": 267.0,
+    "imagePath": "images/bodys/CC-2000_ORBITER.png"
+}

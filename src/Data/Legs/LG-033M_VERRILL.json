@@ -1,0 +1,16 @@
+{
+    "PartName": "LG-033M VERRILL",
+    "Manufacturer": "BALAM",
+    "AP": 6850.0,
+    "AntiKineticDefense": 402.0,
+    "AntiEnergyDefense": 357.0,
+    "AntiExplosiveDefense": 372.0,
+    "AttitudeStability": 1413.0,
+    "LoadLimit": 76200.0,
+    "NETLoadLimit": "=I25-M25",
+    "JumpDistance": 82.0,
+    "JumpHeight": 15.0,
+    "Weight": 36200.0,
+    "ENLoad": 675.0,
+    "imagePath": "images/legs/LG-033M_VERRILL.png"
+}

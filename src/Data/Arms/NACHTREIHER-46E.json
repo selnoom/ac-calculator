@@ -1,0 +1,15 @@
+{
+    "PartName": "NACHTREIHER/46E",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 1860.0,
+    "AntiKineticDefense": 204.0,
+    "AntiEnergyDefense": 213.0,
+    "AntiExplosiveDefense": 195.0,
+    "ArmsLoadLimit": 12730.0,
+    "RecoilControl": 52.0,
+    "FirearmSpecialization": 160.0,
+    "MeleeSpecialization": 95.0,
+    "Weight": 11420.0,
+    "ENLoad": 302.0,
+    "imagePath": "images/arms/NACHTREIHER-46E.png"
+}
