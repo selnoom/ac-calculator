@@ -1,82 +1,51 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
-import PartSelector from './Components/PartSelector';
+import MainStatsDisplay from './Components/MainStatsDisplay/MainStatsDisplay';
+import PartBox from './Components/PartBoxes/PartBox';
+import PartsContext from './Contexts/PartsContext';
 
 function App() {
+  const [selectedPartsArray, setSelectedPartsArray] = useState([]);
+
   return (
-    <div className="App h-screen bg-gray-900 text-white overflow-hidden">
-      <div className="flex h-full">
-
-        {/* Left Section: Part Boxes Grouped */}
-        <div className="flex flex-col w-full lg:w-1/2 p-4 space-y-4 overflow-y-auto">
-
-          {/* Weapons */}
-          <div className="weapon-box bg-gray-700 p-4 space-y-4">
-            <h2 className="text-left text-xl mb-2">UNIT</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="Right Arm Unit"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="Left Arm Unit"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="Right Shoulder Unit"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="Left Shoulder Unit"></PartSelector>
-              </div>
-            </div>
+    <PartsContext.Provider value={{ selectedPartsArray, setSelectedPartsArray }}>
+      <div className="App h-screen bg-gray-900 text-white overflow-hidden">
+        <div className="flex h-full overflow-hidden">
+      
+          {/* Left Section: Part Boxes Grouped */}
+          <div className="flex flex-col w-1/2 p-4 space-y-4 overflow-y-auto h-ful">
+            <PartBox title="UNIT" 
+            partsInfo={[
+              { type: "rightArm", placeholder: "R-Arm Unit" },
+              { type: "leftArm", placeholder: "L-Arm Unit" },
+              { type: "rightShoulder", placeholder: "R-Shoulder Unit" },
+              { type: "leftShoulder", placeholder: "L-Shoulder Unit" }
+            ]}
+            boxIndex={0} />
+            <PartBox title="FRAME" 
+            partsInfo={[
+              { type: "head", placeholder: "HEAD" },
+              { type: "core", placeholder: "CORE" },
+              { type: "arms", placeholder: "ARMS" },
+              { type: "legs", placeholder: "LEGS" }
+            ]}
+            boxIndex={1} />
+            <PartBox title="INNER" 
+            partsInfo={[
+              { type: "booster", placeholder: "BOOSTER" },
+              { type: "fcs", placeholder: "FCS" },
+              { type: "generator", placeholder: "GENERATOR" },
+              { type: "expansion", placeholder: "EXPANSION" }
+            ]}
+            boxIndex={2} />
           </div>
-
-          {/* Frame */}
-          <div className="frame-box bg-gray-700 p-4 space-y-4">
-            <h2 className="text-left text-xl mb-2">FRAME</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="HEAD"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="CORE"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="ARMS"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="LEGS"></PartSelector>
-              </div>
-            </div>
+          {/* Right Section: Overall Stats Display */}
+          <div className="w-1/2 p-4 bg-gray-700 overflow-y-auto h-full">
+            <MainStatsDisplay selectedParts={selectedPartsArray} />
           </div>
-
-          {/* Inner Parts & Expansion */}
-          <div className="inner-expansion-box bg-gray-700 p-4 space-y-4">
-            <h2 className="text-left text-xl mb-2">INNER</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="BOOSTER"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="FCS"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="GENERATOR"></PartSelector>
-              </div>
-              <div className="part-box bg-gray-800 p-4">
-                <PartSelector placeholder="EXPANSION"></PartSelector>
-              </div>
-            </div>
-          </div>
-          
         </div>
-
-        {/* Right Section: Overall Stats Display */}
-        <div className="hidden lg:block w-1/2 p-4 bg-gray-700">
-          {/* Placeholder for stats display */}
-          Overall Stats Display
-        </div>
-
       </div>
-    </div>
+    </PartsContext.Provider>
   );
 }
 

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import Modal from '../PartsModal';
-import { loadHeads } from '../../Utilities/loadParts';
+import Modal from '../PartsModal/PartsModal';
+import loadDataForPartType from '../../Utilities/loadParts';
 import FilterInput from './FilterInput';
 import PartList from './PartsList';
 import ModalStatsDisplay from './ModalStatsDisplay';
 
-function PartSelector({ placeholder }) {
+function PartSelector({ placeholder, onPartSelected, partType  }) {
   const [showList, setShowList] = useState(false);
   const [parts, setParts] = useState([]);
   const [maxValues, setMaxValues] = useState({});
@@ -16,14 +16,16 @@ function PartSelector({ placeholder }) {
   const handleSave = () => {
     setSelectedPart(clickedPart);
     setShowList(false);  // Close the modal after saving
+
+    // Notify the parent (PartBox) about the selection
+    onPartSelected(clickedPart);
   }
 
   // Toggle the modal's visibility. If opening the modal for the first time, load the parts.
-  const toggleModal = () => {
-    if (!showList) {
-      if (!parts.length){
-        setParts(loadHeads());
-      }
+  const toggleModal = async () => {
+    if (!showList && parts.length === 0) {
+      const parts = loadDataForPartType(partType);
+      setParts(parts);
     }
     setShowList(prevShowList => !prevShowList);
   };
