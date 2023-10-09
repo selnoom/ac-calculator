@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 558.0,
     "Weight": 1930.0,
     "ENLoad": 342.0,
-    "imagePath": "images/boosters/IB-C03B__NGI_001.png"
+    "imagePath": "images/boosters/IB-C03B__NGI_001.png",
+    "Speed": 388.0,
+    "QBSpeed":  444.0,
+    "PartType": "Booster"
 }

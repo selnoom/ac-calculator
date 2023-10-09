@@ -10,12 +10,6 @@
     "Impact": 64.0,
     "AccumulativeImpact": 17.0,
     "ConsecutiveHits": 3.0,
-    "ComboAttackPowerTOTAL": "=if(N24=\"\",I24,I24*N24)",
-    "ComboImpactTOTAL": "=if(N24=\"\",J24,J24*N24)",
-    "ComboAccumImpactTOTAL": "=if(N24=\"\",K24,K24*N24)",
-    "ComboChgAttackPowerTOTAL": "=if(W24=\"\",R24,R24*W24)",
-    "ComboChgImpactTOTAL": "=if(W24=\"\",S24,S24*W24)",
-    "ComboChgAccumImpactTOTAL": "=if(W24=\"\",T24,T24*W24)",
     "DirectHitAdjustment": 185.0,
     "Recoil": 7.0,
     "IdealRange": 153.0,
@@ -27,5 +21,6 @@
     "AmmunitionCost": 40.0,
     "Weight": 3620.0,
     "ENLoad": 132.0,
-    "imagePath": "images/units/MA-J-201_RANSETSU-AR.png"
+    "imagePath": "images/units/MA-J-201_RANSETSU-AR.png",
+    "PartSlot": "Right Arm"
 }

@@ -7,7 +7,6 @@
     "AntiExplosiveDefense": 394.0,
     "AttitudeStability": 877.0,
     "LoadLimit": 85700.0,
-    "NETLoadLimit": "=I13-M13",
     "JumpDistance": 30.0,
     "JumpHeight": 14.0,
     "Weight": 28950.0,

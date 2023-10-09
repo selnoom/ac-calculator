@@ -14,7 +14,7 @@ function App() {
       
           {/* Left Section: Part Boxes Grouped */}
           <div className="flex flex-col w-1/2 p-4 space-y-4 overflow-y-auto h-ful">
-            <PartBox title="UNIT" 
+            <PartBox title="WEAPONS" 
             partsInfo={[
               { type: "rightArm", placeholder: "R-Arm Unit" },
               { type: "leftArm", placeholder: "L-Arm Unit" },
@@ -22,7 +22,7 @@ function App() {
               { type: "leftShoulder", placeholder: "L-Shoulder Unit" }
             ]}
             boxIndex={0} />
-            <PartBox title="FRAME" 
+            <PartBox title="BODY" 
             partsInfo={[
               { type: "head", placeholder: "HEAD" },
               { type: "core", placeholder: "CORE" },
@@ -30,7 +30,7 @@ function App() {
               { type: "legs", placeholder: "LEGS" }
             ]}
             boxIndex={1} />
-            <PartBox title="INNER" 
+            <PartBox title="INNER PARTS" 
             partsInfo={[
               { type: "booster", placeholder: "BOOSTER" },
               { type: "fcs", placeholder: "FCS" },

@@ -10,19 +10,14 @@
     "Impact": 960.0,
     "AccumulativeImpact": 960.0,
     "ConsecutiveHits": 1.0,
-    "ComboAttackPowerTOTAL": "=if(N18=\"\",I18,I18*N18)",
-    "ComboImpactTOTAL": "=if(N18=\"\",J18,J18*N18)",
-    "ComboAccumImpactTOTAL": "=if(N18=\"\",K18,K18*N18)",
     "ChgAttackPower": 1950.0,
     "ChgImpact": 1450.0,
     "ChgAccumImpact": 1450.0,
-    "ComboChgAttackPowerTOTAL": "=if(W18=\"\",R18,R18*W18)",
-    "ComboChgImpactTOTAL": "=if(W18=\"\",S18,S18*W18)",
-    "ComboChgAccumImpactTOTAL": "=if(W18=\"\",T18,T18*W18)",
     "DirectHitAdjustment": 210.0,
     "PAInterference": 140.0,
     "Cooling": 199.0,
     "Weight": 2030.0,
     "ENLoad": 642.0,
-    "imagePath": "images/leftUnit/IB-C03W2:_WLT_101.png"
+    "imagePath": "images/units/IB-C03W2__WLT_101.png",
+    "PartSlot": "Left Arm"
 }

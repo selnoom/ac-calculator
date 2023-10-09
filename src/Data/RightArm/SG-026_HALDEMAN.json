@@ -9,12 +9,6 @@
     "AttackPower": 576.0,
     "Impact": 360.0,
     "AccumulativeImpact": 280.0,
-    "ComboAttackPowerTOTAL": "=if(N29=\"\",I29,I29*N29)",
-    "ComboImpactTOTAL": "=if(N29=\"\",J29,J29*N29)",
-    "ComboAccumImpactTOTAL": "=if(N29=\"\",K29,K29*N29)",
-    "ComboChgAttackPowerTOTAL": "=if(W29=\"\",R29,R29*W29)",
-    "ComboChgImpactTOTAL": "=if(W29=\"\",S29,S29*W29)",
-    "ComboChgAccumImpactTOTAL": "=if(W29=\"\",T29,T29*W29)",
     "DirectHitAdjustment": 205.0,
     "Recoil": 90.0,
     "IdealRange": 88.0,
@@ -24,5 +18,6 @@
     "AmmunitionCost": 200.0,
     "Weight": 3660.0,
     "ENLoad": 185.0,
-    "imagePath": "images/units/SG-026_HALDEMAN.png"
+    "imagePath": "images/units/SG-026_HALDEMAN.png",
+    "PartSlot": "Right Arm"
 }

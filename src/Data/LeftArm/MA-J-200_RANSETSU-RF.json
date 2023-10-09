@@ -9,16 +9,10 @@
     "AttackPower": 194.0,
     "Impact": 245.0,
     "AccumulativeImpact": 91.0,
-    "ComboAttackPowerTOTAL": "=if(N19=\"\",I19,I19*N19)",
-    "ComboImpactTOTAL": "=if(N19=\"\",J19,J19*N19)",
-    "ComboAccumImpactTOTAL": "=if(N19=\"\",K19,K19*N19)",
     "ChgAttackPower": 194.0,
     "ChgImpact": 245.0,
     "ChgAccumImpact": 91.0,
     "ChgConsecutiveHits": 3.0,
-    "ComboChgAttackPowerTOTAL": "=if(W19=\"\",R19,R19*W19)",
-    "ComboChgImpactTOTAL": "=if(W19=\"\",S19,S19*W19)",
-    "ComboChgAccumImpactTOTAL": "=if(W19=\"\",T19,T19*W19)",
     "DirectHitAdjustment": 220.0,
     "Recoil": 12.0,
     "IdealRange": 180.0,
@@ -31,5 +25,6 @@
     "AmmunitionCost": 100.0,
     "Weight": 4210.0,
     "ENLoad": 158.0,
-    "imagePath": "images/leftUnit/MA-J-200_RANSETSU-RF.png"
+    "imagePath": "images/units/MA-J-200_RANSETSU-RF.png",
+    "PartSlot": "Left Arm"
 }

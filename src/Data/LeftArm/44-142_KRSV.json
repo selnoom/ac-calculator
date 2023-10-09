@@ -11,12 +11,6 @@
     "AccumulativeImpact": 76.0,
     "BlastRadius": 20.0,
     "ATKHeatBuildup": 120.0,
-    "ComboAttackPowerTOTAL": "=if(N58=\"\",I58,I58*N58)",
-    "ComboImpactTOTAL": "=if(N58=\"\",J58,J58*N58)",
-    "ComboAccumImpactTOTAL": "=if(N58=\"\",K58,K58*N58)",
-    "ComboChgAttackPowerTOTAL": "=if(W58=\"\",R58,R58*W58)",
-    "ComboChgImpactTOTAL": "=if(W58=\"\",S58,S58*W58)",
-    "ComboChgAccumImpactTOTAL": "=if(W58=\"\",T58,T58*W58)",
     "FullChgAttackPower": 2522.0,
     "FullChgImpact": 1930.0,
     "FullChgAccumImpact": 1033.0,
@@ -34,5 +28,6 @@
     "AmmunitionCost": 600.0,
     "Weight": 10120.0,
     "ENLoad": 707.0,
-    "imagePath": "images/leftUnit/44-142_KRSV.png"
+    "imagePath": "images/units/44-142_KRSV.png",
+    "PartSlot": "Left Arm"
 }

@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 575.0,
     "Weight": 1900.0,
     "ENLoad": 410.0,
-    "imagePath": "images/boosters/ALULA-21E.png"
+    "imagePath": "images/boosters/ALULA-21E.png",
+    "Speed": 400.0,
+    "QBSpeed":  433.0,
+    "PartType": "Booster"
 }

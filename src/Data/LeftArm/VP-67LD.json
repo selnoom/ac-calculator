@@ -10,19 +10,14 @@
     "Impact": 310.0,
     "AccumulativeImpact": 120.0,
     "ConsecutiveHits": 3.0,
-    "ComboAttackPowerTOTAL": "=if(N10=\"\",I10,I10*N10)",
-    "ComboImpactTOTAL": "=if(N10=\"\",J10,J10*N10)",
-    "ComboAccumImpactTOTAL": "=if(N10=\"\",K10,K10*N10)",
     "ChgAttackPower": 1688.0,
     "ChgImpact": 1100.0,
     "ChgAccumImpact": 375.0,
-    "ComboChgAttackPowerTOTAL": "=if(W10=\"\",R10,R10*W10)",
-    "ComboChgImpactTOTAL": "=if(W10=\"\",S10,S10*W10)",
-    "ComboChgAccumImpactTOTAL": "=if(W10=\"\",T10,T10*W10)",
     "DirectHitAdjustment": 175.0,
     "PAInterference": 118.0,
     "Cooling": 1308.0,
     "Weight": 1350.0,
     "ENLoad": 150.0,
-    "imagePath": "images/leftUnit/VP-67LD.png"
+    "imagePath": "images/units/VP-67LD.png",
+    "PartSlot": "Left Arm"
 }

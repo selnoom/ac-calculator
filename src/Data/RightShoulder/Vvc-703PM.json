@@ -1,1 +1,24 @@
-{"PartName": "Vvc-703PM", "PartClass": "Plasma Missile Launcher", "AttackType": "Energy", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "VCPL", "AttackPower": 760.0, "Impact": 384.0, "AccumulativeImpact": 248.0, "BlastRadius": 26.0, "ComboAttackPowerTOTAL": "=if(N43=\"\",I43,(I43*N43))", "ComboImpactTOTAL": "=if(N43=\"\",J43,(J43*N43))", "ComboAccumImpactTOTAL": "=if(N43=\"\",K43,(K43*N43))", "ComboChgAttackPowerTOTAL": "=if(AD43=\"\",Y43,Y43*AD43)", "ComboChgImpactTOTAL": "=if(AD43=\"\",Z43,Z43*AD43)", "ComboChgAccumImpactTOTAL": "=if(AD43=\"\",AA43,AA43*AD43)", "DirectHitAdjustment": 125.0, "Guidance": 180.0, "EffectiveRange": 1500.0, "HomingLockTime": 0.3, "MaxLockCount": 3.0, "TotalRounds": 120.0, "ReloadTime": 4.0, "AmmunitionCost": 100.0, "Weight": 2720.0, "ENLoad": 245.0, "imagePath": "images/shoulders/Vvc-703PM.png"}
+{
+    "PartName": "Vvc-703PM",
+    "PartClass": "Plasma Missile Launcher",
+    "AttackType": "Energy",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "VCPL",
+    "AttackPower": 760.0,
+    "Impact": 384.0,
+    "AccumulativeImpact": 248.0,
+    "BlastRadius": 26.0,
+    "DirectHitAdjustment": 125.0,
+    "Guidance": 180.0,
+    "EffectiveRange": 1500.0,
+    "HomingLockTime": 0.3,
+    "MaxLockCount": 3.0,
+    "TotalRounds": 120.0,
+    "ReloadTime": 4.0,
+    "AmmunitionCost": 100.0,
+    "Weight": 2720.0,
+    "ENLoad": 245.0,
+    "imagePath": "images/shoulders/Vvc-703PM.png"
+}

@@ -11,12 +11,6 @@
     "AccumulativeImpact": 80.0,
     "BlastRadius": 20.0,
     "ConsecutiveHits": 3.0,
-    "ComboAttackPowerTOTAL": "=if(N44=\"\",I44,I44*N44)",
-    "ComboImpactTOTAL": "=if(N44=\"\",J44,J44*N44)",
-    "ComboAccumImpactTOTAL": "=if(N44=\"\",K44,K44*N44)",
-    "ComboChgAttackPowerTOTAL": "=if(W44=\"\",R44,R44*W44)",
-    "ComboChgImpactTOTAL": "=if(W44=\"\",S44,S44*W44)",
-    "ComboChgAccumImpactTOTAL": "=if(W44=\"\",T44,T44*W44)",
     "DirectHitAdjustment": 170.0,
     "Recoil": 50.0,
     "ChargeTime": 0.8,
@@ -25,5 +19,6 @@
     "AmmunitionCost": 200.0,
     "Weight": 2890.0,
     "ENLoad": 60.0,
-    "imagePath": "images/leftUnit/MA-T-222_KYORAI.png"
+    "imagePath": "images/units/MA-T-222_KYORAI.png",
+    "PartSlot": "Left Arm"
 }

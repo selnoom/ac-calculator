@@ -10,12 +10,6 @@
     "Impact": 11.0,
     "AccumulativeImpact": 6.0,
     "ATKHeatBuildup": 35.0,
-    "ComboAttackPowerTOTAL": "=if(N59=\"\",I59,I59*N59)",
-    "ComboImpactTOTAL": "=if(N59=\"\",J59,J59*N59)",
-    "ComboAccumImpactTOTAL": "=if(N59=\"\",K59,K59*N59)",
-    "ComboChgAttackPowerTOTAL": "=if(W59=\"\",R59,R59*W59)",
-    "ComboChgImpactTOTAL": "=if(W59=\"\",S59,S59*W59)",
-    "ComboChgAccumImpactTOTAL": "=if(W59=\"\",T59,T59*W59)",
     "DirectHitAdjustment": 140.0,
     "PAInterference": 527.0,
     "Recoil": 5.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 30.0,
     "Weight": 2110.0,
     "ENLoad": 368.0,
-    "imagePath": "images/units/HI-16:_GU-Q1.png"
+    "imagePath": "images/units/HI-16:_GU-Q1.png",
+    "PartSlot": "Right Arm"
 }

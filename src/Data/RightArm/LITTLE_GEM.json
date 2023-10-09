@@ -10,12 +10,6 @@
     "Impact": 910.0,
     "AccumulativeImpact": 670.0,
     "BlastRadius": 15.0,
-    "ComboAttackPowerTOTAL": "=if(N39=\"\",I39,I39*N39)",
-    "ComboImpactTOTAL": "=if(N39=\"\",J39,J39*N39)",
-    "ComboAccumImpactTOTAL": "=if(N39=\"\",K39,K39*N39)",
-    "ComboChgAttackPowerTOTAL": "=if(W39=\"\",R39,R39*W39)",
-    "ComboChgImpactTOTAL": "=if(W39=\"\",S39,S39*W39)",
-    "ComboChgAccumImpactTOTAL": "=if(W39=\"\",T39,T39*W39)",
     "DirectHitAdjustment": 180.0,
     "Recoil": 80.0,
     "EffectiveRange": 690.0,
@@ -24,5 +18,6 @@
     "AmmunitionCost": 450.0,
     "Weight": 3100.0,
     "ENLoad": 192.0,
-    "imagePath": "images/units/LITTLE_GEM.png"
+    "imagePath": "images/units/LITTLE_GEM.png",
+    "PartSlot": "Right Arm"
 }

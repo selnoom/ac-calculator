@@ -9,12 +9,6 @@
     "AttackPower": 1056.0,
     "Impact": 600.0,
     "AccumulativeImpact": 420.0,
-    "ComboAttackPowerTOTAL": "=if(N62=\"\",I62,I62*N62)",
-    "ComboImpactTOTAL": "=if(N62=\"\",J62,J62*N62)",
-    "ComboAccumImpactTOTAL": "=if(N62=\"\",K62,K62*N62)",
-    "ComboChgAttackPowerTOTAL": "=if(W62=\"\",R62,R62*W62)",
-    "ComboChgImpactTOTAL": "=if(W62=\"\",S62,S62*W62)",
-    "ComboChgAccumImpactTOTAL": "=if(W62=\"\",T62,T62*W62)",
     "DirectHitAdjustment": 145.0,
     "Guidance": 180.0,
     "EffectiveRange": 1425.0,
@@ -25,5 +19,6 @@
     "AmmunitionCost": 650.0,
     "Weight": 4640.0,
     "ENLoad": 180.0,
-    "imagePath": "images/units/HML-G3-P08SPL-06.png"
+    "imagePath": "images/units/HML-G3-P08SPL-06.png",
+    "PartSlot": "Right Arm"
 }

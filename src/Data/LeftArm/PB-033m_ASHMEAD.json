@@ -10,19 +10,14 @@
     "Impact": 1150.0,
     "AccumulativeImpact": 850.0,
     "ConsecutiveHits": 1.0,
-    "ComboAttackPowerTOTAL": "=if(N6=\"\",I6,I6*N6)",
-    "ComboImpactTOTAL": "=if(N6=\"\",J6,J6*N6)",
-    "ComboAccumImpactTOTAL": "=if(N6=\"\",K6,K6*N6)",
     "ChgAttackPower": 4630.0,
     "ChgImpact": 1800.0,
     "ChgAccumImpact": 1100.0,
-    "ComboChgAttackPowerTOTAL": "=if(W6=\"\",R6,R6*W6)",
-    "ComboChgImpactTOTAL": "=if(W6=\"\",S6,S6*W6)",
-    "ComboChgAccumImpactTOTAL": "=if(W6=\"\",T6,T6*W6)",
     "DirectHitAdjustment": 150.0,
     "PAInterference": 135.0,
     "Cooling": 284.0,
     "Weight": 4180.0,
     "ENLoad": 225.0,
-    "imagePath": "images/leftUnit/PB-033m_ASHMEAD.png"
+    "imagePath": "images/units/PB-033m_ASHMEAD.png",
+    "PartSlot": "Left Arm"
 }

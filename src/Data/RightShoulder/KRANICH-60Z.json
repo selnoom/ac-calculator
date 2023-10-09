@@ -1,1 +1,24 @@
-{"PartName": "KRANICH/60Z", "PartClass": "Pulse Cannon", "AttackType": "Energy", "WeaponType": "Full-Auto", "ReloadType": "Overheat", "AdditionalEffects": "None", "Manufacturer": "SCHNEIDER", "AttackPower": 85.0, "Impact": 20.0, "AccumulativeImpact": 10.0, "ATKHeatBuildup": 65.0, "ComboAttackPowerTOTAL": "=if(N21=\"\",I21,(I21*N21))", "ComboImpactTOTAL": "=if(N21=\"\",J21,(J21*N21))", "ComboAccumImpactTOTAL": "=if(N21=\"\",K21,(K21*N21))", "ComboChgAttackPowerTOTAL": "=if(AD21=\"\",Y21,Y21*AD21)", "ComboChgImpactTOTAL": "=if(AD21=\"\",Z21,Z21*AD21)", "ComboChgAccumImpactTOTAL": "=if(AD21=\"\",AA21,AA21*AD21)", "DirectHitAdjustment": 145.0, "PAInterference": 550.0, "Recoil": 10.0, "EffectiveRange": 490.0, "RapidFire": 10.0, "TotalRounds": 560.0, "Cooling": 225.0, "AmmunitionCost": 40.0, "Weight": 2100.0, "ENLoad": 652.0, "imagePath": "images/shoulders/KRANICH-60Z.png"}
+{
+    "PartName": "KRANICH/60Z",
+    "PartClass": "Pulse Cannon",
+    "AttackType": "Energy",
+    "WeaponType": "Full-Auto",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "SCHNEIDER",
+    "AttackPower": 85.0,
+    "Impact": 20.0,
+    "AccumulativeImpact": 10.0,
+    "ATKHeatBuildup": 65.0,
+    "DirectHitAdjustment": 145.0,
+    "PAInterference": 550.0,
+    "Recoil": 10.0,
+    "EffectiveRange": 490.0,
+    "RapidFire": 10.0,
+    "TotalRounds": 560.0,
+    "Cooling": 225.0,
+    "AmmunitionCost": 40.0,
+    "Weight": 2100.0,
+    "ENLoad": 652.0,
+    "imagePath": "images/shoulders/KRANICH-60Z.png"
+}

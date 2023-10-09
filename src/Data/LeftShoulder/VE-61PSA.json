@@ -1,1 +1,20 @@
-{"PartName": "VE-61PSA", "PartClass": "Pulse Scutum", "AttackType": "Kinetic", "WeaponType": "Shield", "ReloadType": "Overheat", "AdditionalEffects": "None", "Manufacturer": "ARQUEBUS CORP", "ComboAttackPowerTOTAL": "=if(N11=\"\",I11,(I11*N11))", "ComboImpactTOTAL": "=if(N11=\"\",J11,(J11*N11))", "ComboAccumImpactTOTAL": "=if(N11=\"\",K11,(K11*N11))", "DamageMitigation": 86.0, "ImpactDampening": 70.0, "IGDamageMitigation": 21.0, "IGImpactDampening": 18.0, "IGduration": 4.0, "DplyHeatBuildup": 270.0, "DeploymentRange": 180.0, "ComboChgAttackPowerTOTAL": "=if(AD11=\"\",Y11,Y11*AD11)", "ComboChgImpactTOTAL": "=if(AD11=\"\",Z11,Z11*AD11)", "ComboChgAccumImpactTOTAL": "=if(AD11=\"\",AA11,AA11*AD11)", "Cooling": 113.0, "Weight": 4100.0, "ENLoad": 480.0, "imagePath": "images/shoulders/VE-61PSA.png"}
+{
+    "PartName": "VE-61PSA",
+    "PartClass": "Pulse Scutum",
+    "AttackType": "Kinetic",
+    "WeaponType": "Shield",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "ARQUEBUS CORP",
+    "DamageMitigation": 86.0,
+    "ImpactDampening": 70.0,
+    "IGDamageMitigation": 21.0,
+    "IGImpactDampening": 18.0,
+    "IGduration": 4.0,
+    "DplyHeatBuildup": 270.0,
+    "DeploymentRange": 180.0,
+    "Cooling": 113.0,
+    "Weight": 4100.0,
+    "ENLoad": 480.0,
+    "imagePath": "images/shoulders/VE-61PSA.png"
+}

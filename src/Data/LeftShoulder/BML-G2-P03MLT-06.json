@@ -1,1 +1,24 @@
-{"PartName": "BML-G2/P03MLT-06", "PartClass": "Missile Launcher", "AttackType": "Explosive", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "FURLONG DYNAMICS", "AttackPower": 103.0, "Impact": 72.0, "AccumulativeImpact": 43.0, "ConsecutiveHits": 6.0, "ComboAttackPowerTOTAL": "=if(N25=\"\",I25,(I25*N25))", "ComboImpactTOTAL": "=if(N25=\"\",J25,(J25*N25))", "ComboAccumImpactTOTAL": "=if(N25=\"\",K25,(K25*N25))", "ComboChgAttackPowerTOTAL": "=if(AD25=\"\",Y25,Y25*AD25)", "ComboChgImpactTOTAL": "=if(AD25=\"\",Z25,Z25*AD25)", "ComboChgAccumImpactTOTAL": "=if(AD25=\"\",AA25,AA25*AD25)", "DirectHitAdjustment": 145.0, "Guidance": 180.0, "EffectiveRange": 2500.0, "HomingLockTime": 0.4, "MaxLockCount": 6.0, "TotalRounds": 228.0, "ReloadTime": 5.0, "AmmunitionCost": 80.0, "Weight": 3840.0, "ENLoad": 241.0, "imagePath": "images/shoulders/BML-G2-P03MLT-06.png"}
+{
+    "PartName": "BML-G2/P03MLT-06",
+    "PartClass": "Missile Launcher",
+    "AttackType": "Explosive",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "AttackPower": 103.0,
+    "Impact": 72.0,
+    "AccumulativeImpact": 43.0,
+    "ConsecutiveHits": 6.0,
+    "DirectHitAdjustment": 145.0,
+    "Guidance": 180.0,
+    "EffectiveRange": 2500.0,
+    "HomingLockTime": 0.4,
+    "MaxLockCount": 6.0,
+    "TotalRounds": 228.0,
+    "ReloadTime": 5.0,
+    "AmmunitionCost": 80.0,
+    "Weight": 3840.0,
+    "ENLoad": 241.0,
+    "imagePath": "images/shoulders/BML-G2-P03MLT-06.png"
+}

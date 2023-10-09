@@ -1,1 +1,23 @@
-{"PartName": "BO-044 HUXLEY", "PartClass": "Bullet Orbit", "AttackType": "Kinetic", "WeaponType": "Burst", "ReloadType": "Overheat", "AdditionalEffects": "None", "Manufacturer": "BALAM", "AttackPower": 28.0, "Impact": 39.0, "AccumulativeImpact": 15.0, "ConsecutiveHits": 8.0, "ComboAttackPowerTOTAL": "=if(N47=\"\",I47,(I47*N47))", "ComboImpactTOTAL": "=if(N47=\"\",J47,(J47*N47))", "ComboAccumImpactTOTAL": "=if(N47=\"\",K47,(K47*N47))", "ComboChgAttackPowerTOTAL": "=if(AD47=\"\",Y47,Y47*AD47)", "ComboChgImpactTOTAL": "=if(AD47=\"\",Z47,Z47*AD47)", "ComboChgAccumImpactTOTAL": "=if(AD47=\"\",AA47,AA47*AD47)", "DirectHitAdjustment": 175.0, "IdealRange": 130.0, "EffectiveRange": 205.0, "RapidFire": 5.6, "TotalRounds": 240.0, "Cooling": 95.0, "AmmunitionCost": 50.0, "Weight": 2230.0, "ENLoad": 435.0, "imagePath": "images/shoulders/BO-044_HUXLEY.png"}
+{
+    "PartName": "BO-044 HUXLEY",
+    "PartClass": "Bullet Orbit",
+    "AttackType": "Kinetic",
+    "WeaponType": "Burst",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "BALAM",
+    "AttackPower": 28.0,
+    "Impact": 39.0,
+    "AccumulativeImpact": 15.0,
+    "ConsecutiveHits": 8.0,
+    "DirectHitAdjustment": 175.0,
+    "IdealRange": 130.0,
+    "EffectiveRange": 205.0,
+    "RapidFire": 5.6,
+    "TotalRounds": 240.0,
+    "Cooling": 95.0,
+    "AmmunitionCost": 50.0,
+    "Weight": 2230.0,
+    "ENLoad": 435.0,
+    "imagePath": "images/shoulders/BO-044_HUXLEY.png"
+}

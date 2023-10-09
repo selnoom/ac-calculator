@@ -22,5 +22,8 @@
     "QBReloadIdealWeight": 100300.0,
     "ABThrust": 8001.0,
     "ABENConsumption": 360.0,
-    "imagePath": "images/legs/LG-022T_BORNEMISSZA.png"
+    "imagePath": "images/legs/LG-022T_BORNEMISSZA.png",
+    "Speed": 377.0,
+    "QBSpeed":  443.0,
+    "LegType": "Tank"
 }

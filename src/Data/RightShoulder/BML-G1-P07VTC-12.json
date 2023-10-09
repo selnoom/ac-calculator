@@ -1,1 +1,24 @@
-{"PartName": "BML-G1/P07VTC-12", "PartClass": "Vertical Missile Launcher", "AttackType": "Explosive", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "FURLONG DYNAMICS", "AttackPower": 124.0, "Impact": 89.0, "AccumulativeImpact": 55.0, "ConsecutiveHits": 12.0, "ComboAttackPowerTOTAL": "=if(N35=\"\",I35,(I35*N35))", "ComboImpactTOTAL": "=if(N35=\"\",J35,(J35*N35))", "ComboAccumImpactTOTAL": "=if(N35=\"\",K35,(K35*N35))", "ComboChgAttackPowerTOTAL": "=if(AD35=\"\",Y35,Y35*AD35)", "ComboChgImpactTOTAL": "=if(AD35=\"\",Z35,Z35*AD35)", "ComboChgAccumImpactTOTAL": "=if(AD35=\"\",AA35,AA35*AD35)", "DirectHitAdjustment": 150.0, "Guidance": 480.0, "EffectiveRange": 1000.0, "HomingLockTime": 1.4, "MaxLockCount": 12.0, "TotalRounds": 360.0, "ReloadTime": 7.5, "AmmunitionCost": 120.0, "Weight": 5010.0, "ENLoad": 525.0, "imagePath": "images/shoulders/BML-G1-P07VTC-12.png"}
+{
+    "PartName": "BML-G1/P07VTC-12",
+    "PartClass": "Vertical Missile Launcher",
+    "AttackType": "Explosive",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "AttackPower": 124.0,
+    "Impact": 89.0,
+    "AccumulativeImpact": 55.0,
+    "ConsecutiveHits": 12.0,
+    "DirectHitAdjustment": 150.0,
+    "Guidance": 480.0,
+    "EffectiveRange": 1000.0,
+    "HomingLockTime": 1.4,
+    "MaxLockCount": 12.0,
+    "TotalRounds": 360.0,
+    "ReloadTime": 7.5,
+    "AmmunitionCost": 120.0,
+    "Weight": 5010.0,
+    "ENLoad": 525.0,
+    "imagePath": "images/shoulders/BML-G1-P07VTC-12.png"
+}

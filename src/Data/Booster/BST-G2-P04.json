@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 470.0,
     "Weight": 1710.0,
     "ENLoad": 250.0,
-    "imagePath": "images/boosters/BST-G2-P04.png"
+    "imagePath": "images/boosters/BST-G2-P04.png",
+    "Speed": 360.0,
+    "QBSpeed":  412.0,
+    "PartType": "Booster"
 }

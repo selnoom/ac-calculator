@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 529.0,
     "Weight": 1300.0,
     "ENLoad": 130.0,
-    "imagePath": "images/boosters/BST-G1-P10.png"
+    "imagePath": "images/boosters/BST-G1-P10.png",
+    "Speed": 344.0,
+    "QBSpeed":  352.0,
+    "PartType": "Booster"
 }

@@ -11,17 +11,11 @@
     "AccumulativeImpact": 132.0,
     "BlastRadius": 20.0,
     "ATKHeatBuildup": 175.0,
-    "ComboAttackPowerTOTAL": "=if(N55=\"\",I55,I55*N55)",
-    "ComboImpactTOTAL": "=if(N55=\"\",J55,J55*N55)",
-    "ComboAccumImpactTOTAL": "=if(N55=\"\",K55,K55*N55)",
     "ChgAttackPower": 1908.0,
     "ChgImpact": 1152.0,
     "ChgAccumImpact": 612.0,
     "ChgBlastRadius": 70.0,
     "ChgHeatBuildup": 625.0,
-    "ComboChgAttackPowerTOTAL": "=if(W55=\"\",R55,R55*W55)",
-    "ComboChgImpactTOTAL": "=if(W55=\"\",S55,S55*W55)",
-    "ComboChgAccumImpactTOTAL": "=if(W55=\"\",T55,T55*W55)",
     "DirectHitAdjustment": 125.0,
     "Recoil": 15.0,
     "EffectiveRange": 460.0,
@@ -34,5 +28,6 @@
     "AmmunitionCost": 600.0,
     "Weight": 3890.0,
     "ENLoad": 609.0,
-    "imagePath": "images/leftUnit/IA-C01W1:_NEBULA.png"
+    "imagePath": "images/units/IA-C01W1__NEBULA.png",
+    "PartSlot": "Left Arm"
 }

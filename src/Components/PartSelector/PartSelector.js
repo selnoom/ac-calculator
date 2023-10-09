@@ -1,25 +1,68 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react'; 
 import Modal from '../PartsModal/PartsModal';
 import loadDataForPartType from '../../Utilities/loadParts';
 import FilterInput from './FilterInput';
 import PartList from './PartsList';
 import ModalStatsDisplay from './ModalStatsDisplay';
+import PartsContext from '../../Contexts/PartsContext';
+import CustomConfirmModal from '../CustomConfirmModal';
 
-function PartSelector({ placeholder, onPartSelected, partType  }) {
+function PartSelector({ placeholder, onPartSelected, partType }) {
   const [showList, setShowList] = useState(false);
   const [parts, setParts] = useState([]);
   const [maxValues, setMaxValues] = useState({});
   const [clickedPart, setClickedPart] = useState(null);
   const [filterText, setFilterText] = useState("");
   const [selectedPart, setSelectedPart] = useState(null);
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
+
+  const { 
+    selectedPartsArray, 
+    setSelectedPartsArray
+  } = useContext(PartsContext);
 
   const handleSave = () => {
+    if (partType === "legs" && clickedPart.LegType === "Tank") {
+      const boosterIsSelected = selectedPartsArray.some(part => part && part.PartType === "Booster");
+      if (boosterIsSelected) {
+        setShowConfirmModal(true);
+        return; // Don't continue with the rest of the logic until user's decision
+      }
+    }
+
+    saveSelectedPart();
+  };
+
+  const saveSelectedPart = () => {
     setSelectedPart(clickedPart);
     setShowList(false);  // Close the modal after saving
 
     // Notify the parent (PartBox) about the selection
     onPartSelected(clickedPart);
-  }
+  };
+
+  const handleConfirm = () => {
+    // Remove the booster from selectedPartsArray
+    const newPartsArray = selectedPartsArray.filter(part => part && part.PartType !== "Booster");
+    
+    // Update the state/context with the new parts array
+    setSelectedPartsArray(newPartsArray);
+    
+    // Continue with saving the tank tread legs
+    setSelectedPart(clickedPart);
+  
+    // Notify the parent (PartBox) about the selection
+    onPartSelected(clickedPart);
+  
+    // Close both modals
+    setShowList(false);
+    setShowConfirmModal(false);
+  };
+  
+
+  const handleCancel = () => {
+      setShowConfirmModal(false);
+  };
 
   // Toggle the modal's visibility. If opening the modal for the first time, load the parts.
   const toggleModal = async () => {
@@ -76,7 +119,9 @@ function PartSelector({ placeholder, onPartSelected, partType  }) {
           <div className="flex flex-col h-full" onClick={handleModalContentClick}>
             <div className="flex items-stretch h-[calc(100%-3rem)]">
               <ul className="w-2/5 overflow-y-auto border-r border-gray-600 h-full">
-                <FilterInput value={filterText} onChange={e => setFilterText(e.target.value)} placeholder="Search parts..." />
+                <div className="sticky top-0">
+                  <FilterInput value={filterText} onChange={e => setFilterText(e.target.value)} placeholder="Search parts..." />
+                </div>
                 <PartList parts={parts} filterText={filterText} onPartClick={handlePartClick} clickedPart={clickedPart} />
               </ul>
               <ModalStatsDisplay clickedPart={clickedPart} maxValues={maxValues} />
@@ -94,6 +139,12 @@ function PartSelector({ placeholder, onPartSelected, partType  }) {
           </div>
         </Modal>
       </div>
+      <CustomConfirmModal 
+            isOpen={showConfirmModal} 
+            onConfirm={handleConfirm}
+            onCancel={handleCancel}
+            message="Tank Tread legs have an integrated booster. Do you want to continue and remove the current booster?"
+        />
     </div>
   );
 }

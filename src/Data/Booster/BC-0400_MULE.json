@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 390.0,
     "Weight": 970.0,
     "ENLoad": 200.0,
-    "imagePath": "images/boosters/BC-0400_MULE.png"
+    "imagePath": "images/boosters/BC-0400_MULE.png",
+    "Speed": 325.0,
+    "QBSpeed":  380.0,
+    "PartType": "Booster"
 }

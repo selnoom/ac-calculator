@@ -9,12 +9,6 @@
     "AttackPower": 166.0,
     "Impact": 235.0,
     "AccumulativeImpact": 149.0,
-    "ComboAttackPowerTOTAL": "=if(N32=\"\",I32,I32*N32)",
-    "ComboImpactTOTAL": "=if(N32=\"\",J32,J32*N32)",
-    "ComboAccumImpactTOTAL": "=if(N32=\"\",K32,K32*N32)",
-    "ComboChgAttackPowerTOTAL": "=if(W32=\"\",R32,R32*W32)",
-    "ComboChgImpactTOTAL": "=if(W32=\"\",S32,S32*W32)",
-    "ComboChgAccumImpactTOTAL": "=if(W32=\"\",T32,T32*W32)",
     "DirectHitAdjustment": 125.0,
     "Recoil": 32.0,
     "IdealRange": 85.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 100.0,
     "Weight": 1200.0,
     "ENLoad": 122.0,
-    "imagePath": "images/leftUnit/HG-003_COQUILLETT.png"
+    "imagePath": "images/units/HG-003_COQUILLETT.png",
+    "PartSlot": "Left Arm"
 }

@@ -7,7 +7,6 @@
     "AntiExplosiveDefense": 380.0,
     "AttitudeStability": 872.0,
     "LoadLimit": 69300.0,
-    "NETLoadLimit": "=I29-M29",
     "Weight": 24650.0,
     "ENLoad": 620.0,
     "TravelSpeed": 194.0,
@@ -22,5 +21,8 @@
     "QBReloadIdealWeight": 69300.0,
     "ABThrust": 8835.0,
     "ABENConsumption": 378.0,
-    "imagePath": "images/legs/EL-TL-11.png"
+    "imagePath": "images/legs/EL-TL-11.png",
+    "Speed": 430.0,
+    "QBSpeed":  500.0,
+    "LegType": "Tank"
 }

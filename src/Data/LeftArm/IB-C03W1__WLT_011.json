@@ -11,12 +11,6 @@
     "AccumulativeImpact": 152.0,
     "BlastRadius": 7.0,
     "ATKHeatBuildup": 200.0,
-    "ComboAttackPowerTOTAL": "=if(N57=\"\",I57,I57*N57)",
-    "ComboImpactTOTAL": "=if(N57=\"\",J57,J57*N57)",
-    "ComboAccumImpactTOTAL": "=if(N57=\"\",K57,K57*N57)",
-    "ComboChgAttackPowerTOTAL": "=if(W57=\"\",R57,R57*W57)",
-    "ComboChgImpactTOTAL": "=if(W57=\"\",S57,S57*W57)",
-    "ComboChgAccumImpactTOTAL": "=if(W57=\"\",T57,T57*W57)",
     "FullChgAttackPower": 2835.0,
     "FullChgImpact": 4050.0,
     "FullChgAccumImpact": 4050.0,
@@ -34,5 +28,6 @@
     "AmmunitionCost": 400.0,
     "Weight": 9030.0,
     "ENLoad": 850.0,
-    "imagePath": "images/leftUnit/IB-C03W1:_WLT_011.png"
+    "imagePath": "images/units/IB-C03W1__WLT_011.png",
+    "PartSlot": "Left Arm"
 }

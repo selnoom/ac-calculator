@@ -11,17 +11,11 @@
     "AccumulativeImpact": 248.0,
     "BlastRadius": 30.0,
     "ATKHeatBuildup": 300.0,
-    "ComboAttackPowerTOTAL": "=if(N54=\"\",I54,I54*N54)",
-    "ComboImpactTOTAL": "=if(N54=\"\",J54,J54*N54)",
-    "ComboAccumImpactTOTAL": "=if(N54=\"\",K54,K54*N54)",
     "ChgAttackPower": 1368.0,
     "ChgImpact": 712.0,
     "ChgAccumImpact": 368.0,
     "ChgBlastRadius": 60.0,
     "ChgHeatBuildup": 1000.0,
-    "ComboChgAttackPowerTOTAL": "=if(W54=\"\",R54,R54*W54)",
-    "ComboChgImpactTOTAL": "=if(W54=\"\",S54,S54*W54)",
-    "ComboChgAccumImpactTOTAL": "=if(W54=\"\",T54,T54*W54)",
     "DirectHitAdjustment": 125.0,
     "Recoil": 15.0,
     "EffectiveRange": 430.0,
@@ -34,5 +28,6 @@
     "AmmunitionCost": 360.0,
     "Weight": 3330.0,
     "ENLoad": 490.0,
-    "imagePath": "images/leftUnit/Vvc-760PR.png"
+    "imagePath": "images/units/Vvc-760PR.png",
+    "PartSlot": "Left Arm"
 }

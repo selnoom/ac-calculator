@@ -10,16 +10,10 @@
     "Impact": 830.0,
     "AccumulativeImpact": 650.0,
     "BlastRadius": 20.0,
-    "ComboAttackPowerTOTAL": "=if(N7=\"\",I7,I7*N7)",
-    "ComboImpactTOTAL": "=if(N7=\"\",J7,J7*N7)",
-    "ComboAccumImpactTOTAL": "=if(N7=\"\",K7,K7*N7)",
     "ChgAttackPower": 1142.0,
     "ChgImpact": 830.0,
     "ChgAccumImpact": 650.0,
     "ChgBlastRadius": 25.0,
-    "ComboChgAttackPowerTOTAL": "=if(W7=\"\",R7,R7*W7)",
-    "ComboChgImpactTOTAL": "=if(W7=\"\",S7,S7*W7)",
-    "ComboChgAccumImpactTOTAL": "=if(W7=\"\",T7,T7*W7)",
     "DirectHitAdjustment": 190.0,
     "EffectiveRange": 80.0,
     "TotalRounds": 25.0,
@@ -27,5 +21,6 @@
     "AmmunitionCost": 600.0,
     "Weight": 3790.0,
     "ENLoad": 160.0,
-    "imagePath": "images/leftUnit/DF-ET09_TAI-YANG-SHOU.png"
+    "imagePath": "images/units/DF-ET09_TAI-YANG-SHOU.png",
+    "PartSlot": "Left Arm"
 }

@@ -9,12 +9,6 @@
     "AttackPower": 104.0,
     "Impact": 54.0,
     "AccumulativeImpact": 32.0,
-    "ComboAttackPowerTOTAL": "=if(N36=\"\",I36,I36*N36)",
-    "ComboImpactTOTAL": "=if(N36=\"\",J36,J36*N36)",
-    "ComboAccumImpactTOTAL": "=if(N36=\"\",K36,K36*N36)",
-    "ComboChgAttackPowerTOTAL": "=if(W36=\"\",R36,R36*W36)",
-    "ComboChgImpactTOTAL": "=if(W36=\"\",S36,S36*W36)",
-    "ComboChgAccumImpactTOTAL": "=if(W36=\"\",T36,T36*W36)",
     "DirectHitAdjustment": 195.0,
     "Recoil": 14.0,
     "IdealRange": 100.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 150.0,
     "Weight": 980.0,
     "ENLoad": 247.0,
-    "imagePath": "images/leftUnit/VP-66EG.png"
+    "imagePath": "images/units/VP-66EG.png",
+    "PartSlot": "Left Arm"
 }

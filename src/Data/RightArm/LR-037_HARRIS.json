@@ -9,16 +9,10 @@
     "AttackPower": 239.0,
     "Impact": 285.0,
     "AccumulativeImpact": 109.0,
-    "ComboAttackPowerTOTAL": "=if(N21=\"\",I21,I21*N21)",
-    "ComboImpactTOTAL": "=if(N21=\"\",J21,J21*N21)",
-    "ComboAccumImpactTOTAL": "=if(N21=\"\",K21,K21*N21)",
     "ChgAttackPower": 850.0,
     "ChgImpact": 1250.0,
     "ChgAccumImpact": 380.0,
     "ChgHeatBuildup": 1000.0,
-    "ComboChgAttackPowerTOTAL": "=if(W21=\"\",R21,R21*W21)",
-    "ComboChgImpactTOTAL": "=if(W21=\"\",S21,S21*W21)",
-    "ComboChgAccumImpactTOTAL": "=if(W21=\"\",T21,T21*W21)",
     "DirectHitAdjustment": 220.0,
     "Recoil": 35.0,
     "IdealRange": 195.0,
@@ -32,5 +26,6 @@
     "AmmunitionCost": 200.0,
     "Weight": 4840.0,
     "ENLoad": 441.0,
-    "imagePath": "images/units/LR-037_HARRIS.png"
+    "imagePath": "images/units/LR-037_HARRIS.png",
+    "PartSlot": "Right Arm"
 }

@@ -10,12 +10,6 @@
     "Impact": 48.0,
     "AccumulativeImpact": 22.0,
     "ConsecutiveHits": 4.0,
-    "ComboAttackPowerTOTAL": "=if(N27=\"\",I27,I27*N27)",
-    "ComboImpactTOTAL": "=if(N27=\"\",J27,J27*N27)",
-    "ComboAccumImpactTOTAL": "=if(N27=\"\",K27,K27*N27)",
-    "ComboChgAttackPowerTOTAL": "=if(W27=\"\",R27,R27*W27)",
-    "ComboChgImpactTOTAL": "=if(W27=\"\",S27,S27*W27)",
-    "ComboChgAccumImpactTOTAL": "=if(W27=\"\",T27,T27*W27)",
     "DirectHitAdjustment": 195.0,
     "Recoil": 3.0,
     "IdealRange": 106.0,
@@ -27,5 +21,6 @@
     "AmmunitionCost": 30.0,
     "Weight": 2810.0,
     "ENLoad": 98.0,
-    "imagePath": "images/units/MA-E-210_ETSUJIN.png"
+    "imagePath": "images/units/MA-E-210_ETSUJIN.png",
+    "PartSlot": "Right Arm"
 }

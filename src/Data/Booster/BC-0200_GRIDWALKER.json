@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 520.0,
     "Weight": 2010.0,
     "ENLoad": 244.0,
-    "imagePath": "images/boosters/BC-0200_GRIDWALKER.png"
+    "imagePath": "images/boosters/BC-0200_GRIDWALKER.png",
+    "Speed": 384.0,
+    "QBSpeed":  380.0,
+    "PartType": "Booster"
 }

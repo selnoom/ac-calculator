@@ -10,12 +10,6 @@
     "Impact": 980.0,
     "AccumulativeImpact": 765.0,
     "BlastRadius": 15.0,
-    "ComboAttackPowerTOTAL": "=if(N37=\"\",I37,I37*N37)",
-    "ComboImpactTOTAL": "=if(N37=\"\",J37,J37*N37)",
-    "ComboAccumImpactTOTAL": "=if(N37=\"\",K37,K37*N37)",
-    "ComboChgAttackPowerTOTAL": "=if(W37=\"\",R37,R37*W37)",
-    "ComboChgImpactTOTAL": "=if(W37=\"\",S37,S37*W37)",
-    "ComboChgAccumImpactTOTAL": "=if(W37=\"\",T37,T37*W37)",
     "DirectHitAdjustment": 185.0,
     "Recoil": 90.0,
     "EffectiveRange": 740.0,
@@ -24,5 +18,6 @@
     "AmmunitionCost": 450.0,
     "Weight": 5480.0,
     "ENLoad": 240.0,
-    "imagePath": "images/units/DF-BA-06_XUAN-GE.png"
+    "imagePath": "images/units/DF-BA-06_XUAN-GE.png",
+    "PartSlot": "Right Arm"
 }

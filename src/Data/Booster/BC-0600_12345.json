@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 496.0,
     "Weight": 1360.0,
     "ENLoad": 180.0,
-    "imagePath": "images/boosters/BC-0600_12345.png"
+    "imagePath": "images/boosters/BC-0600_12345.png",
+    "Speed": 348.0,
+    "QBSpeed":  378.0,
+    "PartType": "Booster"
 }

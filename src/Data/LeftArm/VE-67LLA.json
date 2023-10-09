@@ -10,19 +10,14 @@
     "Impact": 800.0,
     "AccumulativeImpact": 400.0,
     "ConsecutiveHits": 1.0,
-    "ComboAttackPowerTOTAL": "=if(N13=\"\",I13,I13*N13)",
-    "ComboImpactTOTAL": "=if(N13=\"\",J13,J13*N13)",
-    "ComboAccumImpactTOTAL": "=if(N13=\"\",K13,K13*N13)",
     "ChgAttackPower": 1151.0,
     "ChgImpact": 800.0,
     "ChgAccumImpact": 400.0,
-    "ComboChgAttackPowerTOTAL": "=if(W13=\"\",R13,R13*W13)",
-    "ComboChgImpactTOTAL": "=if(W13=\"\",S13,S13*W13)",
-    "ComboChgAccumImpactTOTAL": "=if(W13=\"\",T13,T13*W13)",
     "DirectHitAdjustment": 195.0,
     "PAInterference": 131.0,
     "Cooling": 263.0,
     "Weight": 4520.0,
     "ENLoad": 460.0,
-    "imagePath": "images/leftUnit/VE-67LLA.png"
+    "imagePath": "images/units/VE-67LLA.png",
+    "PartSlot": "Left Arm"
 }

@@ -9,12 +9,6 @@
     "AttackPower": 36.0,
     "Impact": 41.0,
     "AccumulativeImpact": 19.0,
-    "ComboAttackPowerTOTAL": "=if(N25=\"\",I25,I25*N25)",
-    "ComboImpactTOTAL": "=if(N25=\"\",J25,J25*N25)",
-    "ComboAccumImpactTOTAL": "=if(N25=\"\",K25,K25*N25)",
-    "ComboChgAttackPowerTOTAL": "=if(W25=\"\",R25,R25*W25)",
-    "ComboChgImpactTOTAL": "=if(W25=\"\",S25,S25*W25)",
-    "ComboChgAccumImpactTOTAL": "=if(W25=\"\",T25,T25*W25)",
     "DirectHitAdjustment": 195.0,
     "Recoil": 5.0,
     "IdealRange": 115.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 20.0,
     "Weight": 2450.0,
     "ENLoad": 82.0,
-    "imagePath": "images/leftUnit/MG-014_LUDLOW.png"
+    "imagePath": "images/units/MG-014_LUDLOW.png",
+    "PartSlot": "Left Arm"
 }

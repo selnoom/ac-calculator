@@ -10,17 +10,11 @@
     "Impact": 304.0,
     "AccumulativeImpact": 88.0,
     "ATKHeatBuildup": 190.0,
-    "ComboAttackPowerTOTAL": "=if(N52=\"\",I52,I52*N52)",
-    "ComboImpactTOTAL": "=if(N52=\"\",J52,J52*N52)",
-    "ComboAccumImpactTOTAL": "=if(N52=\"\",K52,K52*N52)",
     "ChgAttackPower": 1307.0,
     "ChgImpact": 950.0,
     "ChgAccumImpact": 460.0,
     "ChgBlastRadius": 45.0,
     "ChgHeatBuildup": 650.0,
-    "ComboChgAttackPowerTOTAL": "=if(W52=\"\",R52,R52*W52)",
-    "ComboChgImpactTOTAL": "=if(W52=\"\",S52,S52*W52)",
-    "ComboChgAccumImpactTOTAL": "=if(W52=\"\",T52,T52*W52)",
     "DirectHitAdjustment": 145.0,
     "Recoil": 20.0,
     "IdealRange": 130.0,
@@ -34,5 +28,6 @@
     "AmmunitionCost": 300.0,
     "Weight": 3540.0,
     "ENLoad": 510.0,
-    "imagePath": "images/units/VP-66LS.png"
+    "imagePath": "images/units/VP-66LS.png",
+    "PartSlot": "Right Arm"
 }

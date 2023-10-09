@@ -15,5 +15,8 @@
     "MeleeAtkENConsump": 630.0,
     "Weight": 1590.0,
     "ENLoad": 400.0,
-    "imagePath": "images/boosters/IA-C01B__GILLS.png"
+    "imagePath": "images/boosters/IA-C01B__GILLS.png",
+    "Speed": 379.0,
+    "QBSpeed":  377.0,
+    "PartType": "Booster"
 }

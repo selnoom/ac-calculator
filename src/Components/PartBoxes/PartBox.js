@@ -12,6 +12,13 @@ function PartBox({ title, partsInfo, boxIndex }) {
     // Create a new array based on the current selectedPartsArray
     const updatedParts = [...selectedPartsArray];
     updatedParts[globalIndex] = part;
+
+    // If the selected part is a tank tread leg, remove the booster
+    if (part && part.LegType === "Tank") {
+      const boosterIndex = boxIndex * partsInfo.length + partsInfo.findIndex(info => info.type === "booster");
+      updatedParts[boosterIndex] = null; // or {} based on what an empty part looks like
+    }
+
     setSelectedPartsArray(updatedParts);
   }
 
@@ -32,6 +39,5 @@ function PartBox({ title, partsInfo, boxIndex }) {
     </div>
   );
 }
-
 
 export default PartBox;

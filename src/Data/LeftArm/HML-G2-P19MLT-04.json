@@ -10,12 +10,6 @@
     "Impact": 175.0,
     "AccumulativeImpact": 123.0,
     "ConsecutiveHits": 4.0,
-    "ComboAttackPowerTOTAL": "=if(N61=\"\",I61,I61*N61)",
-    "ComboImpactTOTAL": "=if(N61=\"\",J61,J61*N61)",
-    "ComboAccumImpactTOTAL": "=if(N61=\"\",K61,K61*N61)",
-    "ComboChgAttackPowerTOTAL": "=if(W61=\"\",R61,R61*W61)",
-    "ComboChgImpactTOTAL": "=if(W61=\"\",S61,S61*W61)",
-    "ComboChgAccumImpactTOTAL": "=if(W61=\"\",T61,T61*W61)",
     "DirectHitAdjustment": 155.0,
     "Guidance": 180.0,
     "EffectiveRange": 2500.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 150.0,
     "Weight": 3250.0,
     "ENLoad": 165.0,
-    "imagePath": "images/leftUnit/HML-G2-P19MLT-04.png"
+    "imagePath": "images/units/HML-G2-P19MLT-04.png",
+    "PartSlot": "Left Arm"
 }

@@ -1,1 +1,24 @@
-{"PartName": "BML-G1/P32DUO-03", "PartClass": "Dual Missile Launcher", "AttackType": "Explosive", "WeaponType": "Homing", "ReloadType": "Magazine", "AdditionalEffects": "None", "Manufacturer": "FURLONG DYNAMICS", "AttackPower": 122.0, "Impact": 76.0, "AccumulativeImpact": 50.0, "ConsecutiveHits": 6.0, "ComboAttackPowerTOTAL": "=if(N31=\"\",I31,(I31*N31))", "ComboImpactTOTAL": "=if(N31=\"\",J31,(J31*N31))", "ComboAccumImpactTOTAL": "=if(N31=\"\",K31,(K31*N31))", "ComboChgAttackPowerTOTAL": "=if(AD31=\"\",Y31,Y31*AD31)", "ComboChgImpactTOTAL": "=if(AD31=\"\",Z31,Z31*AD31)", "ComboChgAccumImpactTOTAL": "=if(AD31=\"\",AA31,AA31*AD31)", "DirectHitAdjustment": 150.0, "Guidance": 125.0, "EffectiveRange": 500.0, "HomingLockTime": 0.4, "MaxLockCount": 3.0, "TotalRounds": 180.0, "ReloadTime": 4.3, "AmmunitionCost": 70.0, "Weight": 3450.0, "ENLoad": 262.0, "imagePath": "images/shoulders/BML-G1-P32DUO-03.png"}
+{
+    "PartName": "BML-G1/P32DUO-03",
+    "PartClass": "Dual Missile Launcher",
+    "AttackType": "Explosive",
+    "WeaponType": "Homing",
+    "ReloadType": "Magazine",
+    "AdditionalEffects": "None",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "AttackPower": 122.0,
+    "Impact": 76.0,
+    "AccumulativeImpact": 50.0,
+    "ConsecutiveHits": 6.0,
+    "DirectHitAdjustment": 150.0,
+    "Guidance": 125.0,
+    "EffectiveRange": 500.0,
+    "HomingLockTime": 0.4,
+    "MaxLockCount": 3.0,
+    "TotalRounds": 180.0,
+    "ReloadTime": 4.3,
+    "AmmunitionCost": 70.0,
+    "Weight": 3450.0,
+    "ENLoad": 262.0,
+    "imagePath": "images/shoulders/BML-G1-P32DUO-03.png"
+}

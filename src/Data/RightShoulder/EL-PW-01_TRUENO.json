@@ -1,1 +1,25 @@
-{"PartName": "EL-PW-01 TRUENO", "PartClass": "Needle Missle Launcher", "AttackType": "Kinetic", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "ELCANO FOUNDRY", "AttackPower": 415.0, "Impact": 385.0, "AccumulativeImpact": 215.0, "ConsecutiveHits": 2.0, "ComboAttackPowerTOTAL": "=if(N42=\"\",I42,(I42*N42))", "ComboImpactTOTAL": "=if(N42=\"\",J42,(J42*N42))", "ComboAccumImpactTOTAL": "=if(N42=\"\",K42,(K42*N42))", "ComboChgAttackPowerTOTAL": "=if(AD42=\"\",Y42,Y42*AD42)", "ComboChgImpactTOTAL": "=if(AD42=\"\",Z42,Z42*AD42)", "ComboChgAccumImpactTOTAL": "=if(AD42=\"\",AA42,AA42*AD42)", "DirectHitAdjustment": 215.0, "Guidance": 120.0, "IdealRange": 310.0, "EffectiveRange": 410.0, "HomingLockTime": 4.2, "MaxLockCount": 1.0, "TotalRounds": 62.0, "ReloadTime": 4.2, "AmmunitionCost": 300.0, "Weight": 3100.0, "ENLoad": 420.0, "imagePath": "images/shoulders/EL-PW-01_TRUENO.png"}
+{
+    "PartName": "EL-PW-01 TRUENO",
+    "PartClass": "Needle Missle Launcher",
+    "AttackType": "Kinetic",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "ELCANO FOUNDRY",
+    "AttackPower": 415.0,
+    "Impact": 385.0,
+    "AccumulativeImpact": 215.0,
+    "ConsecutiveHits": 2.0,
+    "DirectHitAdjustment": 215.0,
+    "Guidance": 120.0,
+    "IdealRange": 310.0,
+    "EffectiveRange": 410.0,
+    "HomingLockTime": 4.2,
+    "MaxLockCount": 1.0,
+    "TotalRounds": 62.0,
+    "ReloadTime": 4.2,
+    "AmmunitionCost": 300.0,
+    "Weight": 3100.0,
+    "ENLoad": 420.0,
+    "imagePath": "images/shoulders/EL-PW-01_TRUENO.png"
+}

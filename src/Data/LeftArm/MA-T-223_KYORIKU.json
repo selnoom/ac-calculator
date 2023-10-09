@@ -10,12 +10,6 @@
     "Impact": 45.0,
     "AccumulativeImpact": 4.0,
     "BlastRadius": 60.0,
-    "ComboAttackPowerTOTAL": "=if(N45=\"\",I45,I45*N45)",
-    "ComboImpactTOTAL": "=if(N45=\"\",J45,J45*N45)",
-    "ComboAccumImpactTOTAL": "=if(N45=\"\",K45,K45*N45)",
-    "ComboChgAttackPowerTOTAL": "=if(W45=\"\",R45,R45*W45)",
-    "ComboChgImpactTOTAL": "=if(W45=\"\",S45,S45*W45)",
-    "ComboChgAccumImpactTOTAL": "=if(W45=\"\",T45,T45*W45)",
     "DirectHitAdjustment": 100.0,
     "Recoil": 40.0,
     "ChargeTime": 0.8,
@@ -24,5 +18,6 @@
     "AmmunitionCost": 100.0,
     "Weight": 2600.0,
     "ENLoad": 52.0,
-    "imagePath": "images/leftUnit/MA-T-223_KYORIKU.png"
+    "imagePath": "images/units/MA-T-223_KYORIKU.png",
+    "PartSlot": "Left Arm"
 }

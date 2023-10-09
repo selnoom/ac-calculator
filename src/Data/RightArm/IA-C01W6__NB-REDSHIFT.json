@@ -11,17 +11,11 @@
     "AccumulativeImpact": 188.0,
     "BlastRadius": 24.0,
     "ATKHeatBuildup": 280.0,
-    "ComboAttackPowerTOTAL": "=if(N56=\"\",I56,I56*N56)",
-    "ComboImpactTOTAL": "=if(N56=\"\",J56,J56*N56)",
-    "ComboAccumImpactTOTAL": "=if(N56=\"\",K56,K56*N56)",
     "ChgAttackPower": 1718.0,
     "ChgImpact": 936.0,
     "ChgAccumImpact": 936.0,
     "ChgBlastRadius": 42.0,
     "ChgHeatBuildup": 450.0,
-    "ComboChgAttackPowerTOTAL": "=if(W56=\"\",R56,R56*W56)",
-    "ComboChgImpactTOTAL": "=if(W56=\"\",S56,S56*W56)",
-    "ComboChgAccumImpactTOTAL": "=if(W56=\"\",T56,T56*W56)",
     "DirectHitAdjustment": 190.0,
     "PAInterference": 122.0,
     "Recoil": 15.0,
@@ -35,5 +29,6 @@
     "AmmunitionCost": 500.0,
     "Weight": 4040.0,
     "ENLoad": 667.0,
-    "imagePath": "images/units/IA-C01W6:_NB-REDSHIFT.png"
+    "imagePath": "images/units/IA-C01W6:_NB-REDSHIFT.png",
+    "PartSlot": "Right Arm"
 }

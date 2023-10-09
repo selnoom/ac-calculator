@@ -10,12 +10,6 @@
     "Impact": 25.0,
     "AccumulativeImpact": 11.0,
     "ATKHeatBuildup": 9.0,
-    "ComboAttackPowerTOTAL": "=if(N28=\"\",I28,I28*N28)",
-    "ComboImpactTOTAL": "=if(N28=\"\",J28,J28*N28)",
-    "ComboAccumImpactTOTAL": "=if(N28=\"\",K28,K28*N28)",
-    "ComboChgAttackPowerTOTAL": "=if(W28=\"\",R28,R28*W28)",
-    "ComboChgImpactTOTAL": "=if(W28=\"\",S28,S28*W28)",
-    "ComboChgAccumImpactTOTAL": "=if(W28=\"\",T28,T28*W28)",
     "DirectHitAdjustment": 215.0,
     "Recoil": 5.0,
     "IdealRange": 130.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 30.0,
     "Weight": 5800.0,
     "ENLoad": 425.0,
-    "imagePath": "images/units/DF-GA-08_HU-BEN.png"
+    "imagePath": "images/units/DF-GA-08_HU-BEN.png",
+    "PartSlot": "Right Arm"
 }

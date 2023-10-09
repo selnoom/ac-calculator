@@ -10,12 +10,6 @@
     "Impact": 24.0,
     "AccumulativeImpact": 12.0,
     "ATKHeatBuildup": 55.0,
-    "ComboAttackPowerTOTAL": "=if(N60=\"\",I60,I60*N60)",
-    "ComboImpactTOTAL": "=if(N60=\"\",J60,J60*N60)",
-    "ComboAccumImpactTOTAL": "=if(N60=\"\",K60,K60*N60)",
-    "ComboChgAttackPowerTOTAL": "=if(W60=\"\",R60,R60*W60)",
-    "ComboChgImpactTOTAL": "=if(W60=\"\",S60,S60*W60)",
-    "ComboChgAccumImpactTOTAL": "=if(W60=\"\",T60,T60*W60)",
     "DirectHitAdjustment": 150.0,
     "PAInterference": 537.0,
     "Recoil": 5.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 60.0,
     "Weight": 2650.0,
     "ENLoad": 446.0,
-    "imagePath": "images/leftUnit/HI-18:_GU-A2.png"
+    "imagePath": "images/units/HI-18__GU-A2.png",
+    "PartSlot": "Left Arm"
 }

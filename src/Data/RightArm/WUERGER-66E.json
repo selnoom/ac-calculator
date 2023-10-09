@@ -10,16 +10,10 @@
     "Impact": 405.0,
     "AccumulativeImpact": 144.0,
     "ATKHeatBuildup": 180.0,
-    "ComboAttackPowerTOTAL": "=if(N51=\"\",I51,I51*N51)",
-    "ComboImpactTOTAL": "=if(N51=\"\",J51,J51*N51)",
-    "ComboAccumImpactTOTAL": "=if(N51=\"\",K51,K51*N51)",
     "ChgAttackPower": 1459.0,
     "ChgImpact": 950.0,
     "ChgAccumImpact": 360.0,
     "ChgHeatBuildup": 1000.0,
-    "ComboChgAttackPowerTOTAL": "=if(W51=\"\",R51,R51*W51)",
-    "ComboChgImpactTOTAL": "=if(W51=\"\",S51,S51*W51)",
-    "ComboChgAccumImpactTOTAL": "=if(W51=\"\",T51,T51*W51)",
     "DirectHitAdjustment": 145.0,
     "Recoil": 20.0,
     "IdealRange": 130.0,
@@ -33,5 +27,6 @@
     "AmmunitionCost": 200.0,
     "Weight": 2880.0,
     "ENLoad": 440.0,
-    "imagePath": "images/units/WUERGER-66E.png"
+    "imagePath": "images/units/WUERGER-66E.png",
+    "PartSlot": "Right Arm"
 }

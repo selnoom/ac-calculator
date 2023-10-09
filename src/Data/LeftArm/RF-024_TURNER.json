@@ -10,12 +10,6 @@
     "Impact": 65.0,
     "AccumulativeImpact": 25.0,
     "ConsecutiveHits": 3.0,
-    "ComboAttackPowerTOTAL": "=if(N22=\"\",I22,I22*N22)",
-    "ComboImpactTOTAL": "=if(N22=\"\",J22,J22*N22)",
-    "ComboAccumImpactTOTAL": "=if(N22=\"\",K22,K22*N22)",
-    "ComboChgAttackPowerTOTAL": "=if(W22=\"\",R22,R22*W22)",
-    "ComboChgImpactTOTAL": "=if(W22=\"\",S22,S22*W22)",
-    "ComboChgAccumImpactTOTAL": "=if(W22=\"\",T22,T22*W22)",
     "DirectHitAdjustment": 185.0,
     "Recoil": 17.0,
     "IdealRange": 160.0,
@@ -27,5 +21,6 @@
     "AmmunitionCost": 40.0,
     "Weight": 3560.0,
     "ENLoad": 102.0,
-    "imagePath": "images/leftUnit/RF-024_TURNER.png"
+    "imagePath": "images/units/RF-024_TURNER.png",
+    "PartSlot": "Left Arm"
 }

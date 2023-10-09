@@ -1,1 +1,23 @@
-{"PartName": "BML-G2/P16SPL-08", "PartClass": "Split Missle Launcher", "AttackType": "Explosive", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "FURLONG DYNAMICS", "AttackPower": 688.0, "Impact": 536.0, "AccumulativeImpact": 320.0, "ComboAttackPowerTOTAL": "=if(N28=\"\",I28,(I28*N28))", "ComboImpactTOTAL": "=if(N28=\"\",J28,(J28*N28))", "ComboAccumImpactTOTAL": "=if(N28=\"\",K28,(K28*N28))", "ComboChgAttackPowerTOTAL": "=if(AD28=\"\",Y28,Y28*AD28)", "ComboChgImpactTOTAL": "=if(AD28=\"\",Z28,Z28*AD28)", "ComboChgAccumImpactTOTAL": "=if(AD28=\"\",AA28,AA28*AD28)", "DirectHitAdjustment": 140.0, "Guidance": 135.0, "EffectiveRange": 1425.0, "HomingLockTime": 1.5, "MaxLockCount": 1.0, "TotalRounds": 40.0, "ReloadTime": 5.1, "AmmunitionCost": 500.0, "Weight": 2800.0, "ENLoad": 228.0, "imagePath": "images/shoulders/BML-G2-P16SPL-08.png"}
+{
+    "PartName": "BML-G2/P16SPL-08",
+    "PartClass": "Split Missle Launcher",
+    "AttackType": "Explosive",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "AttackPower": 688.0,
+    "Impact": 536.0,
+    "AccumulativeImpact": 320.0,
+    "DirectHitAdjustment": 140.0,
+    "Guidance": 135.0,
+    "EffectiveRange": 1425.0,
+    "HomingLockTime": 1.5,
+    "MaxLockCount": 1.0,
+    "TotalRounds": 40.0,
+    "ReloadTime": 5.1,
+    "AmmunitionCost": 500.0,
+    "Weight": 2800.0,
+    "ENLoad": 228.0,
+    "imagePath": "images/shoulders/BML-G2-P16SPL-08.png"
+}

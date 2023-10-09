@@ -10,20 +10,15 @@
     "Impact": 495.0,
     "AccumulativeImpact": 495.0,
     "ConsecutiveHits": 2.0,
-    "ComboAttackPowerTOTAL": "=if(N16=\"\",I16,I16*N16)",
-    "ComboImpactTOTAL": "=if(N16=\"\",J16,J16*N16)",
-    "ComboAccumImpactTOTAL": "=if(N16=\"\",K16,K16*N16)",
     "ChgAttackPower": 2010.0,
     "ChgImpact": 910.0,
     "ChgAccumImpact": 910.0,
-    "ComboChgAttackPowerTOTAL": "=if(W16=\"\",R16,R16*W16)",
-    "ComboChgImpactTOTAL": "=if(W16=\"\",S16,S16*W16)",
-    "ComboChgAccumImpactTOTAL": "=if(W16=\"\",T16,T16*W16)",
     "DirectHitAdjustment": 175.0,
     "PAInterference": 112.0,
     "EffectiveRange": 280.0,
     "Cooling": 209.0,
     "Weight": 2200.0,
     "ENLoad": 544.0,
-    "imagePath": "images/leftUnit/IA-C01W2:_MOONLIGHT.png"
+    "imagePath": "images/units/IA-C01W2__MOONLIGHT.png",
+    "PartSlot": "Left Arm"
 }

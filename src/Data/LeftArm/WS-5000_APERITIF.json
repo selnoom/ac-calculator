@@ -10,12 +10,6 @@
     "Impact": 78.0,
     "AccumulativeImpact": 47.0,
     "ConsecutiveHits": 13.0,
-    "ComboAttackPowerTOTAL": "=if(N63=\"\",I63,I63*N63)",
-    "ComboImpactTOTAL": "=if(N63=\"\",J63,J63*N63)",
-    "ComboAccumImpactTOTAL": "=if(N63=\"\",K63,K63*N63)",
-    "ComboChgAttackPowerTOTAL": "=if(W63=\"\",R63,R63*W63)",
-    "ComboChgImpactTOTAL": "=if(W63=\"\",S63,S63*W63)",
-    "ComboChgAccumImpactTOTAL": "=if(W63=\"\",T63,T63*W63)",
     "DirectHitAdjustment": 155.0,
     "Guidance": 220.0,
     "EffectiveRange": 1200.0,
@@ -26,5 +20,6 @@
     "AmmunitionCost": 70.0,
     "Weight": 4600.0,
     "ENLoad": 165.0,
-    "imagePath": "images/leftUnit/WS-5000_APERITIF.png"
+    "imagePath": "images/units/WS-5000_APERITIF.png",
+    "PartSlot": "Left Arm"
 }

@@ -7,7 +7,7 @@ function FilterInput({ value, onChange, placeholder = "Filter parts..." }) {
       placeholder={placeholder} 
       value={value}
       onChange={onChange}
-      className="p-2 w-96% mb-4 rounded bg-gray-700 placeholder-gray-500"
+      className="p-2 mb-4 bg-gray-700 placeholder-gray-500 flex-center w-full outline-none focus:border-blue-500"
     />
   );
 }

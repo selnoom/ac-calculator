@@ -1,1 +1,25 @@
-{"PartName": "IA-C01W3: AURORA", "PartClass": "Light Wave Cannon", "AttackType": "Energy", "WeaponType": "Homing", "ReloadType": "Single Shot", "AdditionalEffects": "None", "Manufacturer": "RUBICON RESEARCH INSTITUTE", "AttackPower": 134.0, "Impact": 102.0, "AccumulativeImpact": 102.0, "ConsecutiveHits": 4.0, "ComboAttackPowerTOTAL": "=if(N23=\"\",I23,(I23*N23))", "ComboImpactTOTAL": "=if(N23=\"\",J23,(J23*N23))", "ComboAccumImpactTOTAL": "=if(N23=\"\",K23,(K23*N23))", "ComboChgAttackPowerTOTAL": "=if(AD23=\"\",Y23,Y23*AD23)", "ComboChgImpactTOTAL": "=if(AD23=\"\",Z23,Z23*AD23)", "ComboChgAccumImpactTOTAL": "=if(AD23=\"\",AA23,AA23*AD23)", "DirectHitAdjustment": 175.0, "PAInterference": 117.0, "Guidance": 240.0, "EffectiveRange": 930.0, "HomingLockTime": 3.3, "MaxLockCount": 4.0, "TotalRounds": 100.0, "ReloadTime": 5.5, "AmmunitionCost": 80.0, "Weight": 3330.0, "ENLoad": 522.0, "imagePath": "images/shoulders/IA-C01W3:_AURORA.png"}
+{
+    "PartName": "IA-C01W3: AURORA",
+    "PartClass": "Light Wave Cannon",
+    "AttackType": "Energy",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "RUBICON RESEARCH INSTITUTE",
+    "AttackPower": 134.0,
+    "Impact": 102.0,
+    "AccumulativeImpact": 102.0,
+    "ConsecutiveHits": 4.0,
+    "DirectHitAdjustment": 175.0,
+    "PAInterference": 117.0,
+    "Guidance": 240.0,
+    "EffectiveRange": 930.0,
+    "HomingLockTime": 3.3,
+    "MaxLockCount": 4.0,
+    "TotalRounds": 100.0,
+    "ReloadTime": 5.5,
+    "AmmunitionCost": 80.0,
+    "Weight": 3330.0,
+    "ENLoad": 522.0,
+    "imagePath": "images/shoulders/IA-C01W3__AURORA.png"
+}
