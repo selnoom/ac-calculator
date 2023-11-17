@@ -19,7 +19,7 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
             <div className="flex flex-col items-center">
               <div>{part.PartName}</div>
               {isOverloaded && <div className="text-red-500">Weight Overload</div>}
-              <img src={part.imagePath} alt={part.PartName} className="h-24 mt-2" />
+              <img src={process.env.PUBLIC_URL + '/' + part.imagePath} alt={part.PartName} className="h-24 mt-2" />
             </div>
           </li>
         );
