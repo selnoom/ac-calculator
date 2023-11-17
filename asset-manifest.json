@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7Bac-calculator%7D/static/css/main.0f05eaef.css",
+    "main.js": "/%7Bac-calculator%7D/static/js/main.87c326cd.js",
+    "static/js/787.ffa53bdf.chunk.js": "/%7Bac-calculator%7D/static/js/787.ffa53bdf.chunk.js",
+    "index.html": "/%7Bac-calculator%7D/index.html",
+    "main.0f05eaef.css.map": "/%7Bac-calculator%7D/static/css/main.0f05eaef.css.map",
+    "main.87c326cd.js.map": "/%7Bac-calculator%7D/static/js/main.87c326cd.js.map",
+    "787.ffa53bdf.chunk.js.map": "/%7Bac-calculator%7D/static/js/787.ffa53bdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f05eaef.css",
+    "static/js/main.87c326cd.js"
+  ]
+}
