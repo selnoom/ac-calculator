@@ -2,6 +2,7 @@ function computeTotalStats(parts) {
     let totalAP = 0;
     let totalENLoad = 0;
     let ENOutput = 0;
+    let totalENCapacity = 0;
     let totalWeight = 0;
     let legWeight = 0;
     let loadLimit = 0;
@@ -44,6 +45,7 @@ function computeTotalStats(parts) {
 
         totalAP += part.AP || 0;
         totalENLoad += part.ENLoad || 0;
+        totalENCapacity += part.ENCapacity || 0;
         totalWeight += part.Weight || 0;
         totalAttitudeStability += part.AttitudeStability || 0;
         totalAttitudeRecovery += part.AttitudeRecovery || 0;
@@ -63,6 +65,7 @@ function computeTotalStats(parts) {
       AP: totalAP,
       EN_load: totalENLoad,
       EN_output: ENOutput,
+      EN_capacity: totalENCapacity,
       total_weight: totalWeight,
       total_load: totalWeight - legWeight,
       total_arms_load: totalArmsLoad,

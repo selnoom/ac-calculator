@@ -7,7 +7,7 @@ import ModalStatsDisplay from './ModalStatsDisplay';
 import PartsContext from '../../Contexts/PartsContext';
 import CustomConfirmModal from '../CustomConfirmModal';
 
-function PartSelector({ placeholder, onPartSelected, partType }) {
+function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selectorIndex }) {
   const [showList, setShowList] = useState(false);
   const [parts, setParts] = useState([]);
   const [maxValues, setMaxValues] = useState({});
@@ -15,11 +15,17 @@ function PartSelector({ placeholder, onPartSelected, partType }) {
   const [filterText, setFilterText] = useState("");
   const [selectedPart, setSelectedPart] = useState(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
+  const {selectedPartsArray, setSelectedPartsArray} = useContext(PartsContext);
+  const partIndex = boxIndex * (4) + selectorIndex;
+  const isBooster = partType === "booster";
+  const isBoosterDisabled = isBooster && selectedPartsArray.some(part => part?.LegType === "Tank");
 
-  const { 
-    selectedPartsArray, 
-    setSelectedPartsArray
-  } = useContext(PartsContext);
+  // When selectedPartsArray changes, update the selectedPart
+  useEffect(() => {
+    if (selectedPartsArray[partIndex] === null) {
+      setSelectedPart(null);
+    }
+  }, [selectedPartsArray, partIndex]);
 
   const handleSave = () => {
     if (partType === "legs" && clickedPart.LegType === "Tank") {
@@ -105,16 +111,44 @@ function PartSelector({ placeholder, onPartSelected, partType }) {
     event.stopPropagation();
   }
 
+  if (isBoosterDisabled) {
+    return (
+      <div className="bg-gray-700 text-white p-4 border border-gray-600 opacity-50 cursor-not-allowed relative w-full h-full">
+        <div>{placeholder}</div>
+        <div className="h-24 mt-2 flex items-center justify-center">
+          <span>Unavailable (Tank Legs Selected)</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="relative">
-      <div className="bg-gray-700 text-white p-4 border border-gray-600 cursor-pointer"
-        onClick={toggleModal}>
-        {selectedPart ? (
-            <>
-              <div>{selectedPart.PartName}</div>
-              <img src={selectedPart.imagePath} alt={selectedPart.PartName} className="h-24 mt-2" />
-            </>
-          ) : placeholder}
+    <div className="relative w-full h-full">
+  <div 
+    className="bg-gray-700 border border-gray-600 cursor-pointer w-full h-full"
+    onClick={toggleModal}
+    style={
+      selectedPart ? { 
+        backgroundImage: `url(${selectedPart.imagePath})`,
+        backgroundSize: '100% 100%', // Stretch image to fill the div
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center'
+      } : {}
+    }
+  >
+    {selectedPart ? (
+      <>
+        <div className="absolute top-0 left-0 w-full h-full">
+          <span className="bg-black bg-opacity-50 text-white px-1 font-bold">
+            {selectedPart.PartName}
+          </span>
+        </div>
+      </>
+    ) : (
+      <div className="flex justify-center items-center h-full text-lg font-semibold text-blue-200">
+        {placeholder}
+      </div>
+    )}
         <Modal isOpen={showList}>
           <div className="flex flex-col h-full" onClick={handleModalContentClick}>
             <div className="flex items-stretch h-[calc(100%-3rem)]">

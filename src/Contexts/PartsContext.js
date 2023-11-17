@@ -4,7 +4,10 @@ const PartsContext = createContext({
     selectedPartsArray: [],
     setSelectedPartsArray: () => {},
     hasTankTreadLeg: false,
-    setHasTankTreadLeg: () => {}
+    setHasTankTreadLeg: () => {},
+    totalLoad: 0,
+    setTotalLoad: () => {},
+    maxLoadLimit: 8000
 });
 
 export default PartsContext;

@@ -5,10 +5,11 @@ import PartBox from './Components/PartBoxes/PartBox';
 import PartsContext from './Contexts/PartsContext';
 
 function App() {
-  const [selectedPartsArray, setSelectedPartsArray] = useState([]);
+  const [selectedPartsArray, setSelectedPartsArray] = useState(Array(12).fill(null));
+  const [totalLoad, setTotalLoad] = useState(0);
 
   return (
-    <PartsContext.Provider value={{ selectedPartsArray, setSelectedPartsArray }}>
+    <PartsContext.Provider value={{ selectedPartsArray, setSelectedPartsArray, totalLoad, setTotalLoad, maxLoadLimit: 8000 }}>
       <div className="App h-screen bg-gray-900 text-white overflow-hidden">
         <div className="flex h-full overflow-hidden">
       
