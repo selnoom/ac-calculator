@@ -152,11 +152,18 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
         <Modal isOpen={showList}>
           <div className="flex flex-col h-full" onClick={handleModalContentClick}>
             <div className="flex items-stretch h-[calc(100%-3rem)]">
-              <ul className="w-2/5 overflow-y-auto border-r border-gray-600 h-full">
+              <ul className="w-2/5 overflow-y-auto border-r border-gray-600 h-full pr-3">
                 <div className="sticky top-0">
                   <FilterInput value={filterText} onChange={e => setFilterText(e.target.value)} placeholder="Search parts..." />
                 </div>
-                <PartList parts={parts} filterText={filterText} onPartClick={handlePartClick} clickedPart={clickedPart} />
+                <PartList 
+                  parts={parts} 
+                  filterText={filterText} 
+                  onPartClick={handlePartClick} 
+                  clickedPart={clickedPart} 
+                  boxIndex={boxIndex} 
+                  selectorIndex={selectorIndex} 
+                />
               </ul>
               <ModalStatsDisplay clickedPart={clickedPart} maxValues={maxValues} />
             </div>

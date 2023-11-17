@@ -34,7 +34,7 @@ function MainStatsDisplay({ selectedParts }) {
       { name: "Attitude Recovery", value: computeAttitudeRecovery(totalStats.total_weight)},
       { name: "Target Tracking", value: getTargetTracking(totalStats.firearm_spec)},
       { name: "Boost Speed", value: computeBoostSpeed(totalStats.total_weight ,totalStats.speed) },
-      { name: "QB Speed (Not completely accurate)", value: computeBoostSpeed(totalStats.qb_speed) },
+      // { name: "QB Speed (Not completely accurate)", value: computeBoostSpeed(totalStats.qb_speed) },
       { name: "QB EN Consumption", value: totalStats.qb_EN_consumption },
       { name: "QB Reload Time", value: totalStats.qb_reload_time, shouldRound: false },
       { name: "EN Capacity", value: totalStats.EN_capacity },

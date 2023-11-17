@@ -7,7 +7,7 @@ const PartsContext = createContext({
     setHasTankTreadLeg: () => {},
     totalLoad: 0,
     setTotalLoad: () => {},
-    maxLoadLimit: 8000
+    maxLoadLimit: 3000
 });
 
 export default PartsContext;

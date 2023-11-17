@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState, useEffect} from 'react';
 import './App.css';
 import MainStatsDisplay from './Components/MainStatsDisplay/MainStatsDisplay';
 import PartBox from './Components/PartBoxes/PartBox';
@@ -8,8 +8,20 @@ function App() {
   const [selectedPartsArray, setSelectedPartsArray] = useState(Array(12).fill(null));
   const [totalLoad, setTotalLoad] = useState(0);
 
+  useEffect(() => {
+    let newTotalLoad = 0;
+
+    selectedPartsArray.forEach(part => {
+        if (part) {
+            newTotalLoad += part.Weight;
+        }
+    });
+
+    setTotalLoad(newTotalLoad);
+  }, [selectedPartsArray]);
+
   return (
-    <PartsContext.Provider value={{ selectedPartsArray, setSelectedPartsArray, totalLoad, setTotalLoad, maxLoadLimit: 8000 }}>
+    <PartsContext.Provider value={{ selectedPartsArray, setSelectedPartsArray, totalLoad, setTotalLoad, maxLoadLimit: 3000 }}>
       <div className="App h-screen bg-gray-900 text-white overflow-hidden">
         <div className="flex h-full overflow-hidden">
       
