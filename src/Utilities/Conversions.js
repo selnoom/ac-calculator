@@ -54,7 +54,10 @@ export function computeAttitudeRecovery(weight) {
   const baseValue = 100;
   let multiplier = 0;
 
-  if (weight <= 40000) {
+  if (!weight) {
+    multiplier = 0;
+  }
+  else if (weight <= 40000) {
     multiplier = 1.5;
   } else if (weight <= 60000) {
     // Linear interpolation between 1.5 and 1.2

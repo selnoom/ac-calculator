@@ -79,6 +79,12 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
     setShowList(prevShowList => !prevShowList);
   };
 
+  const handleClearPart = (event) => {
+    event.stopPropagation(); // Prevent this click from opening the modal
+    setSelectedPart(null); // Clear the selected part
+    onPartSelected(null); // Inform the parent component about the clearing
+  };
+
   // Calculate the maximum values once the parts are loaded
   useEffect(() => {
     const calculateMaxValues = () => {
@@ -149,6 +155,12 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
         {placeholder}
       </div>
     )}
+    {selectedPart && (
+      <div className="absolute top-1 right-1 text-white bg-red-600 rounded-full h-6 w-6 flex items-center justify-center cursor-pointer"
+           onClick={handleClearPart}>
+        X
+      </div>
+    )}
         <Modal isOpen={showList}>
           <div className="flex flex-col h-full" onClick={handleModalContentClick}>
             <div className="flex items-stretch h-[calc(100%-3rem)]">
@@ -167,7 +179,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
               </ul>
               <ModalStatsDisplay clickedPart={clickedPart} maxValues={maxValues} />
             </div>
-            <div className="flex justify-end mt-4 space-x-8">
+            <div className="flex justify-end mt-4 space-x-8 pr-10">
               <button onClick={handleSave} 
                 className="bg-blue-800 hover:bg-blue-600 text-white rounded px-6 py-2">
                 Save

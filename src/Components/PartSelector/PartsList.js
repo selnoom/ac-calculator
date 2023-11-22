@@ -24,11 +24,14 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
         
         return (
           <li className={`p-2 cursor-pointer ${clickedPart === part ? 'bg-cyan-900' : 'hover:bg-gray-600'}`} key={part.PartName}
-            onClick={(event) => onPartClick(part, event, index)}>
-            <div className="flex flex-col items-center">
-              <div>{part.PartName}</div>
-              {isWeightOverloaded && <div className="text-red-500">Weight Overload</div>}
-              {isENOverloaded && <div className="text-blue-500">EN Overload</div>}
+              onClick={(event) => onPartClick(part, event, index)}>
+            <div className="flex flex-col items-center border border-gray-700 p-0.25 rounded">
+              <div className="text-xs sm:text-sm">{part.PartName}</div>
+              {/* Smaller text on small screens */}
+              <div className="text-xs sm:text-sm">
+                {isWeightOverloaded && <div className="text-red-500">Weight Overload</div>}
+                {isENOverloaded && <div className="text-blue-500">EN Overload</div>}
+              </div>
               <img src={process.env.PUBLIC_URL + '/' + part.imagePath} alt={part.PartName} className="h-24 mt-2" />
             </div>
           </li>

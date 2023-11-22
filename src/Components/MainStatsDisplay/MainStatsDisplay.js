@@ -6,14 +6,12 @@ import { getTargetTracking, computeBoostSpeed, computeAttitudeRecovery } from '.
 
 function MainStatsDisplay({ selectedParts }) {
   const [totalStats, setTotalStats] = useState({});
-  const [activeConfig, setActiveConfig] = useState('default'); // 'default', 'alternate', etc.
-
+  const [activeConfig, setActiveConfig] = useState('default');
   useEffect(() => {
     const computedStats = computeTotalStats(selectedParts);
     setTotalStats(computedStats);
   }, [selectedParts]);
 
-  // Define configurations for stats
   // Commented out stats are not yet implemented
   const statsConfigurations = {
     default: [
