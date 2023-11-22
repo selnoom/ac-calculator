@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './Components/HomePage';  // Import the HomePage component
 import Header from './Components/Header/header';
 import PartsContext from './Contexts/PartsContext';
