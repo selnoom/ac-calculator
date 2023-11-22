@@ -28,7 +28,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   }, [selectedPartsArray, partIndex]);
 
   const handleSave = () => {
-    if (partType === "legs" && clickedPart.LegType === "Tank") {
+    if (partType === "legs" && clickedPart?.LegType === "Tank") {
       const boosterIsSelected = selectedPartsArray.some(part => part && part.PartType === "Booster");
       if (boosterIsSelected) {
         setShowConfirmModal(true);
@@ -129,7 +129,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
     onClick={toggleModal}
     style={
       selectedPart ? { 
-        backgroundImage: `url(${selectedPart.imagePath})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/${selectedPart.imagePath})`,
         backgroundSize: '100% 100%', // Stretch image to fill the div
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
