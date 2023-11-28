@@ -1,0 +1,23 @@
+{
+    "PartName": "45-091 ORBT",
+    "PartClass": "Laser Orbit",
+    "AttackType": "Energy",
+    "WeaponType": "Burst",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "ALLMIND",
+    "AttackPower": 122.0,
+    "Impact": 70.0,
+    "AccumulativeImpact": 39.0,
+    "ConsecutiveHits": 3.0,
+    "DirectHitAdjustment": 125.0,
+    "IdealRange": 130.0,
+    "EffectiveRange": 220.0,
+    "RapidFire": 1.0,
+    "TotalRounds": 165.0,
+    "Cooling": 116.0,
+    "AmmunitionCost": 100.0,
+    "Weight": 2010.0,
+    "ENLoad": 446.0,
+    "imagePath": "images/shoulders/45-091_ORBT.png"
+}

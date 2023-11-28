@@ -1,0 +1,22 @@
+{
+    "PartName": "SB-033M MORLEY",
+    "PartClass": "Spread Bazooka",
+    "AttackType": "Explosive",
+    "WeaponType": "Semi-Auto",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "BALAM",
+    "AttackPower": 1360.0,
+    "Impact": 1450.0,
+    "AccumulativeImpact": 860.0,
+    "BlastRadius": 15.0,
+    "DirectHitAdjustment": 190.0,
+    "Recoil": 70.0,
+    "EffectiveRange": 510.0,
+    "TotalRounds": 20.0,
+    "ReloadTime": 5.0,
+    "AmmunitionCost": 800.0,
+    "Weight": 8480.0,
+    "ENLoad": 465.0,
+    "imagePath": "images/shoulders/SB-033M_MORLEY.png"
+}

@@ -1,0 +1,21 @@
+{
+    "PartName": "BML-G1/P29CNT",
+    "PartClass": "Container Missile Launcher",
+    "AttackType": "Explosive",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "FURLONG DYNAMICS",
+    "AttackPower": 1422.0,
+    "Impact": 1278.0,
+    "AccumulativeImpact": 828.0,
+    "DirectHitAdjustment": 140.0,
+    "Guidance": 120.0,
+    "EffectiveRange": 700.0,
+    "TotalRounds": 12.0,
+    "ReloadTime": 12.0,
+    "AmmunitionCost": 800.0,
+    "Weight": 6370.0,
+    "ENLoad": 150.0,
+    "imagePath": "images/shoulders/BML-G1-P29CNT.png"
+}

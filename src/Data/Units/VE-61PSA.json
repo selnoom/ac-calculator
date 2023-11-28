@@ -1,0 +1,20 @@
+{
+    "PartName": "VE-61PSA",
+    "PartClass": "Pulse Scutum",
+    "AttackType": "Kinetic",
+    "WeaponType": "Shield",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "ARQUEBUS CORP",
+    "DamageMitigation": 86.0,
+    "ImpactDampening": 70.0,
+    "IGDamageMitigation": 21.0,
+    "IGImpactDampening": 18.0,
+    "IGduration": 4.0,
+    "DplyHeatBuildup": 270.0,
+    "DeploymentRange": 180.0,
+    "Cooling": 113.0,
+    "Weight": 4100.0,
+    "ENLoad": 480.0,
+    "imagePath": "images/shoulders/VE-61PSA.png"
+}

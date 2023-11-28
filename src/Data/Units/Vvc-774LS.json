@@ -1,0 +1,23 @@
+{
+    "PartName": "Vvc-774LS",
+    "PartClass": "Laser Slicer",
+    "AttackType": "Energy",
+    "WeaponType": "Melee",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "VCPL",
+    "AttackPower": 1615.0,
+    "Impact": 900.0,
+    "AccumulativeImpact": 225.0,
+    "ConsecutiveHits": 2.0,
+    "ChgAttackPower": 1615.0,
+    "ChgImpact": 900.0,
+    "ChgAccumImpact": 225.0,
+    "DirectHitAdjustment": 185.0,
+    "PAInterference": 122.0,
+    "Cooling": 267.0,
+    "Weight": 3260.0,
+    "ENLoad": 328.0,
+    "imagePath": "images/units/Vvc-774LS.png",
+    "PartSlot": "Left Arm"
+}

@@ -9,12 +9,9 @@
     "AttackPower": 224.0,
     "Impact": 245.0,
     "AccumulativeImpact": 91.0,
-    "ChgAttackPower": {
-        "value": 224,
-        "times": 3
-    },
-    "ChgImpact": 245,
-    "ChgAccumImpact": 91,
+    "ChgAttackPower": "224x3",
+    "ChgImpact": "245x3",
+    "ChgAccumImpact": "91x3",
     "DirectHitAdjustment": 220.0,
     "Recoil": 12.0,
     "IdealRange": 190.0,
@@ -28,5 +25,5 @@
     "Weight": 4210.0,
     "ENLoad": 158.0,
     "imagePath": "images/units/MA-J-200_RANSETSU-RF.png",
-    "PartSlot": "Right Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

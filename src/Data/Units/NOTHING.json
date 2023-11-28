@@ -1,0 +1,17 @@
+{
+    "PartName": "NOTHING",
+    "PartClass": "Machine Gun",
+    "AttackType": "Kinetic",
+    "WeaponType": "Full-Auto",
+    "ReloadType": "Magazine",
+    "AdditionalEffects": "None",
+    "Manufacturer": "BALAM",
+    "AttackPower": 200,
+    "Impact": 600.0,
+    "AccumulativeImpact": 540.0,
+    "DirectHitAdjustment": 300.0,
+    "Weight": 0,
+    "ENLoad": 0,
+    "imagePath": "",
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+}

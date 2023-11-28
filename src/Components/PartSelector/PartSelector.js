@@ -89,12 +89,18 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   useEffect(() => {
     const calculateMaxValues = () => {
       const values = {};
-
       parts.forEach(part => {
         Object.keys(part).forEach(key => {
+          // Check if the property is a number
           if (typeof part[key] === 'number') {
             if (!values[key] || part[key] > values[key]) {
               values[key] = part[key];
+            }
+          }
+          // Check if the property is an object with a 'value' property
+          else if (part[key] && typeof part[key] === 'object' && typeof part[key].value === 'number') {
+            if (!values[key] || part[key].value > values[key]) {
+              values[key] = part[key].value;
             }
           }
         });

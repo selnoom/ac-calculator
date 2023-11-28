@@ -1,0 +1,20 @@
+{
+    "PartName": "SI-24: SU-Q5",
+    "PartClass": "Pulse Shield",
+    "AttackType": "Kinetic",
+    "WeaponType": "Shield",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "TAKIGAWA",
+    "DamageMitigation": 45.0,
+    "ImpactDampening": 25.0,
+    "IGDamageMitigation": 65.0,
+    "IGImpactDampening": 75.0,
+    "IGduration": 1.0,
+    "DplyHeatBuildup": 160.0,
+    "DeploymentRange": 180.0,
+    "Cooling": 88.0,
+    "Weight": 2010.0,
+    "ENLoad": 220.0,
+    "imagePath": "images/shoulders/SI-24__SU-Q5.png"
+}

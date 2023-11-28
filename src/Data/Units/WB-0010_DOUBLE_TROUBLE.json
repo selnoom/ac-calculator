@@ -1,0 +1,23 @@
+{
+    "PartName": "WB-0010 DOUBLE TROUBLE",
+    "PartClass": "Chainsaw",
+    "AttackType": "Kinetic",
+    "WeaponType": "Melee",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "RAD",
+    "AttackPower": 1025.0,
+    "Impact": 750.0,
+    "AccumulativeImpact": 375.0,
+    "ConsecutiveHits": 2.0,
+    "ChgAttackPower": 2460.0,
+    "ChgImpact": 1080.0,
+    "ChgAccumImpact": 540.0,
+    "DirectHitAdjustment": 270.0,
+    "PAInterference": 119.0,
+    "Cooling": 302.0,
+    "Weight": 5090.0,
+    "ENLoad": 108.0,
+    "imagePath": "images/units/WB-0010_DOUBLE_TROUBLE.png",
+    "PartSlot": "Left Arm"
+}

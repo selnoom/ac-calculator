@@ -1,0 +1,23 @@
+{
+    "PartName": "HI-32: BU-TT/A",
+    "PartClass": "Pulse Blade",
+    "AttackType": "Energy",
+    "WeaponType": "Melee",
+    "ReloadType": "Overheat",
+    "AdditionalEffects": "None",
+    "Manufacturer": "TAKIGAWA",
+    "AttackPower": 963.0,
+    "Impact": 710.0,
+    "AccumulativeImpact": 450.0,
+    "ConsecutiveHits": 2.0,
+    "ChgAttackPower": 1586.0,
+    "ChgImpact": 1200.0,
+    "ChgAccumImpact": 650.0,
+    "DirectHitAdjustment": 230.0,
+    "PAInterference": 147.0,
+    "Cooling": 282.0,
+    "Weight": 1800.0,
+    "ENLoad": 213.0,
+    "imagePath": "images/units/HI-32__BU-TT-A.png",
+    "PartSlot": "Left Arm"
+}
