@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "TAKIGAWA",
     "AttackPower": 963.0,
     "Impact": 710.0,
@@ -19,5 +18,5 @@
     "Weight": 1800.0,
     "ENLoad": 213.0,
     "imagePath": "images/units/HI-32__BU-TT-A.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

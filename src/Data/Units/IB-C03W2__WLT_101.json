@@ -4,7 +4,6 @@
     "AttackType": "Coral",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
     "AttackPower": 1350.0,
     "Impact": 960.0,
@@ -19,5 +18,5 @@
     "Weight": 2030.0,
     "ENLoad": 642.0,
     "imagePath": "images/units/IB-C03W2__WLT_101.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

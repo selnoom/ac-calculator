@@ -5,7 +5,7 @@
     "WeaponType": "Full-Auto",
     "ReloadType": "Overheat",
     "AdditionalEffects": "ACS Failure",
-    "Manufacturer": "RAD",
+    "Manufacturer": "RaD",
     "AttackPower": 85.0,
     "Impact": 3.0,
     "AccumulativeImpact": 1.0,
@@ -20,5 +20,5 @@
     "Weight": 6210.0,
     "ENLoad": 403.0,
     "imagePath": "images/units/WB-0000_BAD_COOK.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

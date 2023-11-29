@@ -6,20 +6,29 @@
     "ReloadType": "Single Shot",
     "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
-    "AttackPower": 486.0,
-    "Impact": 540.0,
-    "AccumulativeImpact": 378.0,
-    "BlastRadius": 12.0,
-    "ConsecutiveHits": 2.0,
-    "DirectHitAdjustment": 165.0,
-    "Guidance": 90.0,
-    "EffectiveRange": 1000.0,
+    "AttackPower": {
+        "value": 486,
+        "times": 2
+    },
+    "Impact": {
+        "value": 540,
+        "times": 2
+    },
+    "AccumulativeImpact": {
+        "value": 378,
+        "times": 2
+    },
+    "BlastRadius": 12,
+    "DirectHitAdjustment": 165,
+    "Guidance": 90,
+    "EffectiveRange": 1000,
     "HomingLockTime": 4.0,
-    "MaxLockCount": 2.0,
-    "TotalRounds": 72.0,
+    "MaxLockCount": 2,
+    "TotalRounds": 72,
     "ReloadTime": 4.2,
-    "AmmunitionCost": 450.0,
-    "Weight": 4320.0,
-    "ENLoad": 424.0,
-    "imagePath": "images/shoulders/BML-G3-P05ACT-02.png"
+    "AmmunitionCost": 450,
+    "Weight": 4320,
+    "ENLoad": 424,
+    "imagePath": "images/shoulders/BML-G3-P05ACT-02.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

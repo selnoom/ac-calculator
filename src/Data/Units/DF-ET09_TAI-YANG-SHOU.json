@@ -4,7 +4,6 @@
     "AttackType": "Explosive",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
     "Manufacturer": "DAFENG",
     "AttackPower": 1142.0,
     "Impact": 830.0,
@@ -15,12 +14,12 @@
     "ChgAccumImpact": 650.0,
     "ChgBlastRadius": 25.0,
     "DirectHitAdjustment": 190.0,
-    "EffectiveRange": 80.0,
-    "TotalRounds": 25.0,
-    "ReloadTime": 4.0,
+    "EffectiveRange": 125.0,
+    "TotalRounds": 48.0,
+    "ReloadTime": 3.1,
     "AmmunitionCost": 600.0,
     "Weight": 3790.0,
     "ENLoad": 160.0,
     "imagePath": "images/units/DF-ET09_TAI-YANG-SHOU.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

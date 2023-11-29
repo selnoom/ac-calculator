@@ -4,16 +4,23 @@
     "AttackType": "Explosive",
     "WeaponType": "Homing",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
-    "Manufacturer": "RAD",
-    "AttackPower": 78.0,
-    "Impact": 78.0,
-    "AccumulativeImpact": 47.0,
-    "ConsecutiveHits": 13.0,
+    "Manufacturer": "RaD",
+    "AttackPower": {
+        "value": 78,
+        "times": 13
+    },
+    "Impact": {
+        "value": 78,
+        "times": 13
+    },
+    "AccumulativeImpact": {
+        "value": 47,
+        "times": 13
+    },
     "DirectHitAdjustment": 155.0,
     "Guidance": 220.0,
     "EffectiveRange": 1200.0,
-    "HomingLockTime": 0.5,
+    "HomingLockTime": 0.6,
     "MaxLockCount": 1.0,
     "TotalRounds": 338.0,
     "ReloadTime": 5.0,
@@ -21,5 +28,5 @@
     "Weight": 4600.0,
     "ENLoad": 165.0,
     "imagePath": "images/units/WS-5000_APERITIF.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

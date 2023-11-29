@@ -1,25 +1,34 @@
 {
     "PartName": "EL-PW-01 TRUENO",
-    "PartClass": "Needle Missle Launcher",
+    "PartClass": "Needle Missile Launcher",
     "AttackType": "Kinetic",
     "WeaponType": "Homing",
     "ReloadType": "Single Shot",
     "AdditionalEffects": "None",
     "Manufacturer": "ELCANO FOUNDRY",
-    "AttackPower": 415.0,
-    "Impact": 385.0,
-    "AccumulativeImpact": 215.0,
-    "ConsecutiveHits": 2.0,
-    "DirectHitAdjustment": 215.0,
-    "Guidance": 120.0,
-    "IdealRange": 310.0,
-    "EffectiveRange": 410.0,
+    "AttackPower": {
+        "value": 415,
+        "times": 2
+    },
+    "Impact": {
+        "value": 385,
+        "times": 2
+    },
+    "AccumulativeImpact": {
+        "value": 215,
+        "times": 2
+    },
+    "DirectHitAdjustment": 215,
+    "Guidance": 120,
+    "IdealRange": 310,
+    "EffectiveRange": 410,
     "HomingLockTime": 4.2,
-    "MaxLockCount": 1.0,
-    "TotalRounds": 62.0,
+    "MaxLockCount": 1,
+    "TotalRounds": 62,
     "ReloadTime": 4.2,
-    "AmmunitionCost": 300.0,
-    "Weight": 3100.0,
-    "ENLoad": 420.0,
+    "AmmunitionCost": 300,
+    "Weight": 3100,
+    "ENLoad": 420,
+    "PartSlot": ["Right Shoulder", "Left Shoulder"],
     "imagePath": "images/shoulders/EL-PW-01_TRUENO.png"
 }

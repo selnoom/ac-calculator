@@ -4,7 +4,6 @@
     "AttackType": "Kinetic",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
     "AttackPower": 576.0,
     "Impact": 360.0,
@@ -19,5 +18,5 @@
     "Weight": 3660.0,
     "ENLoad": 185.0,
     "imagePath": "images/units/SG-026_HALDEMAN.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

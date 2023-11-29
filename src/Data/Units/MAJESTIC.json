@@ -2,10 +2,9 @@
     "PartName": "MAJESTIC",
     "PartClass": "Bazooka",
     "AttackType": "Explosive",
-    "WeaponType": "Semi-Auto",
+    "WeaponType": "Burst",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
-    "Manufacturer": "MELINITE",
+    "Manufacturer": "Melinite",
     "AttackPower": 1109.0,
     "Impact": 1090.0,
     "AccumulativeImpact": 850.0,
@@ -19,5 +18,5 @@
     "Weight": 4660.0,
     "ENLoad": 178.0,
     "imagePath": "images/units/MAJESTIC.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

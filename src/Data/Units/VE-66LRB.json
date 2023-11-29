@@ -4,8 +4,7 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
-    "Manufacturer": "ARQUEBUS CORP",
+    "Manufacturer": "Arquebus Advanced Development Division",
     "AttackPower": 778.0,
     "Impact": 288.0,
     "AccumulativeImpact": 134.0,
@@ -28,5 +27,5 @@
     "Weight": 7760.0,
     "ENLoad": 604.0,
     "imagePath": "images/units/VE-66LRB.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

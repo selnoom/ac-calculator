@@ -6,19 +6,29 @@
     "ReloadType": "Single Shot",
     "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
-    "AttackPower": 103.0,
-    "Impact": 72.0,
-    "AccumulativeImpact": 43.0,
-    "ConsecutiveHits": 4.0,
-    "DirectHitAdjustment": 145.0,
-    "Guidance": 180.0,
-    "EffectiveRange": 2500.0,
+    "AttackPower": {
+        "value": 103,
+        "times": 4
+    },
+    "Impact": {
+        "value": 72,
+        "times": 4
+    },
+    "AccumulativeImpact": {
+        "value": 43,
+        "times": 4
+    },
+    "ConsecutiveHits": 4,
+    "DirectHitAdjustment": 145,
+    "Guidance": 180,
+    "EffectiveRange": 2500,
     "HomingLockTime": 0.3,
-    "MaxLockCount": 4.0,
-    "TotalRounds": 140.0,
-    "ReloadTime": 4.0,
-    "AmmunitionCost": 80.0,
-    "Weight": 2120.0,
-    "ENLoad": 154.0,
-    "imagePath": "images/shoulders/BML-G1-P20MLT-04.png"
+    "MaxLockCount": 4,
+    "TotalRounds": 140,
+    "ReloadTime": 4,
+    "AmmunitionCost": 80,
+    "Weight": 2120,
+    "ENLoad": 154,
+    "imagePath": "images/shoulders/BML-G1-P20MLT-04.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

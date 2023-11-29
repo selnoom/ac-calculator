@@ -73,10 +73,26 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   // Toggle the modal's visibility. If opening the modal for the first time, load the parts.
   const toggleModal = async () => {
     if (!showList && parts.length === 0) {
-      const parts = loadDataForPartType(partType);
-      setParts(parts);
+        const allowedSlots = determineAllowedSlots(selectorIndex);
+        const parts = loadDataForPartType(partType, allowedSlots); // Pass partType and allowedSlots
+        setParts(parts);
     }
     setShowList(prevShowList => !prevShowList);
+  };
+
+  const determineAllowedSlots = (selectorIndex) => {
+    switch (selectorIndex) {
+      case 0: // Right Arm
+        return ["Right Arm"];
+      case 1: // Left Arm
+        return ["Left Arm", "Right Arm"];
+      case 2: // Right Shoulder
+        return ["Right Shoulder", "Right Arm"];
+      case 3: // Left Shoulder
+        return ["Left Shoulder", "Right Shoulder", "Left Arm", "Right Arm"];
+      default:
+        return [];
+    }
   };
 
   const handleClearPart = (event) => {

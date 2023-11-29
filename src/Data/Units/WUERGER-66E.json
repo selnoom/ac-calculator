@@ -4,10 +4,9 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
-    "Manufacturer": "SCHNEIDER",
+    "Manufacturer": "Schneider",
     "AttackPower": 504.0,
-    "Impact": 405.0,
+    "Impact": 505.0,
     "AccumulativeImpact": 144.0,
     "ATKHeatBuildup": 180.0,
     "ChgAttackPower": 1459.0,
@@ -28,5 +27,5 @@
     "Weight": 2880.0,
     "ENLoad": 440.0,
     "imagePath": "images/units/WUERGER-66E.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

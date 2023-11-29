@@ -2,9 +2,8 @@
     "PartName": "44-141 JVLN ALPHA",
     "PartClass": "Detonating Bazooka",
     "AttackType": "Explosive",
-    "WeaponType": "Semi-Auto",
-    "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
+    "WeaponType": "Burst",
+    "ReloadType": "Single Shot/Magazine",
     "Manufacturer": "ALLMIND",
     "AttackPower": 1075.0,
     "Impact": 1390.0,
@@ -19,5 +18,5 @@
     "Weight": 7420.0,
     "ENLoad": 299.0,
     "imagePath": "images/units/44-141_JVLN_ALPHA.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

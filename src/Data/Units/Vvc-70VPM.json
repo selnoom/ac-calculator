@@ -1,5 +1,5 @@
 {
-    "PartName": "Vvc-70PM",
+    "PartName": "Vvc-70VPM",
     "PartClass": "Plasma Missile Launcher",
     "AttackType": "Energy",
     "WeaponType": "Homing",
@@ -20,5 +20,5 @@
     "AmmunitionCost": 150.0,
     "Weight": 3760.0,
     "ENLoad": 268.0,
-    "imagePath": "images/shoulders/Vvc-70PM.png"
+    "imagePath": "images/shoulders/Vvc-70VPM.png"
 }

@@ -2,15 +2,23 @@
     "PartName": "WS-1200 THERAPIST",
     "PartClass": "Stun Bomb Launcher",
     "AttackType": "Energy",
-    "WeaponType": "Charge",
-    "ReloadType": "Magazine",
+    "WeaponType": "Burst",
+    "ReloadType": "Single Shot",
     "AdditionalEffects": "Shock",
-    "Manufacturer": "RAD",
-    "AttackPower": 92.0,
-    "Impact": 107.0,
-    "AccumulativeImpact": 46.0,
+    "Manufacturer": "RaD",
+    "AttackPower": {
+        "value": 92,
+        "times": 3
+    },
+    "Impact": {
+        "value": 107,
+        "times": 3
+    },
+    "AccumulativeImpact": {
+        "value": 46,
+        "times": 3
+    },
     "BlastRadius": 20.0,
-    "ConsecutiveHits": 3.0,
     "DirectHitAdjustment": 130.0,
     "Recoil": 40.0,
     "ChargeTime": 0.8,
@@ -20,5 +28,5 @@
     "Weight": 3180.0,
     "ENLoad": 82.0,
     "imagePath": "images/units/WS-1200_THERAPIST.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

@@ -4,8 +4,7 @@
     "AttackType": "Kinetic",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
-    "Manufacturer": "ELCANO FOUNDRY",
+    "Manufacturer": "Elcano Foundry",
     "AttackPower": 181.0,
     "Impact": 195.0,
     "AccumulativeImpact": 127.0,
@@ -21,5 +20,5 @@
     "Weight": 1180.0,
     "ENLoad": 215.0,
     "imagePath": "images/units/EL-PW-00_VIENTO.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

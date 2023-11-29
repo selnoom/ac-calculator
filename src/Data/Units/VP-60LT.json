@@ -6,19 +6,28 @@
     "ReloadType": "Magazine",
     "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
-    "AttackPower": 146.0,
-    "Impact": 81.0,
-    "AccumulativeImpact": 39.0,
-    "ConsecutiveHits": 6.0,
-    "DirectHitAdjustment": 135.0,
-    "IdealRange": 250.0,
-    "EffectiveRange": 304.0,
+    "AttackPower": {
+        "value": 146,
+        "times": 6
+    },
+    "Impact": {
+        "value": 81,
+        "times": 6
+    },
+    "AccumulativeImpact": {
+        "value": 39,
+        "times": 6
+    },
+    "DirectHitAdjustment": 135,
+    "IdealRange": 250,
+    "EffectiveRange": 304,
     "RapidFire": 0.9,
     "MagazineRounds": 3.0,
-    "TotalRounds": 52.0,
+    "TotalRounds": 52,
     "ReloadTime": 5.0,
-    "AmmunitionCost": 500.0,
-    "Weight": 2800.0,
-    "ENLoad": 560.0,
+    "AmmunitionCost": 500,
+    "Weight": 2800,
+    "ENLoad": 560,
+    "PartSlot": ["Right Shoulder", "Left Shoulder"],
     "imagePath": "images/shoulders/VP-60LT.png"
 }

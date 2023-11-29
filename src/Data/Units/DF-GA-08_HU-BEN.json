@@ -4,12 +4,10 @@
     "AttackType": "Kinetic",
     "WeaponType": "Full-Auto",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
-    "Manufacturer": "DAFENG",
+    "Manufacturer": "Dafeng Core Industry",
     "AttackPower": 25.0,
     "Impact": 25.0,
     "AccumulativeImpact": 11.0,
-    "ATKHeatBuildup": 9.0,
     "DirectHitAdjustment": 215.0,
     "Recoil": 5.0,
     "IdealRange": 130.0,
@@ -21,5 +19,5 @@
     "Weight": 5800.0,
     "ENLoad": 425.0,
     "imagePath": "images/units/DF-GA-08_HU-BEN.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

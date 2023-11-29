@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "SCHNEIDER",
     "AttackPower": 455.0,
     "Impact": 640.0,
@@ -21,5 +20,6 @@
     "AmmunitionCost": 400.0,
     "Weight": 3060.0,
     "ENLoad": 620.0,
-    "imagePath": "images/shoulders/EULE-60D.png"
+    "imagePath": "images/shoulders/EULE-60D.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

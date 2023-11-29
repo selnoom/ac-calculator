@@ -4,9 +4,8 @@
     "AttackType": "Kinetic",
     "WeaponType": "Full-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
-    "Manufacturer": "DAFENG",
-    "AttackPower": 32.0,
+    "Manufacturer": "Dafeng Core Industry",
+    "AttackPower": 39.0,
     "Impact": 40.0,
     "AccumulativeImpact": 18.0,
     "DirectHitAdjustment": 195.0,
@@ -15,11 +14,11 @@
     "EffectiveRange": 220.0,
     "RapidFire": 10.0,
     "MagazineRounds": 45.0,
-    "TotalRounds": 720.0,
-    "ReloadTime": 2.8,
+    "TotalRounds": 990.0,
+    "ReloadTime": 2.2,
     "AmmunitionCost": 20.0,
     "Weight": 3280.0,
     "ENLoad": 143.0,
     "imagePath": "images/units/DF-MG-02_CHANG-CHEN.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

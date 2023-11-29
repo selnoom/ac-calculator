@@ -4,7 +4,6 @@
     "AttackType": "Kinetic",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
     "AttackPower": 166.0,
     "Impact": 235.0,
@@ -21,5 +20,5 @@
     "Weight": 1200.0,
     "ENLoad": 122.0,
     "imagePath": "images/units/HG-003_COQUILLETT.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

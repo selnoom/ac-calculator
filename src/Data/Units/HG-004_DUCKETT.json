@@ -4,8 +4,7 @@
     "AttackType": "Kinetic",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
-    "Manufacturer": "BALAM",
+    "Manufacturer": "Balam Industries",
     "AttackPower": 235.0,
     "Impact": 300.0,
     "AccumulativeImpact": 151.0,
@@ -21,5 +20,5 @@
     "Weight": 1650.0,
     "ENLoad": 158.0,
     "imagePath": "images/units/HG-004_DUCKETT.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

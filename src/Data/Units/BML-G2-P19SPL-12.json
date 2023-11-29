@@ -1,24 +1,34 @@
 {
     "PartName": "BML-G2/P19SPL-12",
-    "PartClass": "Split Missle Launcher",
+    "PartClass": "Split Missile Launcher",
     "AttackType": "Explosive",
     "WeaponType": "Homing",
     "ReloadType": "Single Shot",
     "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
-    "AttackPower": 600.0,
-    "Impact": 402.0,
-    "AccumulativeImpact": 240.0,
-    "ConsecutiveHits": 2.0,
-    "DirectHitAdjustment": 140.0,
-    "Guidance": 135.0,
-    "EffectiveRange": 1425.0,
+    "AttackPower": {
+        "value": 600,
+        "times": 2
+    },
+    "Impact": {
+        "value": 402,
+        "times": 2
+    },
+    "AccumulativeImpact": {
+        "value": 240,
+        "times": 2
+    },
+    "ConsecutiveHits": 2,
+    "DirectHitAdjustment": 140,
+    "Guidance": 135,
+    "EffectiveRange": 1425,
     "HomingLockTime": 1.5,
-    "MaxLockCount": 2.0,
-    "TotalRounds": 80.0,
-    "ReloadTime": 6.0,
-    "AmmunitionCost": 400.0,
-    "Weight": 3580.0,
-    "ENLoad": 325.0,
-    "imagePath": "images/shoulders/BML-G2-P19SPL-12.png"
+    "MaxLockCount": 2,
+    "TotalRounds": 80,
+    "ReloadTime": 6,
+    "AmmunitionCost": 400,
+    "Weight": 3580,
+    "ENLoad": 325,
+    "imagePath": "images/shoulders/BML-G2-P19SPL-12.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

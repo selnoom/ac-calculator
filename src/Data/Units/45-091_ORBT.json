@@ -6,18 +6,27 @@
     "ReloadType": "Overheat",
     "AdditionalEffects": "None",
     "Manufacturer": "ALLMIND",
-    "AttackPower": 122.0,
-    "Impact": 70.0,
-    "AccumulativeImpact": 39.0,
-    "ConsecutiveHits": 3.0,
-    "DirectHitAdjustment": 125.0,
-    "IdealRange": 130.0,
-    "EffectiveRange": 220.0,
+    "AttackPower": {
+        "value": 122,
+        "times": 3
+    },
+    "Impact": {
+        "value": 70,
+        "times": 3
+    },
+    "AccumulativeImpact": {
+        "value": 39,
+        "times": 3
+    },
+    "DirectHitAdjustment": 125,
+    "IdealRange": 130,
+    "EffectiveRange": 220,
     "RapidFire": 1.0,
-    "TotalRounds": 165.0,
-    "Cooling": 116.0,
-    "AmmunitionCost": 100.0,
-    "Weight": 2010.0,
-    "ENLoad": 446.0,
+    "TotalRounds": 165,
+    "Cooling": 116,
+    "AmmunitionCost": 100,
+    "Weight": 2010,
+    "ENLoad": 446,
+    "PartSlot": ["Right Shoulder", "Left Shoulder"],
     "imagePath": "images/shoulders/45-091_ORBT.png"
 }

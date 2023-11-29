@@ -2,9 +2,9 @@
     "PartName": "MA-T-223 KYORIKU",
     "PartClass": "Jamming Bomb Launcher",
     "AttackType": "Kinetic",
-    "WeaponType": "Charge",
+    "WeaponType": "Burst",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "Camera Disruption",
+    "AdditionalEffects": "Target Lock Disruption",
     "Manufacturer": "BAWS",
     "AttackPower": 0.0,
     "Impact": 45.0,
@@ -19,5 +19,5 @@
     "Weight": 2600.0,
     "ENLoad": 52.0,
     "imagePath": "images/units/MA-T-223_KYORIKU.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Full-Auto",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "SCHNEIDER",
     "AttackPower": 85.0,
     "Impact": 20.0,
@@ -20,5 +19,6 @@
     "AmmunitionCost": 40.0,
     "Weight": 2100.0,
     "ENLoad": 652.0,
-    "imagePath": "images/shoulders/KRANICH-60Z.png"
+    "imagePath": "images/shoulders/KRANICH-60Z.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

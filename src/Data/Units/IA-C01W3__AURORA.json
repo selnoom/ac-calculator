@@ -6,20 +6,30 @@
     "ReloadType": "Single Shot",
     "AdditionalEffects": "None",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
-    "AttackPower": 134.0,
-    "Impact": 102.0,
-    "AccumulativeImpact": 102.0,
-    "ConsecutiveHits": 4.0,
-    "DirectHitAdjustment": 175.0,
-    "PAInterference": 117.0,
-    "Guidance": 240.0,
-    "EffectiveRange": 930.0,
+    "AttackPower": {
+        "value": 134,
+        "times": 4
+    },
+    "Impact": {
+        "value": 102,
+        "times": 4
+    },
+    "AccumulativeImpact": {
+        "value": 102,
+        "times": 4
+    },
+    "ConsecutiveHits": 4,
+    "DirectHitAdjustment": 175,
+    "PAInterference": 117,
+    "Guidance": 240,
+    "EffectiveRange": 930,
     "HomingLockTime": 3.3,
-    "MaxLockCount": 4.0,
-    "TotalRounds": 100.0,
+    "MaxLockCount": 4,
+    "TotalRounds": 100,
     "ReloadTime": 5.5,
-    "AmmunitionCost": 80.0,
-    "Weight": 3330.0,
-    "ENLoad": 522.0,
-    "imagePath": "images/shoulders/IA-C01W3__AURORA.png"
+    "AmmunitionCost": 80,
+    "Weight": 3330,
+    "ENLoad": 522,
+    "imagePath": "images/shoulders/IA-C01W3__AURORA.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

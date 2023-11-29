@@ -6,19 +6,29 @@
     "ReloadType": "Magazine",
     "AdditionalEffects": "None",
     "Manufacturer": "RAD",
-    "AttackPower": 78.0,
-    "Impact": 77.0,
-    "AccumulativeImpact": 55.0,
-    "ConsecutiveHits": 10.0,
-    "DirectHitAdjustment": 145.0,
-    "Guidance": 180.0,
-    "EffectiveRange": 2500.0,
+    "AttackPower": {
+        "value": 78,
+        "times": 10
+    },
+    "Impact": {
+        "value": 77,
+        "times": 10
+    },
+    "AccumulativeImpact": {
+        "value": 55,
+        "times": 10
+    },
+    "ConsecutiveHits": 10,
+    "DirectHitAdjustment": 145,
+    "Guidance": 180,
+    "EffectiveRange": 2500,
     "HomingLockTime": 0.5,
-    "MaxLockCount": 1.0,
-    "TotalRounds": 420.0,
+    "MaxLockCount": 1,
+    "TotalRounds": 420,
     "ReloadTime": 8.0,
-    "AmmunitionCost": 50.0,
-    "Weight": 5620.0,
-    "ENLoad": 680.0,
+    "AmmunitionCost": 50,
+    "Weight": 5620,
+    "ENLoad": 680,
+    "PartSlot": ["Right Shoulder", "Left Shoulder"],
     "imagePath": "images/shoulders/WS-5001_SOUP.png"
 }

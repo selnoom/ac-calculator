@@ -4,23 +4,30 @@
     "AttackType": "Kinetic",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ALLMIND",
     "AttackPower": 1381.0,
     "Impact": 810.0,
     "AccumulativeImpact": 520.0,
     "ConsecutiveHits": 2.0,
-    "ChgAttackPower": 265.0,
-    "ChgImpact": 33.0,
-    "ChgAccumImpact": 22.0,
+    "ChgAttackPower": {
+        "value": 265,
+        "times": 6
+    },
+    "ChgImpact": {
+        "value": 33,
+        "times": 6
+    },
+    "ChgAccumImpact": {
+        "value": 22,
+        "times": 6
+    },
     "ChgBlastRadius": 20.0,
-    "ChgConsecutiveHits": 6.0,
     "DirectHitAdjustment": 165.0,
     "PAInterference": 142.0,
     "EffectiveRange": 78.0,
-    "Cooling": 368.0,
+    "Cooling": 366.0,
     "Weight": 2410.0,
     "ENLoad": 311.0,
     "imagePath": "images/units/44-143_HMMR.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

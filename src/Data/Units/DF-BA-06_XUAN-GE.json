@@ -4,12 +4,11 @@
     "AttackType": "Explosive",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
-    "Manufacturer": "DAFENG",
+    "Manufacturer": "Dafeng Core Industry",
     "AttackPower": 895.0,
     "Impact": 980.0,
     "AccumulativeImpact": 765.0,
-    "BlastRadius": 15.0,
+    "BlastRadius": 18.0,
     "DirectHitAdjustment": 185.0,
     "Recoil": 90.0,
     "EffectiveRange": 740.0,
@@ -19,5 +18,5 @@
     "Weight": 5480.0,
     "ENLoad": 240.0,
     "imagePath": "images/units/DF-BA-06_XUAN-GE.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

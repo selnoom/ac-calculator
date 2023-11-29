@@ -5,7 +5,7 @@ function ModalStatsDisplay({ clickedPart, maxValues }) {
     if (!clickedPart) return null;
 
     const formatStatValue = (key, value) => {
-      if (typeof value === 'object' && value.value && value.times) {
+      if (typeof value === 'object' && value !== null && 'value' in value && 'times' in value) {
         // Return a string in the format "value x times"
         return `${value.value} x ${value.times}`;
       } else if (typeof value === 'number') {

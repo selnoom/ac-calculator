@@ -4,17 +4,24 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 175.0,
-    "Impact": 95.0,
+    "Impact": 85.0,
     "AccumulativeImpact": 39.0,
     "ATKHeatBuildup": 90.0,
-    "ChgAttackPower": 175.0,
-    "ChgImpact": 95.0,
-    "ChgAccumImpact": 39.0,
+    "ChgAttackPower": {
+        "value": 175,
+        "times": 6
+    },
+    "ChgImpact": {
+        "value": 95,
+        "times": 6
+    },
+    "ChgAccumImpact": {
+        "value": 39,
+        "times": 6
+    },
     "ChgHeatBuildup": 90.0,
-    "ChgConsecutiveHits": 6.0,
     "DirectHitAdjustment": 140.0,
     "Recoil": 17.0,
     "IdealRange": 190.0,
@@ -28,5 +35,5 @@
     "Weight": 2800.0,
     "ENLoad": 395.0,
     "imagePath": "images/units/VP-66LH.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

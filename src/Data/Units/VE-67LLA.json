@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 1151.0,
     "Impact": 800.0,
@@ -13,11 +12,11 @@
     "ChgAttackPower": 1151.0,
     "ChgImpact": 800.0,
     "ChgAccumImpact": 400.0,
-    "DirectHitAdjustment": 195.0,
+    "DirectHitAdjustment": 185.0,
     "PAInterference": 131.0,
     "Cooling": 263.0,
     "Weight": 4520.0,
     "ENLoad": 460.0,
     "imagePath": "images/units/VE-67LLA.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

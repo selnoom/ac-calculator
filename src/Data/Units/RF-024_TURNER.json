@@ -4,9 +4,8 @@
     "AttackType": "Kinetic",
     "WeaponType": "Full-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
-    "AttackPower": 87.0,
+    "AttackPower": 105.0,
     "Impact": 65.0,
     "AccumulativeImpact": 25.0,
     "ConsecutiveHits": 3.0,
@@ -17,10 +16,11 @@
     "RapidFire": 3.4,
     "MagazineRounds": 18.0,
     "TotalRounds": 540.0,
-    "ReloadTime": 2.8,
+    "ReloadTime": 2.2,
     "AmmunitionCost": 40.0,
     "Weight": 3560.0,
     "ENLoad": 102.0,
+    "Cooling": 167.0,
     "imagePath": "images/units/RF-024_TURNER.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

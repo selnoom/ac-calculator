@@ -4,12 +4,19 @@
     "AttackType": "Kinetic",
     "WeaponType": "Burst",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "BAWS",
-    "AttackPower": 87.0,
-    "Impact": 105.0,
-    "AccumulativeImpact": 64.0,
-    "ConsecutiveHits": 2.0,
+    "AttackPower": {
+        "value": 87,
+        "times": 2
+    },
+    "Impact": {
+        "value": 105,
+        "times": 2
+    },
+    "AccumulativeImpact": {
+        "value": 64,
+        "times": 2
+    },
     "DirectHitAdjustment": 125.0,
     "Recoil": 15.0,
     "IdealRange": 80.0,
@@ -22,5 +29,5 @@
     "Weight": 960.0,
     "ENLoad": 62.0,
     "imagePath": "images/units/MA-E-211_SAMPU.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

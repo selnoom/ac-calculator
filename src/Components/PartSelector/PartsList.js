@@ -18,7 +18,10 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
 
   return (
     <ul>
-      {parts.filter(part => part.PartName.toLowerCase().includes(filterText.toLowerCase())).map((part, index) => {
+      {parts.filter(part => 
+        part.PartName.toLowerCase().includes(filterText.toLowerCase()) || 
+        (part.PartClass?.toLowerCase().includes(filterText.toLowerCase()))
+      ).map((part, index) => {
         const isWeightOverloaded = checkTotalLoadOverload(part, totalLoad, maxLoadLimit, selectedPartsArray);
         const isENOverloaded = checkTotalENOverload(part, totalENLoad, maxENLoadLimit, selectedPartsArray);
         
@@ -26,7 +29,9 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
           <li className={`p-2 cursor-pointer ${clickedPart === part ? 'bg-cyan-900' : 'hover:bg-gray-600'}`} key={part.PartName}
               onClick={(event) => onPartClick(part, event, index)}>
             <div className="flex flex-col items-center border border-gray-700 p-0.25 rounded">
-              <div className="text-xs sm:text-sm">{part.PartName}</div>
+              <div className="text-xs sm:text-sm">
+                {part.PartName}{part.PartClass ? `, ${part.PartClass}` : ''}
+              </div>
               {/* Smaller text on small screens */}
               <div className="text-xs sm:text-sm">
                 {isWeightOverloaded && <div className="text-red-500">Weight Overload</div>}

@@ -4,8 +4,7 @@
     "AttackType": "Kinetic",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
-    "Manufacturer": "BALAM",
+    "Manufacturer": "Balam Industries",
     "AttackPower": 900.0,
     "Impact": 840.0,
     "AccumulativeImpact": 420.0,
@@ -19,5 +18,5 @@
     "Weight": 4400.0,
     "ENLoad": 242.0,
     "imagePath": "images/units/SG-027_ZIMMERMAN.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

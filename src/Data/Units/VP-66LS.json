@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 560.0,
     "Impact": 304.0,
@@ -29,5 +28,5 @@
     "Weight": 3540.0,
     "ENLoad": 510.0,
     "imagePath": "images/units/VP-66LS.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

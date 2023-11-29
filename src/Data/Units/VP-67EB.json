@@ -4,7 +4,6 @@
     "AttackType": "Kinetic",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "Shock",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 229.0,
     "Impact": 215.0,
@@ -19,5 +18,5 @@
     "Weight": 1720.0,
     "ENLoad": 198.0,
     "imagePath": "images/units/VP-67EB.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

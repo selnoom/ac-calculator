@@ -4,7 +4,6 @@
     "AttackType": "Explosive",
     "WeaponType": "Semi-Auto",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
     "AttackPower": 2098.0,
     "Impact": 1455.0,
@@ -14,9 +13,10 @@
     "Recoil": 70.0,
     "EffectiveRange": 720.0,
     "TotalRounds": 16.0,
-    "ReloadTime": 12.8,
+    "ReloadTime": 9.3,
     "AmmunitionCost": 1600.0,
     "Weight": 7230.0,
     "ENLoad": 386.0,
-    "imagePath": "images/shoulders/EARSHOT.png"
+    "imagePath": "images/shoulders/EARSHOT.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

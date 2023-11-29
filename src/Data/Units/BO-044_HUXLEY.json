@@ -6,18 +6,27 @@
     "ReloadType": "Overheat",
     "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
-    "AttackPower": 28.0,
-    "Impact": 39.0,
-    "AccumulativeImpact": 15.0,
-    "ConsecutiveHits": 8.0,
-    "DirectHitAdjustment": 175.0,
-    "IdealRange": 130.0,
-    "EffectiveRange": 205.0,
+    "AttackPower": {
+        "value": 28,
+        "times": 8
+    },
+    "Impact": {
+        "value": 39,
+        "times": 8
+    },
+    "AccumulativeImpact": {
+        "value": 15,
+        "times": 8
+    },
+    "DirectHitAdjustment": 175,
+    "IdealRange": 130,
+    "EffectiveRange": 205,
     "RapidFire": 5.6,
-    "TotalRounds": 240.0,
-    "Cooling": 95.0,
-    "AmmunitionCost": 50.0,
-    "Weight": 2230.0,
-    "ENLoad": 435.0,
+    "TotalRounds": 240,
+    "Cooling": 95,
+    "AmmunitionCost": 50,
+    "Weight": 2230,
+    "ENLoad": 435,
+    "PartSlot": ["Right Shoulder", "Left Shoulder"],
     "imagePath": "images/shoulders/BO-044_HUXLEY.png"
 }

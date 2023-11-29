@@ -4,13 +4,12 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 1308.0,
     "Impact": 648.0,
     "AccumulativeImpact": 204.0,
     "ATKHeatBuildup": 440.0,
-    "ChgAttack": 1782.0,
+    "ChgAttackPower": 1782.0,
     "ChgImpact": 980.0,
     "ChgAccumImpact": 439.0,
     "ChgBlastRadius": 45.0,
@@ -28,5 +27,6 @@
     "AmmunitionCost": 650.0,
     "Weight": 7620.0,
     "ENLoad": 784.0,
-    "imagePath": "images/shoulders/VP-60LCD.png"
+    "imagePath": "images/shoulders/VP-60LCD.png",
+    "PartSlot": ["Right Shoulder", "Left Shoulder"]
 }

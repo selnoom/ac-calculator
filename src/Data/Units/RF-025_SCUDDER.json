@@ -4,9 +4,8 @@
     "AttackType": "Kinetic",
     "WeaponType": "Full-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "BALAM",
-    "AttackPower": 110.0,
+    "AttackPower": 135.0,
     "Impact": 82.0,
     "AccumulativeImpact": 35.0,
     "ConsecutiveHits": 3.0,
@@ -17,10 +16,11 @@
     "RapidFire": 2.9,
     "MagazineRounds": 15.0,
     "TotalRounds": 450.0,
-    "ReloadTime": 3.2,
+    "ReloadTime": 2.4,
     "AmmunitionCost": 50.0,
     "Weight": 3830.0,
     "ENLoad": 153.0,
+    "Cooling": 167.0,
     "imagePath": "images/units/RF-025_SCUDDER.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

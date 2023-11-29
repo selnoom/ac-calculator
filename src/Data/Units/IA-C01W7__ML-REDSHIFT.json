@@ -4,7 +4,6 @@
     "AttackType": "Coral",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
     "AttackPower": 727.0,
     "Impact": 530.0,
@@ -20,5 +19,5 @@
     "Weight": 2200.0,
     "ENLoad": 544.0,
     "imagePath": "images/units/IA-C01W7__ML-REDSHIFT.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

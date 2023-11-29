@@ -6,19 +6,28 @@
     "ReloadType": "Magazine",
     "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
-    "AttackPower": 122.0,
-    "Impact": 76.0,
-    "AccumulativeImpact": 50.0,
-    "ConsecutiveHits": 4.0,
-    "DirectHitAdjustment": 150.0,
-    "Guidance": 125.0,
-    "EffectiveRange": 500.0,
+    "AttackPower": {
+        "value": 122,
+        "times": 4
+    },
+    "Impact": {
+        "value": 76,
+        "times": 4
+    },
+    "AccumulativeImpact": {
+        "value": 50,
+        "times": 4
+    },
+    "DirectHitAdjustment": 150,
+    "Guidance": 125,
+    "EffectiveRange": 500,
     "HomingLockTime": 0.4,
-    "MaxLockCount": 2.0,
-    "TotalRounds": 124.0,
+    "MaxLockCount": 2,
+    "TotalRounds": 124,
     "ReloadTime": 3.5,
-    "AmmunitionCost": 70.0,
-    "Weight": 1900.0,
-    "ENLoad": 182.0,
-    "imagePath": "images/shoulders/BML-G1-P31DUO-02.png"
+    "AmmunitionCost": 70,
+    "Weight": 1900,
+    "ENLoad": 182,
+    "imagePath": "images/shoulders/BML-G1-P31DUO-02.png",
+    "PartSlot": ["Left Shoulder", "Right Shoulder"]
 }

@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 752.0,
     "Impact": 310.0,
@@ -19,5 +18,5 @@
     "Weight": 1350.0,
     "ENLoad": 150.0,
     "imagePath": "images/units/VP-67LD.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Left Shoulder"]
 }

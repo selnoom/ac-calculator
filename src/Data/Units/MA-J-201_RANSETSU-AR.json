@@ -4,11 +4,19 @@
     "AttackType": "Kinetic",
     "WeaponType": "Full-Auto",
     "ReloadType": "Magazine",
-    "AdditionalEffects": "None",
     "Manufacturer": "BAWS",
-    "AttackPower": 62.0,
-    "Impact": 64.0,
-    "AccumulativeImpact": 17.0,
+    "AttackPower": {
+        "value": 77,
+        "times": 3
+    },
+    "Impact": {
+        "value": 64,
+        "times": 3
+    },
+    "AccumulativeImpact": {
+        "value": 17,
+        "times": 3
+    },
     "ConsecutiveHits": 3.0,
     "DirectHitAdjustment": 185.0,
     "Recoil": 7.0,
@@ -17,10 +25,10 @@
     "RapidFire": 3.2,
     "MagazineRounds": 18.0,
     "TotalRounds": 450.0,
-    "ReloadTime": 2.4,
+    "ReloadTime": 1.9,
     "AmmunitionCost": 40.0,
     "Weight": 3620.0,
     "ENLoad": 132.0,
     "imagePath": "images/units/MA-J-201_RANSETSU-AR.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

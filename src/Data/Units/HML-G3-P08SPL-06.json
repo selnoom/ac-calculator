@@ -4,9 +4,8 @@
     "AttackType": "Explosive",
     "WeaponType": "Homing",
     "ReloadType": "Single Shot",
-    "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
-    "AttackPower": 1056.0,
+    "AttackPower": 1058.0,
     "Impact": 600.0,
     "AccumulativeImpact": 420.0,
     "DirectHitAdjustment": 145.0,
@@ -17,8 +16,8 @@
     "TotalRounds": 38.0,
     "ReloadTime": 4.0,
     "AmmunitionCost": 650.0,
-    "Weight": 4640.0,
+    "Weight": 4630.0,
     "ENLoad": 180.0,
     "imagePath": "images/units/HML-G3-P08SPL-06.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

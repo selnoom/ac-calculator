@@ -4,14 +4,13 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
-    "Manufacturer": "ARQUEBUS CORP",
+    "Manufacturer": "Arquebus Advanced Development Division",
     "AttackPower": 466.0,
     "Impact": 194.0,
     "AccumulativeImpact": 81.0,
     "ATKHeatBuildup": 180.0,
     "ChgAttackPower": 1677.0,
-    "ChgImpact": 535.0,
+    "ChgImpact": 525.0,
     "ChgAccumImpact": 230.0,
     "ChgHeatBuildup": 730.0,
     "DirectHitAdjustment": 140.0,
@@ -28,5 +27,5 @@
     "Weight": 4940.0,
     "ENLoad": 532.0,
     "imagePath": "images/units/VE-66LRA.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }

@@ -4,7 +4,6 @@
     "AttackType": "Energy",
     "WeaponType": "Charge",
     "ReloadType": "Overheat",
-    "AdditionalEffects": "None",
     "Manufacturer": "VCPL",
     "AttackPower": 936.0,
     "Impact": 384.0,
@@ -29,5 +28,5 @@
     "Weight": 3330.0,
     "ENLoad": 490.0,
     "imagePath": "images/units/Vvc-760PR.png",
-    "PartSlot": "Left Arm"
+    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
 }
