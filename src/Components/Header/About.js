@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 max-w-[1100px] bg-gray-700 h-full overflow-y-auto">
       <h1 className="text-2xl font-bold mb-4">About</h1>
       <p className="mb-4">
         This site is a personal project to help me learn React and web development, while also making something useful for the Armored Core community.
@@ -11,7 +11,7 @@ function About() {
 
       <h2 className="text-xl font-bold mb-3">Contact Information</h2>
       <p>
-      Feel free to reach me at:
+      Reach me at:
       </p>
       <ul className="list-disc pl-5 mb-4">
         <li>Email: nicholas@usp.br</li>

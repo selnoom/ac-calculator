@@ -2,7 +2,7 @@ import React from 'react';
 
 function HowToUse() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 max-w-[1100px] bg-gray-700 h-full overflow-y-auto">
       <h1 className="text-2xl font-bold mb-4">How to Use</h1>
       <p className="mb-4">
         This site is a tool designed for Armored Core VI players to plan and construct their mechs while away from the game. This site offers the convenience of instantly viewing potential overloads and provides an intuitive interface for part selection.
