@@ -2,15 +2,24 @@ import React from 'react';
 import PartBox from './PartBoxes/PartBox';
 import MainStatsDisplay from './MainStatsDisplay/MainStatsDisplay';
 import Container from './Container';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
-function HomePage({ selectedPartsArray }) {
+function HomePage({ selectedPartsArray, setSelectedPartsArray  }) {
+    const location = useLocation();
+    
+    useEffect(() => {
+        if (location.pathname === '/') {
+          setSelectedPartsArray(Array(12).fill(null));
+        }
+    }, [location, setSelectedPartsArray]);
+
     return (
         // Utilizing the Container for horizontal centering
         <Container>
-            {/* Flex container for the two main sections */}
-            <div className="flex mt-10" style={{ height: 'calc(100vh - 2rem)' }}> 
+            <div className="flex mt-10 max-w-[1152px]" style={{ height: 'calc(100vh - 2rem)' }}> 
                 {/* Left Section: Part Boxes Grouped */}
-                <div className="flex flex-col w-1/2 pr-1 space-y-1 overflow-y-auto">  {/* Overflow for individual scrolling */}
+                <div className="flex flex-col w-full sm:w-full md:w-1/2 lg:w-2/3 xl:w-2/3 pr-1 space-y-1 overflow-y-auto">
                     {/* Part boxes for weapons */}
                     <PartBox title="WEAPONS"
                         partsInfo={[
@@ -40,8 +49,7 @@ function HomePage({ selectedPartsArray }) {
                         boxIndex={2} />
                 </div>
                 {/* Right Section: Overall Stats Display */}
-                {/* Overflow for individual scrolling */}
-                <div className="w-1/2 p-4 bg-gray-700 overflow-y-auto">
+                <div className="w-full sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/3 p-4 bg-gray-700 text-sm sm:text-base overflow-y-auto">
                     <MainStatsDisplay selectedParts={selectedPartsArray} />
                 </div>
             </div>

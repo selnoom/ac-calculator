@@ -1,12 +1,14 @@
 {
     "PartName": "FCS-G1/P01",
     "Manufacturer": "FURLONG DYNAMICS",
-    "CloseRangeAssist": 38.0,
-    "MediumRangeAssist": 27.0,
-    "LongRangeAssist": 20.0,
-    "MissileLockCorrection": 79.0,
-    "MultiLockCorrection": 40.0,
-    "Weight": 80.0,
-    "ENLoad": 198.0,
+    "CloseRangeAssist": 38,
+    "MediumRangeAssist": 27,
+    "LongRangeAssist": 20,
+    "MissileLockCorrection": 79,
+    "MultiLockCorrection": 40,
+    "Weight": 80,
+    "ENLoad": 198,
+    "FrameType": "Inner",
+    "PartSlot": "FCS",
     "imagePath": "images/fcs/FCS-G1-P01.png"
 }

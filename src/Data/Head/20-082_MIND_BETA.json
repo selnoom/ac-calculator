@@ -9,7 +9,10 @@
     "SystemRecovery": 116.0,
     "ScanDistance": 540.0,
     "ScanEffectDuration": 12.0,
+    "ScanStandbyTime": 9.0,
     "Weight": 3460.0,
     "ENLoad": 128.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/20-082_MIND_BETA.png"
 }

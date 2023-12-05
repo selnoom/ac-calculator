@@ -1,12 +1,16 @@
 {
     "PartName": "IB-C03B: NGI 000",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
-    "ENCapacity": 4400.0,
-    "ENRecharge": 250.0,
-    "SupplyRecovery": 312.0,
-    "PostRecoveryENSupply": 3300.0,
-    "EnergyFirearmSpec": 110.0,
-    "Weight": 8950.0,
-    "ENOutput": 4340.0,
+    "ENCapacity": 4400,
+    "ENRecharge": 250,
+    "SupplyRecovery": 312,
+    "PostRecoveryENSupply": 3300,
+    "EnergyFirearmSpec": 110,
+    "Weight": 8950,
+    "ENOutput": 4340,
+    "GeneratorType": "Coral",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/IB-C03B__NGI_000.png"
 }

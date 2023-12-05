@@ -1,12 +1,16 @@
 {
     "PartName": "IA-C01G: AORTA",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
-    "ENCapacity": 3000.0,
-    "ENRecharge": 238.0,
-    "SupplyRecovery": 333.0,
-    "PostRecoveryENSupply": 2000.0,
-    "EnergyFirearmSpec": 105.0,
-    "Weight": 4330.0,
-    "ENOutput": 3500.0,
+    "ENCapacity": 3000,
+    "ENRecharge": 238,
+    "SupplyRecovery": 333,
+    "PostRecoveryENSupply": 2000,
+    "EnergyFirearmSpec": 105,
+    "Weight": 4330,
+    "ENOutput": 3500,
+    "GeneratorType": "Coral",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/IA-C01G__AORTA.png"
 }

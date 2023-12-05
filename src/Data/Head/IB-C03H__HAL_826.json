@@ -9,7 +9,10 @@
     "SystemRecovery": 125.0,
     "ScanDistance": 600.0,
     "ScanEffectDuration": 16.8,
+    "ScanStandbyTime": 11.4,
     "Weight": 3760.0,
     "ENLoad": 215.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/IB-C03H__HAL_826.png"
 }

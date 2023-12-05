@@ -1,0 +1,20 @@
+{
+    "PartClass": "Head",
+    "PartName": "AH-J-124 BASHO",
+    "FrameType": "Core",
+    "Manufacturer": "BAWS",
+    "Weight": 4600,
+    "ENLoad": 95,
+    "Price": 61000,
+    "AP": 1250,
+    "AntiKineticDefense": 191,
+    "AntiEnergyDefense": 169,
+    "AntiExplosiveDefense": 192,
+    "AttitudeStability": 370,
+    "SystemRecovery": 84,
+    "ScanDistance": 340,
+    "ScanEffectDuration": 14.4,
+    "ScanStandbyTime": 10.8,
+    "PartSlot": ["Head"],
+    "imagePath": "images/heads/AH-J-124_BASHO.png"
+}

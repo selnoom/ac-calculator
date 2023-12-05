@@ -14,7 +14,9 @@ function Header() {
             <li className="mr-6">
               <Link to="/about" className="text-white hover:text-gray-300">About</Link>
             </li>
-            {/* Additional links */}
+            <li className="mr-6">
+              <Link to="/HowToUse" className="text-white hover:text-gray-300">How to use</Link>
+            </li>
           </ul>
         </nav>
       </Container>

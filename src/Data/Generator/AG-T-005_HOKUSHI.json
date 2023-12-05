@@ -1,12 +1,16 @@
 {
     "PartName": "AG-T-005 HOKUSHI",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "BAWS",
-    "ENCapacity": 2710.0,
-    "ENRecharge": 952.0,
-    "SupplyRecovery": 370.0,
-    "PostRecoveryENSupply": 850.0,
-    "EnergyFirearmSpec": 70.0,
-    "Weight": 7080.0,
-    "ENOutput": 3810.0,
+    "ENCapacity": 2710,
+    "ENRecharge": 952,
+    "SupplyRecovery": 370,
+    "PostRecoveryENSupply": 850,
+    "EnergyFirearmSpec": 70,
+    "Weight": 7080,
+    "ENOutput": 3810,
+    "GeneratorType": "Internal combustion",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/AG-T-005_HOKUSHI.png"
 }

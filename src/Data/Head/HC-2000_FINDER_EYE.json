@@ -9,7 +9,10 @@
     "SystemRecovery": 98.0,
     "ScanDistance": 290.0,
     "ScanEffectDuration": 4.2,
+    "ScanStandbyTime": 3.6,
     "Weight": 2670.0,
     "ENLoad": 125.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HC-2000_FINDER_EYE.png"
 }

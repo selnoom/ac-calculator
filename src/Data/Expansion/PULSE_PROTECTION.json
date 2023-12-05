@@ -1,5 +1,6 @@
 {
     "PartName": "PULSE PROTECTION",
     "PriceOSTChip": 2,
+    "PartSlot": "Expansion",
     "imagePath": "images/expansions/PULSE_PROTECTION.png"
 }

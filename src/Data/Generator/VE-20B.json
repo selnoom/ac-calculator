@@ -1,12 +1,16 @@
 {
     "PartName": "VE-20B",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "ARQUEBUS CORP",
-    "ENCapacity": 3300.0,
-    "ENRecharge": 763.0,
-    "SupplyRecovery": 392.0,
-    "PostRecoveryENSupply": 800.0,
-    "EnergyFirearmSpec": 150.0,
-    "Weight": 5860.0,
-    "ENOutput": 2890.0,
+    "ENCapacity": 3300,
+    "ENRecharge": 763,
+    "SupplyRecovery": 392,
+    "PostRecoveryENSupply": 800,
+    "EnergyFirearmSpec": 150,
+    "Weight": 5860,
+    "ENOutput": 2890,
+    "GeneratorType": "Circulating-current",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/VE-20B.png"
 }

@@ -1,12 +1,16 @@
 {
     "PartName": "AG-J-098 JOSO",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "BAWS",
-    "ENCapacity": 2200.0,
-    "ENRecharge": 769.0,
-    "SupplyRecovery": 400.0,
-    "PostRecoveryENSupply": 400.0,
-    "EnergyFirearmSpec": 52.0,
-    "Weight": 3420.0,
-    "ENOutput": 2600.0,
+    "ENCapacity": 2200,
+    "ENRecharge": 769,
+    "SupplyRecovery": 400,
+    "PostRecoveryENSupply": 400,
+    "EnergyFirearmSpec": 52,
+    "Weight": 3420,
+    "ENOutput": 2600,
+    "GeneratorType": "Internal combustion",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/AG-J-098_JOSO.png"
 }

@@ -1,5 +1,6 @@
 {
     "PartName": "TERMINAL ARMOR",
     "PriceOSTChip": 5,
+    "PartSlot": "Expansion",
     "imagePath": "images/expansions/TERMINAL_ARMOR.png"
 }

@@ -1,12 +1,14 @@
 {
     "PartName": "FC-008 TALBOT",
     "Manufacturer": "BALAM",
-    "CloseRangeAssist": 67.0,
-    "MediumRangeAssist": 54.0,
-    "LongRangeAssist": 11.0,
-    "MissileLockCorrection": 103.0,
-    "MultiLockCorrection": 62.0,
-    "Weight": 140.0,
-    "ENLoad": 312.0,
+    "CloseRangeAssist": 67,
+    "MediumRangeAssist": 54,
+    "LongRangeAssist": 11,
+    "MissileLockCorrection": 103,
+    "MultiLockCorrection": 62,
+    "Weight": 140,
+    "ENLoad": 312,
+    "FrameType": "Inner",
+    "PartSlot": "FCS",
     "imagePath": "images/fcs/FC-008_TALBOT.png"
 }

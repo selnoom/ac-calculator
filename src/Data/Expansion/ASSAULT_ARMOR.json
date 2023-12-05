@@ -1,5 +1,6 @@
 {
     "PartName": "ASSAULT ARMOR",
     "PriceOSTChip": 1,
+    "PartSlot": "Expansion",
     "imagePath": "images/expansions/ASSAULT_ARMOR.png"
 }

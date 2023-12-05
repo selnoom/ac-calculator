@@ -9,7 +9,10 @@
     "SystemRecovery": 107.0,
     "ScanDistance": 510.0,
     "ScanEffectDuration": 7.8,
+    "ScanStandbyTime": 5.4,
     "Weight": 3830.0,
     "ENLoad": 240.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HD-033M_VERRILL.png"
 }

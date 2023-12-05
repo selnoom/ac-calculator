@@ -1,12 +1,16 @@
 {
     "PartName": "AG-E-013 YABA",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "BAWS",
-    "ENCapacity": 2550.0,
-    "ENRecharge": 1000.0,
-    "SupplyRecovery": 500.0,
-    "PostRecoveryENSupply": 1000.0,
-    "EnergyFirearmSpec": 75.0,
-    "Weight": 5080.0,
-    "ENOutput": 3000.0,
+    "ENCapacity": 2550,
+    "ENRecharge": 1000,
+    "SupplyRecovery": 500,
+    "PostRecoveryENSupply": 1000,
+    "EnergyFirearmSpec": 75,
+    "Weight": 5080,
+    "ENOutput": 3000,
+    "GeneratorType": "Internal combustion",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/AG-E-013_YABA.png"
 }

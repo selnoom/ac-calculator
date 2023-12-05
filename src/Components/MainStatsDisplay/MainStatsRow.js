@@ -2,9 +2,6 @@ import React from 'react';
 import MainStatBar from './MainStatBar';
 
 function MainStatsRow({ name, value, isBar = false, maxValue = 0, shouldRound = true }) {
-    if (name === "QB Reload Time") {
-        console.log("QB Reload Time:", value);
-    }
     const shouldShowValue = value !== undefined && value !== null && !isNaN(value) && value !== 0;
     const roundedValue = shouldRound ? Math.round(value) : value;
     const displayValue = isBar 

@@ -9,7 +9,10 @@
     "SystemRecovery": 132.0,
     "ScanDistance": 550.0,
     "ScanEffectDuration": 4.8,
+    "ScanStandbyTime": 6.0,
     "Weight": 4330.0,
     "ENLoad": 233.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/IA-C01H__EPHEMERA.png"
 }

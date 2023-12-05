@@ -9,7 +9,10 @@
     "SystemRecovery": 105.0,
     "ScanDistance": 500.0,
     "ScanEffectDuration": 3.6,
+    "ScanStandbyTime": 5.4,
     "Weight": 2800.0,
     "ENLoad": 205.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/EL-PH-00_ALBA.png"
 }

@@ -9,7 +9,10 @@
     "SystemRecovery": 104.0,
     "ScanDistance": 490.0,
     "ScanEffectDuration": 12.6,
+    "ScanStandbyTime": 9.9,
     "Weight": 3640.0,
     "ENLoad": 182.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/VE-44A.png"
 }

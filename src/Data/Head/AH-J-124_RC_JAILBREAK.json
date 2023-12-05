@@ -9,7 +9,10 @@
     "SystemRecovery": 60.0,
     "ScanDistance": 400.0,
     "ScanEffectDuration": 6.0,
+    "ScanStandbyTime": 10.8,
     "Weight": 4250.0,
     "ENLoad": 95.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/AH-J-124-RC_JAILBREAK.png"
 }

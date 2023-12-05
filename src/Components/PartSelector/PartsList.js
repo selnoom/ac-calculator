@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react';
 import PartsContext from "../../Contexts/PartsContext";
-import { calculateTotalLoad, findLegsPart, checkTotalLoadOverload, calculateTotalEN, findGeneratorPart, checkTotalENOverload } from '../../Utilities/overLoadCalculations';
+import { calculateTotalLoad, findLegsPart, checkTotalLoadOverload, calculateTotalEN, findGeneratorPart, checkTotalENOverload, findArmsPart, checkArmsLoadOverload, checkArmsCapabilityOverload } from '../../Utilities/overLoadCalculations';
 
 function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selectorIndex }) {
   const { selectedPartsArray } = useContext(PartsContext);
@@ -16,6 +16,10 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
   const maxENLoadLimit = generatorPart ? generatorPart.ENOutput : 0;
   const totalENLoad = useMemo(() => calculateTotalEN(selectedPartsArray, currentSlotIndex), [selectedPartsArray, currentSlotIndex]);
 
+  // Arms Load Calculations
+  const armsPart = findArmsPart(selectedPartsArray);
+  const currentArmSlotIndex = boxIndex * 4 + selectorIndex;
+
   return (
     <ul>
       {parts.filter(part => 
@@ -24,6 +28,9 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
       ).map((part, index) => {
         const isWeightOverloaded = checkTotalLoadOverload(part, totalLoad, maxLoadLimit, selectedPartsArray);
         const isENOverloaded = checkTotalENOverload(part, totalENLoad, maxENLoadLimit, selectedPartsArray);
+        const isArmsOverloaded = (boxIndex === 0 && (selectorIndex === 0 || selectorIndex === 1)) && 
+                                 checkArmsLoadOverload(selectedPartsArray, armsPart, part, currentArmSlotIndex);
+        const isArmsCapabilityOverloaded = checkArmsCapabilityOverload(part, selectedPartsArray);
         
         return (
           <li className={`p-2 cursor-pointer ${clickedPart === part ? 'bg-cyan-900' : 'hover:bg-gray-600'}`} key={part.PartName}
@@ -36,6 +43,8 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
               <div className="text-xs sm:text-sm">
                 {isWeightOverloaded && <div className="text-red-500">Weight Overload</div>}
                 {isENOverloaded && <div className="text-blue-500">EN Overload</div>}
+                {isArmsOverloaded && <div className="text-yellow-500">Arms Overload</div>}
+                {isArmsCapabilityOverloaded && <div className="text-yellow-500">Arms Load Overload</div>}
               </div>
               <img src={process.env.PUBLIC_URL + '/' + part.imagePath} alt={part.PartName} className="h-24 mt-2" />
             </div>

@@ -1,12 +1,14 @@
 {
     "PartName": "IB-C03F: WLT 001",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
-    "CloseRangeAssist": 50.0,
-    "MediumRangeAssist": 72.0,
-    "LongRangeAssist": 48.0,
-    "MissileLockCorrection": 102.0,
-    "MultiLockCorrection": 66.0,
-    "Weight": 150.0,
-    "ENLoad": 486.0,
+    "CloseRangeAssist": 50,
+    "MediumRangeAssist": 72,
+    "LongRangeAssist": 48,
+    "MissileLockCorrection": 102,
+    "MultiLockCorrection": 66,
+    "Weight": 150,
+    "ENLoad": 486,
+    "FrameType": "Inner",
+    "PartSlot": "FCS",
     "imagePath": "images/fcs/IB-C03F__WLT_001.png"
 }

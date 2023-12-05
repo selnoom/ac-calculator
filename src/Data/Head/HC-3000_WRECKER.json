@@ -9,7 +9,10 @@
     "SystemRecovery": 55.0,
     "ScanDistance": 270.0,
     "ScanEffectDuration": 3.0,
+    "ScanStandbyTime": 12.0,
     "Weight": 3800.0,
     "ENLoad": 102.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HC-3000_WRECKER.png"
 }

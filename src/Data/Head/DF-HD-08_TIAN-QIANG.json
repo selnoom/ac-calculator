@@ -9,7 +9,10 @@
     "SystemRecovery": 50.0,
     "ScanDistance": 250.0,
     "ScanEffectDuration": 7.0,
+    "ScanStandbyTime": 11.4,
     "Weight": 1230.0,
     "ENLoad": 88.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/DF-HD-08_TIAN-QIANG.png"
 }

@@ -9,7 +9,10 @@
     "SystemRecovery": 100.0,
     "ScanDistance": 530.0,
     "ScanEffectDuration": 14.4,
+    "ScanStandbyTime": 10.2,
     "Weight": 3260.0,
     "ENLoad": 177.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/VP-44D.png"
 }

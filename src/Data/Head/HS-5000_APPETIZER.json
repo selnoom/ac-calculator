@@ -9,7 +9,10 @@
     "SystemRecovery": 78.0,
     "ScanDistance": 610.0,
     "ScanEffectDuration": 6.0,
+    "ScanStandbyTime": 4.8,
     "Weight": 3000.0,
     "ENLoad": 103.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HS-5000_APPETIZER.png"
 }

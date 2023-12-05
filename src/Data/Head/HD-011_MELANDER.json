@@ -11,5 +11,7 @@
     "ScanEffectDuration": 4.8,
     "Weight": 3160.0,
     "ENLoad": 135.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HD-011_MELANDER.png"
 }

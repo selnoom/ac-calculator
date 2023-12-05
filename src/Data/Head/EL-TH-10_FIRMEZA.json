@@ -9,7 +9,10 @@
     "SystemRecovery": 88.0,
     "ScanDistance": 330.0,
     "ScanEffectDuration": 15.0,
+    "ScanStandbyTime": 9.6,
     "Weight": 2570.0,
     "ENLoad": 134.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/EL-TH-10_FIRMEZA.png"
 }

@@ -9,7 +9,10 @@
     "SystemRecovery": 115.0,
     "ScanDistance": 450.0,
     "ScanEffectDuration": 10.8,
+    "ScanStandbyTime": 9.0,
     "Weight": 3090.0,
     "ENLoad": 163.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/HC-2000-BC_SHADE_EYE.png"
 }

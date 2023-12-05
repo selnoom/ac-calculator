@@ -1,5 +1,6 @@
 {
     "PartName": "PULSE ARMOR",
     "PriceOSTChip": 3,
+    "PartSlot": "Expansion",
     "imagePath": "images/expansions/PULSE_ARMOR.png"
 }

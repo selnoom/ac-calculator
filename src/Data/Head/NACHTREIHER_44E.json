@@ -9,7 +9,10 @@
     "SystemRecovery": 92.0,
     "ScanDistance": 280.0,
     "ScanEffectDuration": 13.2,
+    "ScanStandbyTime": 9.6,
     "Weight": 2320.0,
     "ENLoad": 210.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/NACHTREIHER-44E.png"
 }

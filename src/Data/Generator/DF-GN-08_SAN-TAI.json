@@ -1,12 +1,16 @@
 {
     "PartName": "DF-GN-08 SAN-TAI",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "DAFENG",
-    "ENCapacity": 4420.0,
-    "ENRecharge": 1176.0,
-    "SupplyRecovery": 625.0,
-    "PostRecoveryENSupply": 810.0,
-    "EnergyFirearmSpec": 88.0,
-    "Weight": 10060.0,
-    "ENOutput": 3210.0,
+    "ENCapacity": 4420,
+    "ENRecharge": 1176,
+    "SupplyRecovery": 625,
+    "PostRecoveryENSupply": 810,
+    "EnergyFirearmSpec": 88,
+    "Weight": 10060,
+    "ENOutput": 3210,
+    "GeneratorType": "Internal combustion",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/DF-GN-08_SAN-TAI.png"
 }

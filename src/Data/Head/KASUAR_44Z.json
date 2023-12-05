@@ -9,7 +9,10 @@
     "SystemRecovery": 108.0,
     "ScanDistance": 620.0,
     "ScanEffectDuration": 5.4,
+    "ScanStandbyTime": 3.6,
     "Weight": 2590.0,
     "ENLoad": 254.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
     "imagePath": "images/heads/KASUAR-44Z.png"
 }

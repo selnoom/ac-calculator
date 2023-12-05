@@ -1,12 +1,16 @@
 {
     "PartName": "DF-GN-02 LING-TAI",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "DAFENG",
-    "ENCapacity": 2000.0,
-    "ENRecharge": 2000.0,
-    "SupplyRecovery": 833.0,
-    "PostRecoveryENSupply": 280.0,
-    "EnergyFirearmSpec": 61.0,
-    "Weight": 3860.0,
-    "ENOutput": 2340.0,
+    "ENCapacity": 2000,
+    "ENRecharge": 2000,
+    "SupplyRecovery": 833,
+    "PostRecoveryENSupply": 280,
+    "EnergyFirearmSpec": 61,
+    "Weight": 3860,
+    "ENOutput": 2340,
+    "GeneratorType": "Internal combustion",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/DF-GN-02_LING-TAI.png"
 }

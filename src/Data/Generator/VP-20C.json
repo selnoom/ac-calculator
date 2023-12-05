@@ -1,12 +1,16 @@
 {
     "PartName": "VP-20C",
+    "PartClass": "Generator",
+    "FrameType": "Inner",
     "Manufacturer": "ARQUEBUS CORP",
-    "ENCapacity": 2720.0,
-    "ENRecharge": 909.0,
-    "SupplyRecovery": 454.0,
-    "PostRecoveryENSupply": 1100.0,
-    "EnergyFirearmSpec": 100.0,
-    "Weight": 5320.0,
-    "ENOutput": 3670.0,
+    "ENCapacity": 2720,
+    "ENRecharge": 909,
+    "SupplyRecovery": 454,
+    "PostRecoveryENSupply": 1100,
+    "EnergyFirearmSpec": 100,
+    "Weight": 5320,
+    "ENOutput": 3670,
+    "GeneratorType": "Circulating-current",
+    "PartSlot": "Generator",
     "imagePath": "images/generators/VP-20C.png"
 }
