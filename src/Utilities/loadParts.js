@@ -1,4 +1,4 @@
-const contexts = {
+export const contexts = {
     head: require.context('../Data/Head', false, /\.json$/),
     units: require.context('../Data/Units', false, /\.json$/),
     core: require.context('../Data/Core', false, /\.json$/),
@@ -10,7 +10,7 @@ const contexts = {
     expansion: require.context('../Data/Expansion', false, /\.json$/)
 };
 
-const loadDataForPartType = (partType, allowedSlots = null) => {
+export const loadDataForPartType = (partType, allowedSlots = null) => {
     if (["rightArm", "leftArm", "rightShoulder", "leftShoulder"].includes(partType)) {
         const context = contexts['units'];
         return context.keys().map(context).filter(part => {

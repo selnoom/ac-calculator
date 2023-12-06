@@ -7,7 +7,7 @@ import ModalStatsDisplay from './ModalStatsDisplay';
 import PartsContext from '../../Contexts/PartsContext';
 import CustomConfirmModal from '../CustomConfirmModal';
 
-function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selectorIndex }) {
+function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selectorIndex, selectedPart: propSelectedPart }) {
   const [showList, setShowList] = useState(false);
   const [parts, setParts] = useState([]);
   const [maxValues, setMaxValues] = useState({});
@@ -26,6 +26,10 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
       setSelectedPart(null);
     }
   }, [selectedPartsArray, partIndex]);
+
+  useEffect(() => {
+    setSelectedPart(propSelectedPart);
+  }, [propSelectedPart]);
 
   const handleSave = () => {
     if (partType === "legs" && clickedPart?.LegType === "Tank") {

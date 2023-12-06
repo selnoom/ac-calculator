@@ -49,17 +49,23 @@ function PartBox({ title, partsInfo, boxIndex }) {
         )}
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        {partsInfo.map((info, selectorIndex) => (
-          <div key={selectorIndex} className="part-box bg-gray-800 p-1 h-40 flex items-center justify-center">
-            <PartSelector 
-              placeholder={info.placeholder} 
-              onPartSelected={part => handlePartSelect(part, selectorIndex)}
-              partType={info.type}
-              boxIndex={boxIndex}
-              selectorIndex={selectorIndex}
-            />
-          </div>
-        ))}
+      {partsInfo.map((info, selectorIndex) => {
+          const globalIndex = boxIndex * partsInfo.length + selectorIndex;
+          const selectedPart = selectedPartsArray[globalIndex];
+          
+          return (
+            <div key={selectorIndex} className="part-box bg-gray-800 p-1 h-40 flex items-center justify-center">
+              <PartSelector 
+                placeholder={info.placeholder}
+                onPartSelected={part => handlePartSelect(part, selectorIndex)}
+                partType={info.type}
+                boxIndex={boxIndex}
+                selectorIndex={selectorIndex}
+                selectedPart={selectedPart} // Pass the selected part here
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
