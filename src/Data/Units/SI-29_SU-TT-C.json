@@ -16,6 +16,9 @@
     "Cooling": 142,
     "Weight": 3380,
     "ENLoad": 385,
-    "PartSlot": ["Left Shoulder"],
-    "imagePath": "images/shoulders/SI-29_SU-TT-C.png"
+    "PartSlot": [
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/SI-29_SU-TT-C.png",
+    "PartFilter": "Shoulder"
 }

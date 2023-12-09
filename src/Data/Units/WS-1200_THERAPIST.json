@@ -28,5 +28,11 @@
     "Weight": 3180.0,
     "ENLoad": 82.0,
     "imagePath": "images/units/WS-1200_THERAPIST.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

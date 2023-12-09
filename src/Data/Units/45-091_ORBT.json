@@ -27,6 +27,10 @@
     "AmmunitionCost": 100,
     "Weight": 2010,
     "ENLoad": 446,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/45-091_ORBT.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/45-091_ORBT.png",
+    "PartFilter": "Shoulder"
 }

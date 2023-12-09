@@ -38,5 +38,9 @@
     "Weight": 14820,
     "ENLoad": 1200,
     "imagePath": "images/shoulders/VE-60LCA.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

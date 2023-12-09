@@ -18,5 +18,9 @@
     "Weight": 4150.0,
     "ENLoad": 225.0,
     "imagePath": "images/units/PB-033m_ASHMEAD.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

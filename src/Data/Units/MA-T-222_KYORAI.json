@@ -27,5 +27,11 @@
     "Weight": 2890.0,
     "ENLoad": 60.0,
     "imagePath": "images/units/MA-T-222_KYORAI.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

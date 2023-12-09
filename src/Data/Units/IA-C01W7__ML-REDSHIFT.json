@@ -19,5 +19,9 @@
     "Weight": 2200.0,
     "ENLoad": 544.0,
     "imagePath": "images/units/IA-C01W7__ML-REDSHIFT.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

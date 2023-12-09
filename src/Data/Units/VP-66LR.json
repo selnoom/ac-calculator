@@ -27,5 +27,11 @@
     "Weight": 3560.0,
     "ENLoad": 480.0,
     "imagePath": "images/units/VP-66LR.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

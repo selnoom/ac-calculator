@@ -19,5 +19,9 @@
     "Weight": 5420.0,
     "ENLoad": 455.0,
     "imagePath": "images/shoulders/SB-033M_MORLEY.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

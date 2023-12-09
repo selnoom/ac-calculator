@@ -16,6 +16,9 @@
     "Cooling": 88,
     "Weight": 2010,
     "ENLoad": 220,
-    "PartSlot": ["Left Shoulder"],
-    "imagePath": "images/shoulders/SI-24__SU-Q5.png"
+    "PartSlot": [
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/SI-24__SU-Q5.png",
+    "PartFilter": "Shoulder"
 }

@@ -16,6 +16,9 @@
     "Cooling": 110,
     "Weight": 3150,
     "ENLoad": 323,
-    "PartSlot": ["Left Shoulder"],
-    "imagePath": "images/shoulders/SI-27__SU-R8.png"
+    "PartSlot": [
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/SI-27__SU-R8.png",
+    "PartFilter": "Shoulder"
 }

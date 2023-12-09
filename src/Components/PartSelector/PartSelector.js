@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'; 
+import React, { useState, useEffect, useContext, useMemo } from 'react'; 
 import Modal from '../PartsModal/PartsModal';
 import loadDataForPartType from '../../Utilities/loadParts';
 import FilterInput from './FilterInput';
@@ -6,6 +6,7 @@ import PartList from './PartsList';
 import ModalStatsDisplay from './ModalStatsDisplay';
 import PartsContext from '../../Contexts/PartsContext';
 import CustomConfirmModal from '../CustomConfirmModal';
+import { FilterButtonsGroup, filterParts  } from './FilterButtons';
 
 function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selectorIndex, selectedPart: propSelectedPart }) {
   const [showList, setShowList] = useState(false);
@@ -16,9 +17,25 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   const [selectedPart, setSelectedPart] = useState(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const {selectedPartsArray, setSelectedPartsArray} = useContext(PartsContext);
+  const [activeFilters, setActiveFilters] = useState([]);
   const partIndex = boxIndex * (4) + selectorIndex;
   const isBooster = partType === "booster";
   const isBoosterDisabled = isBooster && selectedPartsArray.some(part => part?.LegType === "Tank");
+  const filteredParts = useMemo(() => filterParts(parts, activeFilters), [parts, activeFilters]);
+
+  const toggleFilter = (filterName) => {
+    setActiveFilters(currentFilters => {
+        // Check if the filter is currently active
+        if (currentFilters.includes(filterName)) {
+            // Filter is active, remove it
+            return currentFilters.filter(f => f !== filterName);
+        } else {
+            // Filter is not active, add it
+            return [...currentFilters, filterName];
+        }
+    });
+  };
+
 
   // When selectedPartsArray changes, update the selectedPart
   useEffect(() => {
@@ -191,16 +208,22 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
           <div className="flex flex-col h-full" onClick={handleModalContentClick}>
             <div className="flex items-stretch h-[calc(100%-3rem)]">
               <ul className="w-2/5 overflow-y-auto border-r border-gray-600 h-full pr-3">
-                <div className="sticky top-0">
+                  <FilterButtonsGroup 
+                    partType={partType} 
+                    boxIndex={boxIndex} 
+                    selectorIndex={selectorIndex}
+                    activeFilters={activeFilters} 
+                    toggleFilter={toggleFilter}
+                  />
                   <FilterInput value={filterText} onChange={e => setFilterText(e.target.value)} placeholder="Search parts..." />
-                </div>
                 <PartList 
-                  parts={parts} 
+                  parts={filteredParts} 
                   filterText={filterText} 
                   onPartClick={handlePartClick} 
                   clickedPart={clickedPart} 
                   boxIndex={boxIndex} 
                   selectorIndex={selectorIndex} 
+                  activeFilters={activeFilters}
                 />
               </ul>
               <ModalStatsDisplay clickedPart={clickedPart} maxValues={maxValues} />

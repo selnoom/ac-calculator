@@ -18,5 +18,9 @@
     "Weight": 1720.0,
     "ENLoad": 198.0,
     "imagePath": "images/units/VP-67EB.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -29,5 +29,9 @@
     "Weight": 2410.0,
     "ENLoad": 311.0,
     "imagePath": "images/units/44-143_HMMR.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -28,5 +28,9 @@
     "Weight": 6270.0,
     "ENLoad": 882.0,
     "imagePath": "images/shoulders/FASAN-60E.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

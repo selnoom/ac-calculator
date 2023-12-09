@@ -18,5 +18,9 @@
     "Weight": 4520.0,
     "ENLoad": 460.0,
     "imagePath": "images/units/VE-67LLA.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

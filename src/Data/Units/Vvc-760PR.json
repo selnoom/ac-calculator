@@ -28,5 +28,11 @@
     "Weight": 3330.0,
     "ENLoad": 490.0,
     "imagePath": "images/units/Vvc-760PR.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

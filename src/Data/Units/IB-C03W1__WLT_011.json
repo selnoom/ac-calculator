@@ -28,5 +28,11 @@
     "Weight": 9030.0,
     "ENLoad": 850.0,
     "imagePath": "images/units/IB-C03W1__WLT_011.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

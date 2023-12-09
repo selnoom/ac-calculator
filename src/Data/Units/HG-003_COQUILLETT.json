@@ -20,5 +20,11 @@
     "Weight": 1200.0,
     "ENLoad": 122.0,
     "imagePath": "images/units/HG-003_COQUILLETT.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

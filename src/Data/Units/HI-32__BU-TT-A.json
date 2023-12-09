@@ -18,5 +18,9 @@
     "Weight": 1800.0,
     "ENLoad": 213.0,
     "imagePath": "images/units/HI-32__BU-TT-A.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

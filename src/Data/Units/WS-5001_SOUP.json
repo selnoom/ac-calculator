@@ -29,6 +29,10 @@
     "AmmunitionCost": 50,
     "Weight": 5620,
     "ENLoad": 680,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/WS-5001_SOUP.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/WS-5001_SOUP.png",
+    "PartFilter": "Shoulder"
 }

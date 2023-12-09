@@ -19,5 +19,11 @@
     "Weight": 5800.0,
     "ENLoad": 425.0,
     "imagePath": "images/units/DF-GA-08_HU-BEN.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

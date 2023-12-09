@@ -27,5 +27,9 @@
     "Weight": 5190.0,
     "ENLoad": 683.0,
     "imagePath": "images/shoulders/VP-60LCS.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

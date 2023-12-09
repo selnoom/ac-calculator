@@ -18,5 +18,9 @@
     "Weight": 7230.0,
     "ENLoad": 386.0,
     "imagePath": "images/shoulders/EARSHOT.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

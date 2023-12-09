@@ -29,5 +29,9 @@
     "Weight": 5010,
     "ENLoad": 510,
     "imagePath": "images/shoulders/BML-G2-P17SPL-16.png",
-    "PartSlot": ["Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

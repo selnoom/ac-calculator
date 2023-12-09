@@ -20,5 +20,11 @@
     "Weight": 1180.0,
     "ENLoad": 215.0,
     "imagePath": "images/units/EL-PW-00_VIENTO.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

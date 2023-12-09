@@ -27,5 +27,11 @@
     "Weight": 1640.0,
     "ENLoad": 268.0,
     "imagePath": "images/units/WR-0777_SWEET_SIXTEEN.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

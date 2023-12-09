@@ -28,5 +28,11 @@
     "Weight": 4600.0,
     "ENLoad": 165.0,
     "imagePath": "images/units/WS-5000_APERITIF.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

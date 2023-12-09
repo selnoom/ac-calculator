@@ -18,5 +18,11 @@
     "Weight": 3660.0,
     "ENLoad": 185.0,
     "imagePath": "images/units/SG-026_HALDEMAN.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

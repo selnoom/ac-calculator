@@ -30,5 +30,9 @@
     "Weight": 2120,
     "ENLoad": 154,
     "imagePath": "images/shoulders/BML-G1-P20MLT-04.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

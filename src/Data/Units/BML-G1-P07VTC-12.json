@@ -29,5 +29,9 @@
     "Weight": 5010,
     "ENLoad": 525,
     "imagePath": "images/shoulders/BML-G1-P07VTC-12.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

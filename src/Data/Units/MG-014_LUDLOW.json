@@ -20,5 +20,11 @@
     "Weight": 2450.0,
     "ENLoad": 82.0,
     "imagePath": "images/units/MG-014_LUDLOW.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

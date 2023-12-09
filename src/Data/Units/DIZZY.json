@@ -18,5 +18,11 @@
     "Weight": 6420.0,
     "ENLoad": 455.0,
     "imagePath": "images/units/DIZZY.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

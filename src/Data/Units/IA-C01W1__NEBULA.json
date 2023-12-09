@@ -28,5 +28,11 @@
     "Weight": 3890.0,
     "ENLoad": 609.0,
     "imagePath": "images/units/IA-C01W1__NEBULA.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

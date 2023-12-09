@@ -18,5 +18,9 @@
     "Weight": 6370,
     "ENLoad": 150,
     "imagePath": "images/shoulders/BML-G1-P29CNT.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

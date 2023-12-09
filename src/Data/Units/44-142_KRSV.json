@@ -28,5 +28,11 @@
     "Weight": 10120.0,
     "ENLoad": 707.0,
     "imagePath": "images/units/44-142_KRSV.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -18,5 +18,11 @@
     "Weight": 7420.0,
     "ENLoad": 299.0,
     "imagePath": "images/units/44-141_JVLN_ALPHA.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -18,5 +18,11 @@
     "Weight": 5460.0,
     "ENLoad": 385.0,
     "imagePath": "images/units/DF-GR-07_GOU-CHEN.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -27,6 +27,10 @@
     "AmmunitionCost": 50,
     "Weight": 2230,
     "ENLoad": 435,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/BO-044_HUXLEY.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/BO-044_HUXLEY.png",
+    "PartFilter": "Shoulder"
 }

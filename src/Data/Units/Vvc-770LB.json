@@ -27,5 +27,9 @@
     "Weight": 2680.0,
     "ENLoad": 365.0,
     "imagePath": "images/units/Vvc-770LB.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

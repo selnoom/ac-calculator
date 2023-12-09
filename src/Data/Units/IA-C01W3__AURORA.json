@@ -31,5 +31,9 @@
     "Weight": 3330,
     "ENLoad": 522,
     "imagePath": "images/shoulders/IA-C01W3__AURORA.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

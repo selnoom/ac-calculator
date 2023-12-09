@@ -20,5 +20,11 @@
     "Weight": 2650.0,
     "ENLoad": 448.0,
     "imagePath": "images/units/HI-18__GU-A2.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

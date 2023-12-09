@@ -18,5 +18,11 @@
     "Weight": 3100.0,
     "ENLoad": 192.0,
     "imagePath": "images/units/LITTLE_GEM.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

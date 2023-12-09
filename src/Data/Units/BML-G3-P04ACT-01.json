@@ -21,5 +21,9 @@
     "Weight": 2680,
     "ENLoad": 213,
     "imagePath": "images/shoulders/BML-G3-P04ACT-01.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

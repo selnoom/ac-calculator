@@ -16,6 +16,9 @@
     "Cooling": 100,
     "Weight": 2170,
     "ENLoad": 800,
-    "PartSlot": ["Left Shoulder"],
-    "imagePath": "images/shoulders/IB-C03W4__NGI_028.png"
+    "PartSlot": [
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/IB-C03W4__NGI_028.png",
+    "PartFilter": "Shoulder"
 }

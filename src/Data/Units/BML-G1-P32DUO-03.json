@@ -29,5 +29,9 @@
     "Weight": 3450,
     "ENLoad": 262,
     "imagePath": "images/shoulders/BML-G1-P32DUO-03.png",
-    "PartSlot": ["Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

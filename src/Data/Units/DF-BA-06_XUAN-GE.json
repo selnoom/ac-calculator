@@ -18,5 +18,11 @@
     "Weight": 5480.0,
     "ENLoad": 240.0,
     "imagePath": "images/units/DF-BA-06_XUAN-GE.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

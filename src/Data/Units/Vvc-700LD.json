@@ -41,6 +41,10 @@
     "AmmunitionCost": 150,
     "Weight": 3800,
     "ENLoad": 570,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/Vvc-700LD.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/Vvc-700LD.png",
+    "PartFilter": "Shoulder"
 }

@@ -25,6 +25,10 @@
     "AmmunitionCost": 650,
     "Weight": 4200,
     "ENLoad": 783,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/IB-C03W3__NGI_006.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/IB-C03W3__NGI_006.png",
+    "PartFilter": "Shoulder"
 }

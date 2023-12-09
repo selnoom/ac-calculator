@@ -19,5 +19,11 @@
     "Weight": 4630.0,
     "ENLoad": 180.0,
     "imagePath": "images/units/HML-G3-P08SPL-06.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

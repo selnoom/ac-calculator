@@ -20,6 +20,10 @@
     "AmmunitionCost": 450,
     "Weight": 4250,
     "ENLoad": 425,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/45-091_JVLN_BETA.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/45-091_JVLN_BETA.png",
+    "PartFilter": "Shoulder"
 }

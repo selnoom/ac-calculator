@@ -22,5 +22,11 @@
     "ENLoad": 102.0,
     "Cooling": 167.0,
     "imagePath": "images/units/RF-024_TURNER.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

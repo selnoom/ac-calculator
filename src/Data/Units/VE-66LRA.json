@@ -27,5 +27,11 @@
     "Weight": 4940.0,
     "ENLoad": 532.0,
     "imagePath": "images/units/VE-66LRA.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

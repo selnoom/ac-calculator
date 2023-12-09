@@ -27,5 +27,11 @@
     "Weight": 2880.0,
     "ENLoad": 440.0,
     "imagePath": "images/units/WUERGER-66E.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

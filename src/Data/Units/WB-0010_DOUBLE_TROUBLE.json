@@ -18,5 +18,9 @@
     "Weight": 5090.0,
     "ENLoad": 108.0,
     "imagePath": "images/units/WB-0010_DOUBLE_TROUBLE.png",
-    "PartSlot": ["Left Arm", "Left Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

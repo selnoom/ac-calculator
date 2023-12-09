@@ -30,5 +30,11 @@
     "Weight": 2810.0,
     "ENLoad": 98.0,
     "imagePath": "images/units/MA-E-210_ETSUJIN.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -20,5 +20,11 @@
     "Weight": 6210.0,
     "ENLoad": 403.0,
     "imagePath": "images/units/WB-0000_BAD_COOK.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

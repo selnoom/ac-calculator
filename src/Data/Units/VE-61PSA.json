@@ -16,6 +16,9 @@
     "Cooling": 113,
     "Weight": 4100,
     "ENLoad": 480,
-    "PartSlot": ["Left Shoulder"],
-    "imagePath": "images/shoulders/VE-61PSA.png"
+    "PartSlot": [
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/VE-61PSA.png",
+    "PartFilter": "Shoulder"
 }

@@ -29,6 +29,10 @@
     "AmmunitionCost": 300,
     "Weight": 3100,
     "ENLoad": 420,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/EL-PW-01_TRUENO.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/EL-PW-01_TRUENO.png",
+    "PartFilter": "Shoulder"
 }

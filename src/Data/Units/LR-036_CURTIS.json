@@ -26,5 +26,11 @@
     "Weight": 4150.0,
     "ENLoad": 289.0,
     "imagePath": "images/units/LR-036_CURTIS.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

@@ -21,5 +21,9 @@
     "Weight": 6890,
     "ENLoad": 499,
     "imagePath": "images/shoulders/WR-0999_DELIVERY_BOY.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }

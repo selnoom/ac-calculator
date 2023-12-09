@@ -28,6 +28,10 @@
     "AmmunitionCost": 500,
     "Weight": 2800,
     "ENLoad": 560,
-    "PartSlot": ["Right Shoulder", "Left Shoulder"],
-    "imagePath": "images/shoulders/VP-60LT.png"
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "imagePath": "images/shoulders/VP-60LT.png",
+    "PartFilter": "Shoulder"
 }

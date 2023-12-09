@@ -34,5 +34,11 @@
     "Weight": 4210.0,
     "ENLoad": 158.0,
     "imagePath": "images/units/MA-J-200_RANSETSU-RF.png",
-    "PartSlot": ["Left Arm", "Right Arm", "Left Shoulder", "Right Shoulder"]
+    "PartSlot": [
+        "Left Arm",
+        "Right Arm",
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
+    "PartFilter": "Arm"
 }

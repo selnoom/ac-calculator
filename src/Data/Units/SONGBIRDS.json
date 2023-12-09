@@ -19,5 +19,9 @@
     "Weight": 5500.0,
     "ENLoad": 285.0,
     "imagePath": "images/shoulders/SONGBIRDS.png",
-    "PartSlot": ["Right Shoulder", "Left Shoulder"]
+    "PartSlot": [
+        "Right Shoulder",
+        "Left Shoulder"
+    ],
+    "PartFilter": "Shoulder"
 }
