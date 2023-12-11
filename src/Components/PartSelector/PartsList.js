@@ -5,6 +5,22 @@ import { calculateTotalLoad, findLegsPart, checkTotalLoadOverload, calculateTota
 function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selectorIndex }) {
   const { selectedPartsArray } = useContext(PartsContext);
   const currentSlotIndex = boxIndex * 4 + selectorIndex;
+  
+  const isPartAlreadySelectedOnSide = (part, boxIndex, selectorIndex, selectedPartsArray) => {
+    if (boxIndex === 0) {
+      // Right arm (index 0) blocks right shoulder (index 2) and vice versa
+      if ((selectorIndex === 0 && selectedPartsArray[2]?.PartName === part.PartName) ||
+          (selectorIndex === 2 && selectedPartsArray[0]?.PartName === part.PartName)) {
+        return true;
+      }
+      // Left arm (index 1) blocks left shoulder (index 3) and vice versa
+      if ((selectorIndex === 1 && selectedPartsArray[3]?.PartName === part.PartName) ||
+          (selectorIndex === 3 && selectedPartsArray[1]?.PartName === part.PartName)) {
+        return true;
+      }
+    }
+    return false;
+  };
 
   // Weight Load Calculations
   const legsPart = findLegsPart(selectedPartsArray);
@@ -31,10 +47,15 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
         const isArmsOverloaded = (boxIndex === 0 && (selectorIndex === 0 || selectorIndex === 1)) && 
                                  checkArmsLoadOverload(selectedPartsArray, armsPart, part, currentArmSlotIndex);
         const isArmsCapabilityOverloaded = checkArmsCapabilityOverload(part, selectedPartsArray);
+        const alreadySelected = isPartAlreadySelectedOnSide(part, boxIndex, selectorIndex, selectedPartsArray);
+        const isSelected = clickedPart === part;
         
         return (
-          <li className={`p-2 cursor-pointer ${clickedPart === part ? 'bg-cyan-900' : 'hover:bg-gray-600'}`} key={part.PartName}
-              onClick={(event) => onPartClick(part, event, index)}>
+          <li 
+          className={`p-2 ${alreadySelected ? 'cursor-not-allowed bg-opacity-50 bg-black' : isSelected ? 'bg-cyan-900' : 'cursor-pointer hover:bg-gray-600'}`}
+          key={part.PartName}
+          onClick={(event) => alreadySelected ? null : onPartClick(part, event, index)}
+          >
             <div className="flex flex-col items-center border border-gray-700 p-0.25 rounded">
               <div className="text-xs sm:text-sm">
                 {part.PartName}{part.PartClass ? `, ${part.PartClass}` : ''}
@@ -44,8 +65,9 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
                 {isENOverloaded && <div className="text-blue-500">EN Overload</div>}
                 {isArmsOverloaded && <div className="text-yellow-500">Arms Overload</div>}
                 {isArmsCapabilityOverloaded && <div className="text-yellow-500">Arms Load Overload</div>}
+                {alreadySelected && <div className="text-white bg-red-500 px-2 py-1">Part already selected on this side</div>}
               </div>
-              <img src={process.env.PUBLIC_URL + '/' + part.imagePath} alt={part.PartName} className="h-24 mt-2" />
+              <img src={process.env.PUBLIC_URL + '/' + part.imagePath} alt={part.PartName} className={`h-24 mt-2 ${alreadySelected ? 'opacity-50' : ''}`} />
             </div>
           </li>
         );
