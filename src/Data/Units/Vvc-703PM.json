@@ -18,8 +18,8 @@
     "TotalRounds": 120,
     "ReloadTime": 4.0,
     "AmmunitionCost": 100,
-    "Weight": 2720,
-    "ENLoad": 245,
+    "Weight": 2310,
+    "ENLoad": 210,
     "PartSlot": [
         "Right Shoulder",
         "Left Shoulder"

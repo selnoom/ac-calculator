@@ -2,7 +2,7 @@
     "PartName": "IB-C03B: NGI 001",
     "Manufacturer": "RUBICON RESEARCH INSTITUTE",
     "Thrust": 6467,
-    "UpwardThrust": 5501,
+    "UpwardThrust": 6001,
     "UpwardENConsumption": 750,
     "QBThrust": 22200,
     "QBJetDuration": 0.43,

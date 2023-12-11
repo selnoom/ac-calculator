@@ -23,9 +23,9 @@
     },
     "DirectHitAdjustment": 195.0,
     "PAInterference": 127.0,
-    "Cooling": 317.0,
-    "Weight": 2680.0,
-    "ENLoad": 365.0,
+    "Cooling": 347.0,
+    "Weight": 2060.0,
+    "ENLoad": 247.0,
     "imagePath": "images/units/Vvc-770LB.png",
     "PartSlot": [
         "Left Arm",

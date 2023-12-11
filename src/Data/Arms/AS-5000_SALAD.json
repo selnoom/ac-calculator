@@ -8,11 +8,11 @@
     "AntiEnergyDefense": 271,
     "AntiExplosiveDefense": 255,
     "ArmsLoadLimit": 18700,
-    "RecoilControl": 130,
+    "RecoilControl": 140,
     "FirearmSpecialization": 88,
-    "MeleeSpecialization": 80,
+    "MeleeSpecialization": 109,
     "Weight": 20940,
-    "ENLoad": 356,
+    "ENLoad": 324,
     "PartSlot": ["Arms"],
     "imagePath": "images/arms/AS-5000_SALAD.png"
 }

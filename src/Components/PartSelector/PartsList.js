@@ -39,7 +39,6 @@ function PartList({ parts, filterText, onPartClick, clickedPart, boxIndex, selec
               <div className="text-xs sm:text-sm">
                 {part.PartName}{part.PartClass ? `, ${part.PartClass}` : ''}
               </div>
-              {/* Smaller text on small screens */}
               <div className="text-xs sm:text-sm">
                 {isWeightOverloaded && <div className="text-red-500">Weight Overload</div>}
                 {isENOverloaded && <div className="text-blue-500">EN Overload</div>}

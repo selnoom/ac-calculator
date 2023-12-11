@@ -8,15 +8,15 @@
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": {
         "value": 146,
-        "times": 6
+        "times": 10
     },
     "Impact": {
         "value": 81,
-        "times": 6
+        "times": 10
     },
     "AccumulativeImpact": {
         "value": 39,
-        "times": 6
+        "times": 10
     },
     "DirectHitAdjustment": 135,
     "IdealRange": 250,

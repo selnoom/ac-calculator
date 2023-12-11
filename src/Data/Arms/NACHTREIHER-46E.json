@@ -8,11 +8,11 @@
     "AntiEnergyDefense": 213,
     "AntiExplosiveDefense": 195,
     "ArmsLoadLimit": 12730,
-    "RecoilControl": 52,
+    "RecoilControl": 87,
     "FirearmSpecialization": 160,
     "MeleeSpecialization": 95,
     "Weight": 11420,
-    "ENLoad": 302,
+    "ENLoad": 290,
     "PartSlot": ["Arms"],
     "imagePath": "images/arms/NACHTREIHER-46E.png"
 }

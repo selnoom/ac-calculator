@@ -25,17 +25,13 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
 
   const toggleFilter = (filterName) => {
     setActiveFilters(currentFilters => {
-        // Check if the filter is currently active
         if (currentFilters.includes(filterName)) {
-            // Filter is active, remove it
             return currentFilters.filter(f => f !== filterName);
         } else {
-            // Filter is not active, add it
             return [...currentFilters, filterName];
         }
     });
   };
-
 
   // When selectedPartsArray changes, update the selectedPart
   useEffect(() => {
@@ -53,7 +49,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
       const boosterIsSelected = selectedPartsArray.some(part => part && part.PartType === "Booster");
       if (boosterIsSelected) {
         setShowConfirmModal(true);
-        return; // Don't continue with the rest of the logic until user's decision
+        return;
       }
     }
 
@@ -62,7 +58,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
 
   const saveSelectedPart = () => {
     setSelectedPart(clickedPart);
-    setShowList(false);  // Close the modal after saving
+    setShowList(false); 
 
     // Notify the parent (PartBox) about the selection
     onPartSelected(clickedPart);
@@ -128,13 +124,11 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
       const values = {};
       parts.forEach(part => {
         Object.keys(part).forEach(key => {
-          // Check if the property is a number
           if (typeof part[key] === 'number') {
             if (!values[key] || part[key] > values[key]) {
               values[key] = part[key];
             }
           }
-          // Check if the property is an object with a 'value' property
           else if (part[key] && typeof part[key] === 'object' && typeof part[key].value === 'number') {
             if (!values[key] || part[key].value > values[key]) {
               values[key] = part[key].value;
@@ -150,7 +144,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   const handlePartClick = (part, event) => {
     event.stopPropagation(); // Stop the event from propagating to the modal background
     if (clickedPart === part) {
-      setClickedPart(null);
+      saveSelectedPart();
     } else {
       setClickedPart(part);
     }

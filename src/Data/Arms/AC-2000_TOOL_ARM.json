@@ -8,7 +8,7 @@
     "AntiEnergyDefense": 204,
     "AntiExplosiveDefense": 209,
     "ArmsLoadLimit": 13300,
-    "RecoilControl": 90,
+    "RecoilControl": 110,
     "FirearmSpecialization": 96,
     "MeleeSpecialization": 100,
     "Weight": 11300,

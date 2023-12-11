@@ -11,6 +11,7 @@
     "ChgAttackPower": 977.0,
     "ChgImpact": 1250.0,
     "ChgAccumImpact": 380.0,
+    "ChgHeatBuildUp": 1000,
     "DirectHitAdjustment": 220.0,
     "Recoil": 35.0,
     "IdealRange": 195.0,

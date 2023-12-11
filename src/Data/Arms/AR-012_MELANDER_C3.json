@@ -8,10 +8,10 @@
     "AntiEnergyDefense": 212,
     "AntiExplosiveDefense": 233,
     "ArmsLoadLimit": 12000,
-    "RecoilControl": 92,
-    "FirearmSpecialization": 128,
+    "RecoilControl": 102,
+    "FirearmSpecialization": 135,
     "MeleeSpecialization": 102,
-    "Weight": 12300,
+    "Weight": 12000,
     "ENLoad": 232,
     "PartSlot": ["Arms"],
     "imagePath": "images/arms/AR-012_MELANDER_C3.png"

@@ -1,18 +1,18 @@
 {
-    "PartName": "LG-013 MELANDER C3",
+    "PartName": "LG-012 MELANDER C3",
     "Manufacturer": "BALAM",
     "AP": 3880,
     "AntiKineticDefense": 363,
     "AntiEnergyDefense": 339,
     "AntiExplosiveDefense": 357,
-    "AttitudeStability": 735,
+    "AttitudeStability": 835,
     "LoadLimit": 55440,
-    "JumpDistance": 98,
+    "JumpDistance": 118,
     "JumpHeight": 26,
     "Weight": 17210,
     "ENLoad": 355,
     "LegType": "Bipedal",
     "PartSlot": ["Legs"],
     "FrameType": "Body",
-    "imagePath": "images/legs/LG-013_MELANDER_C3.png"
+    "imagePath": "images/legs/LG-012_MELANDER_C3.png"
 }

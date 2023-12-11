@@ -10,8 +10,8 @@
     "ArmsLoadLimit": 15800,
     "RecoilControl": 232,
     "FirearmSpecialization": 26,
-    "MeleeSpecialization": 13,
-    "Weight": 14650,
+    "MeleeSpecialization": 43,
+    "Weight": 14150,
     "ENLoad": 220,
     "PartSlot": ["Arms"],
     "imagePath": "images/arms/AC-3000_WRECKER.png"

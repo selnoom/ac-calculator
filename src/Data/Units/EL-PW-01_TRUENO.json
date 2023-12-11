@@ -19,7 +19,7 @@
         "times": 2
     },
     "DirectHitAdjustment": 215,
-    "Guidance": 120,
+    "Guidance": 110,
     "IdealRange": 310,
     "EffectiveRange": 410,
     "HomingLockTime": 4.2,

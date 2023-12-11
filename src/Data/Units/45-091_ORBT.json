@@ -7,7 +7,7 @@
     "AdditionalEffects": "None",
     "Manufacturer": "ALLMIND",
     "AttackPower": {
-        "value": 122,
+        "value": 135,
         "times": 3
     },
     "Impact": {
@@ -18,9 +18,9 @@
         "value": 39,
         "times": 3
     },
-    "DirectHitAdjustment": 125,
-    "IdealRange": 130,
-    "EffectiveRange": 220,
+    "DirectHitAdjustment": 135,
+    "IdealRange": 198,
+    "EffectiveRange": 262,
     "RapidFire": 1.0,
     "TotalRounds": 165,
     "Cooling": 116,

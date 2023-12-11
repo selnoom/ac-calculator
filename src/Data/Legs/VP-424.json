@@ -1,7 +1,7 @@
 {
     "PartName": "VP-424",
     "Manufacturer": "ARQUEBUS CORP",
-    "AP": 5600,
+    "AP": 4100,
     "AntiKineticDefense": 366,
     "AntiEnergyDefense": 384,
     "AntiExplosiveDefense": 386,

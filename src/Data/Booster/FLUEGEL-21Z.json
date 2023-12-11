@@ -2,7 +2,7 @@
     "PartName": "FLUEGEL/21Z",
     "Manufacturer": "SCHNEIDER",
     "Thrust": 6101,
-    "UpwardThrust": 5134,
+    "UpwardThrust": 5634,
     "UpwardENConsumption": 680,
     "QBThrust": 20000,
     "QBJetDuration": 0.4,

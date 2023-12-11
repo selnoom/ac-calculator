@@ -2,7 +2,7 @@
     "PartName": "BC-0600 12345",
     "Manufacturer": "RAD",
     "Thrust": 5801,
-    "UpwardThrust": 4700,
+    "UpwardThrust": 5200,
     "UpwardENConsumption": 800,
     "QBThrust": 18900,
     "QBJetDuration": 0.54,

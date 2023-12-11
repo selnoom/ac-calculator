@@ -6,7 +6,7 @@
     "ReloadType": "Single Shot",
     "Manufacturer": "BAWS",
     "AttackPower": {
-        "value": 366,
+        "value": 383,
         "times": 3
     },
     "Impact": {
@@ -20,8 +20,8 @@
     "BlastRadius": 20.0,
     "DirectHitAdjustment": 170.0,
     "Recoil": 50.0,
-    "ChargeTime": 0.3,
-    "TotalRounds": 63.0,
+    "ChargeTime": 0.4,
+    "TotalRounds": 90.0,
     "ReloadTime": 2.3,
     "AmmunitionCost": 200.0,
     "Weight": 2890.0,

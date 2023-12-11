@@ -12,7 +12,7 @@
     "BlastRadius": 60.0,
     "DirectHitAdjustment": 100.0,
     "Recoil": 40.0,
-    "ChargeTime": 0.8,
+    "ChargeTime": 0.4,
     "TotalRounds": 40.0,
     "ReloadTime": 5.5,
     "AmmunitionCost": 100.0,

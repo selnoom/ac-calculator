@@ -7,19 +7,19 @@
     "AdditionalEffects": "None",
     "Manufacturer": "FURLONG DYNAMICS",
     "AttackPower": {
-        "value": 146,
+        "value": 177,
         "times": 6
     },
     "Impact": {
-        "value": 89,
+        "value": 111,
         "times": 6
     },
     "AccumulativeImpact": {
-        "value": 58,
+        "value": 72,
         "times": 6
     },
     "DirectHitAdjustment": 150,
-    "Guidance": 125,
+    "Guidance": 145,
     "EffectiveRange": 500,
     "HomingLockTime": 0.7,
     "MaxLockCount": 6,
