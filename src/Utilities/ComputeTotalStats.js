@@ -39,7 +39,7 @@ function computeTotalStats(parts) {
         }
 
         // Check if arm part
-        if (part.PartSlot?.includes("Right Arm") || part.PartSlot?.includes("Left Arm")) {
+        if (part.ArmLoader && part.ArmLoader === true) {
           totalArmsLoad += part.Weight;
         }
 

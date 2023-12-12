@@ -3,7 +3,7 @@ import PartBox from './PartBoxes/PartBox';
 import MainStatsDisplay from './MainStatsDisplay/MainStatsDisplay';
 import Container from './Container';
 import { useEffect, useRef, useState } from 'react';
-import { saveBuildToFile, loadBuildFromFile, generateBuildLink, parseBuildFromURL } from '../Utilities/BuildSavingLoading';
+import { saveBuildToFile, loadBuildFromFile, generateBuildLink, parseBuildFromURL, addArmLoaderProperty } from '../Utilities/BuildSavingLoading';
 
 function HomePage({ selectedPartsArray, setSelectedPartsArray  }) {
     const fileInputRef = useRef();
@@ -18,7 +18,8 @@ function HomePage({ selectedPartsArray, setSelectedPartsArray  }) {
     useEffect(() => {
         const buildFromURL = parseBuildFromURL();
         if (buildFromURL) {
-            setSelectedPartsArray(buildFromURL);
+            const updatedBuildFromURL = addArmLoaderProperty(buildFromURL);
+            setSelectedPartsArray(updatedBuildFromURL);
         }
     }, [setSelectedPartsArray]);
 

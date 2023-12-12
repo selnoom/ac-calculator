@@ -7,6 +7,18 @@ import About from './Components/Header/About';
 import HowToUse from './Components/Header/HowToUse';
 
 function App() {
+
+  const loadUmamiScript = () => {
+    const script = document.createElement('script');
+    script.src = "https://umami-production-c71a.up.railway.app/script.js";
+    script.async = true;
+    script.setAttribute("data-website-id", "7683d393-5808-4460-b179-a8f2a9b0c796");
+    document.body.appendChild(script);
+  };
+
+  useEffect(() => {
+    loadUmamiScript();
+  }, []);
   
   // eslint-disable-next-line no-useless-escape
   useEffect(() => {

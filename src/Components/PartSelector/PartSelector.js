@@ -46,22 +46,26 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
 
   const handleSave = () => {
     if (partType === "legs" && clickedPart?.LegType === "Tank") {
-      const boosterIsSelected = selectedPartsArray.some(part => part && part.PartType === "Booster");
+      const boosterIsSelected = selectedPartsArray.some(part => part && part.PartSlot[0] === "Boosters");
       if (boosterIsSelected) {
         setShowConfirmModal(true);
         return;
       }
     }
-
     saveSelectedPart();
   };
 
   const saveSelectedPart = () => {
-    setSelectedPart(clickedPart);
-    setShowList(false); 
-
-    // Notify the parent (PartBox) about the selection
-    onPartSelected(clickedPart);
+    if (boxIndex === 0 && (selectorIndex === 0 || selectorIndex === 1)) { 
+      const updatedPart = { ...clickedPart, ArmLoader: true };
+      setSelectedPart(updatedPart);
+      setShowList(false); 
+      onPartSelected(updatedPart);
+    } else {
+      setSelectedPart(clickedPart);
+      setShowList(false); 
+      onPartSelected(clickedPart);
+    }
   };
 
   const handleConfirm = () => {
@@ -144,7 +148,7 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   const handlePartClick = (part, event) => {
     event.stopPropagation(); // Stop the event from propagating to the modal background
     if (clickedPart === part) {
-      saveSelectedPart();
+      handleSave();
     } else {
       setClickedPart(part);
     }

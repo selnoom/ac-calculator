@@ -17,7 +17,8 @@ export const loadBuildFromFile = (file, setSelectedPartsArray) => {
             try {
                 const partNames = JSON.parse(e.target.result);
                 const newPartsArray = partNames.map(partName => findPartByName(partName));
-                setSelectedPartsArray(newPartsArray);
+                const updatedPartsArray = addArmLoaderProperty(newPartsArray);
+                setSelectedPartsArray(updatedPartsArray);
             } catch (error) {
                 console.error('Error loading build:', error);
                 alert('Invalid file format or content.');
@@ -25,6 +26,16 @@ export const loadBuildFromFile = (file, setSelectedPartsArray) => {
         };
         reader.readAsText(file);
     }
+};
+
+export const addArmLoaderProperty = (partsArray) => {
+    return partsArray.map((part, index) => {
+        if (index === 0 || index === 1) {
+            // If part exists, add ArmLoader property
+            return part ? { ...part, ArmLoader: true } : null;
+        }
+        return part;
+    });
 };
 
 const loadAllParts = () => {
