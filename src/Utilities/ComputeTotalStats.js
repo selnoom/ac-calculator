@@ -18,6 +18,7 @@ function computeTotalStats(parts) {
     let QBReloadTime = 0;
     let QBENConsumption = 0;
     let QBSpeed = 0;
+    let generatorOutputAdj = 0;
 
     // Remove null and undefined values from array
     parts = parts.filter(part => part !== null && part !== undefined);
@@ -59,6 +60,11 @@ function computeTotalStats(parts) {
         QBReloadTime += part.QBReloadTime || 0;
         QBENConsumption += part.QBENConsumption || 0;
         QBSpeed += part.QBSpeed || 0;
+        generatorOutputAdj += part.GeneratorOutputAdj || 0;
+
+        if (generatorOutputAdj > 0) {
+          ENOutput = ENOutput * 0.01 * generatorOutputAdj;
+        }
     });
   
     return {
@@ -80,7 +86,7 @@ function computeTotalStats(parts) {
       speed: speed,
       qb_reload_time: QBReloadTime,
       qb_EN_consumption: QBENConsumption,
-      qb_speed: QBSpeed
+      qb_speed: QBSpeed,
     };
   }
 
