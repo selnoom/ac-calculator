@@ -21,5 +21,9 @@
     "Weight": 3760.0,
     "ENLoad": 268.0,
     "imagePath": "images/shoulders/Vvc-70VPM.png",
-    "PartFilter": "Shoulder"
+    "PartFilter": "Shoulder",
+    "PartSlot": [
+        "Left Shoulder",
+        "Right Shoulder"
+    ]
 }
