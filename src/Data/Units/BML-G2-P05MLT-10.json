@@ -29,6 +29,10 @@
     "AmmunitionCost": 80,
     "Weight": 5220,
     "ENLoad": 320,
+    "PartSlot": [
+        "Left Shoulder",
+        "Right Shoulder"
+    ],
     "imagePath": "images/shoulders/BML-G2-P05MLT-10.png",
     "PartFilter": "Shoulder"
 }
