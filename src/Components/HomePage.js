@@ -53,13 +53,13 @@ function HomePage({ selectedPartsArray, setSelectedPartsArray  }) {
                 {/* Left Section: Part Boxes Grouped */}
                 <div className="flex flex-col w-full sm:w-full md:w-1/2 lg:w-2/3 xl:w-2/3 pr-1 space-y-1 overflow-y-auto">
                     <div className="mt-4 mb-2 p-2 bg-gray-700">
-                    <button onClick={() => handleSaveBuildToFile()} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 ml-2">
+                    <button onClick={() => handleSaveBuildToFile()} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 ml-2 my-2 text-sm sm:text-base">
                         Save Build File
                     </button>
-                    <button onClick={() => handleSaveBuildToLink()} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 ml-2">
+                    <button onClick={() => handleSaveBuildToLink()} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 ml-2 my-2 text-sm sm:text-base">
                         Save Build Link
                     </button>
-                    <button onClick={() => fileInputRef.current.click()} className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 ml-2">
+                    <button onClick={() => fileInputRef.current.click()} className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 ml-2 my-2 text-sm sm:text-base">
                         Load Build File
                     </button>
                     <input 
