@@ -62,11 +62,12 @@ function computeTotalStats(parts) {
         QBSpeed += part.QBSpeed || 0;
         generatorOutputAdj += part.GeneratorOutputAdj || 0;
 
-        if (generatorOutputAdj > 0) {
-          ENOutput = ENOutput * 0.01 * generatorOutputAdj;
-        }
-    });
-  
+      });
+      
+      if (generatorOutputAdj > 0) {
+        ENOutput = ENOutput * 0.01 * generatorOutputAdj;
+      }
+      
     return {
       AP: totalAP,
       EN_load: totalENLoad,
