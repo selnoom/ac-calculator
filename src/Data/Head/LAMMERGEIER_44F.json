@@ -1,0 +1,18 @@
+{
+    "PartName": "LAMMERGEIER/44F",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 300.0,
+    "AntiKineticDefense": 130.0,
+    "AntiEnergyDefense": 153.0,
+    "AntiExplosiveDefense": 130.0,
+    "AttitudeStability": 255.0,
+    "SystemRecovery": 121.0,
+    "ScanDistance": 300.0,
+    "ScanEffectDuration": 6.6,
+    "ScanStandbyTime": 8.0,
+    "Weight": 1050.0,
+    "ENLoad": 220.0,
+    "PartSlot": ["Head"],
+    "FrameType": "Core",
+    "imagePath": "images/heads/LAMMERGEIER_44F.png"
+}

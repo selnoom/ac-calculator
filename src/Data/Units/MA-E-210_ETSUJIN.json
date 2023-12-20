@@ -17,11 +17,10 @@
         "value": 22,
         "times": 4
     },
-    "ConsecutiveHits": 4.0,
     "DirectHitAdjustment": 195.0,
     "Recoil": 3.0,
-    "IdealRange": 106.0,
-    "EffectiveRange": 224.0,
+    "IdealRange": 117.0,
+    "EffectiveRange": 236.0,
     "RapidFire": 8.1,
     "MagazineRounds": 24.0,
     "TotalRounds": 600.0,

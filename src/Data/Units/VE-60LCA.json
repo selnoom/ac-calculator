@@ -20,7 +20,7 @@
     },
     "ATKHeatBuildup": 700,
     "ConsecutiveHits": 3,
-    "ChgAttack": 1015,
+    "ChgAttackPower": 1015,
     "ChgImpact": 330,
     "ChgAccumImpact": 185,
     "ChgHeatBuildup": 1000,

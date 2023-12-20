@@ -1,0 +1,18 @@
+{
+    "PartName": "LAMMERGEIER/46F",
+    "PartClass": "Arms",
+    "FrameType": "Body",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 1590,
+    "AntiKineticDefense": 189,
+    "AntiEnergyDefense": 246,
+    "AntiExplosiveDefense": 180,
+    "ArmsLoadLimit": 11970,
+    "RecoilControl": 134,
+    "FirearmSpecialization": 87,
+    "MeleeSpecialization": 115,
+    "Weight": 9700,
+    "ENLoad": 328,
+    "PartSlot": ["Arms"],
+    "imagePath": "images/arms/LAMMERGEIER-46F.png"
+}

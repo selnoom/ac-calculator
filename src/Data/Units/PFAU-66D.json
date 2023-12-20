@@ -1,0 +1,52 @@
+{
+    "PartName": "PFAU/66D",
+    "PartClass": "Pulse Missle Launcher",
+    "AttackType": "Energy",
+    "WeaponType": "Homing",
+    "ReloadType": "Single Shot",
+    "AdditionalEffects": "None",
+    "Manufacturer": "SCHNEIDER",
+    "AttackPower": {
+        "value": 178,
+        "times": 3
+    },
+    "Impact": {
+        "value": 122,
+        "times": 3
+    },
+    "AccumulativeImpact": {
+        "value": 87,
+        "times": 3
+    },
+    "ChgAttackPower": {
+        "value": 178,
+        "times": 6
+    },
+    "ChgImpact": {
+        "value": 122,
+        "times": 6
+    },
+    "ChgAccumImpact": {
+        "value": 87,
+        "times": 6
+    },
+    "ChgBlastRadius" : 15,
+    "DirectHitAdjustment": 145,
+    "PAInterference": 187,
+    "Guidance": 170,
+    "EffectiveRange": 1999,
+    "HomingLockTime": 0.2,
+    "MaxLockCount": 1,
+    "ChargeTime": 0.5,
+    "TotalRounds": 228,
+    "ReloadTime": 3.3,
+    "AmmunitionCost": 330,
+    "Weight": 3630,
+    "ENLoad": 392,
+    "PartSlot": [
+        "Right Arm",
+        "Left Arm"
+    ],
+    "imagePath": "images/units/PFAU-66D.png",
+    "PartFilter": "Arms"
+}

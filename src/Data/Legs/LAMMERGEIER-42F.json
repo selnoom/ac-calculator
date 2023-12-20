@@ -1,0 +1,18 @@
+{
+    "PartName": "LAMMERGEIER/42F",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 3560,
+    "AntiKineticDefense": 300,
+    "AntiEnergyDefense": 360,
+    "AntiExplosiveDefense": 295,
+    "AttitudeStability": 1051,
+    "LoadLimit": 52460,
+    "JumpDistance": 53,
+    "JumpHeight": 42,
+    "Weight": 22430,
+    "ENLoad": 790,
+    "LegType": "Bipedal",
+    "PartSlot": ["Legs"],
+    "FrameType": "Body",
+    "imagePath": "images/legs/LAMMERGEIER-42F.png"
+}

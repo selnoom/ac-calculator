@@ -1,0 +1,18 @@
+{
+    "PartName": "LAMMERGEIER/40F",
+    "Class": "Light",
+    "Manufacturer": "SCHNEIDER",
+    "AP": 2470 ,
+    "AntiKineticDefense": 330,
+    "AntiEnergyDefense": 390,
+    "AntiExplosiveDefense": 337,
+    "AttitudeStability": 354,
+    "BoosterEfficiencyAdj": 87,
+    "GeneratorOutputAdj": 117,
+    "GeneratorSupplyAdj": 110,
+    "Weight": 9700,
+    "ENLoad": 341,
+    "FrameType": "Body",
+    "PartSlot": ["Core"],
+    "imagePath": "images/bodys/LAMMERGEIER-40F.png"
+}

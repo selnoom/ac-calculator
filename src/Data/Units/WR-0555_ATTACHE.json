@@ -1,0 +1,28 @@
+{
+    "PartName": "WR-0555 ATTACHE",
+    "PartClass": "HEAVY MACHINE GUN",
+    "AttackType": "Kinetic",
+    "WeaponType": "Full-Auto",
+    "ReloadType": "Magazine",
+    "Manufacturer": "RaD",
+    "AttackPower": 62.0,
+    "Impact": 62.0,
+    "AccumulativeImpact": 25.0,
+    "DirectHitAdjustment": 185.0,
+    "Recoil": 7.0,
+    "IdealRange": 143.0,
+    "EffectiveRange": 272.0,
+    "RapidFire": 5.0,
+    "MagazineRounds": 40.0,
+    "TotalRounds": 920.0,
+    "ReloadTime": 2.1,
+    "AmmunitionCost": 40.0,
+    "Weight": 5110.0,
+    "ENLoad": 303.0,
+    "imagePath": "images/units/WR-0555_ATTACHE.png",
+    "PartSlot": [
+        "Right Arm",
+        "Left Arm"
+    ],
+    "PartFilter": "Arm"
+}

@@ -11,7 +11,7 @@
     "AccumulativeImpact": 248.0,
     "BlastRadius": 26.0,
     "DirectHitAdjustment": 125.0,
-    "Guidance": 180.0,
+    "Guidance": 155.0,
     "EffectiveRange": 750.0,
     "HomingLockTime": 0.5,
     "MaxLockCount": 5.0,
