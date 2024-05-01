@@ -7,7 +7,7 @@
     "AdditionalEffects": "Shock",
     "Manufacturer": "RaD",
     "AttackPower": {
-        "value": 131,
+        "value": 141,
         "times": 3
     },
     "Impact": {
@@ -21,9 +21,10 @@
     "BlastRadius": 20.0,
     "DirectHitAdjustment": 130.0,
     "Recoil": 40.0,
+    "EffectiveRange": 310.0,
     "ChargeTime": 0.4,
     "TotalRounds": 108.0,
-    "ReloadTime": 2.8,
+    "ReloadTime": 2.0,
     "AmmunitionCost": 150.0,
     "Weight": 3180.0,
     "ENLoad": 82.0,

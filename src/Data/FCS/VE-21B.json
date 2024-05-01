@@ -2,7 +2,7 @@
     "PartName": "VE-21B",
     "Manufacturer": "ARQUEBUS CORP",
     "CloseRangeAssist": 15,
-    "MediumRangeAssist": 50,
+    "MediumRangeAssist": 76,
     "LongRangeAssist": 80,
     "MissileLockCorrection": 97,
     "MultiLockCorrection": 70,

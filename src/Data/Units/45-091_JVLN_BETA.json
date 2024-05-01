@@ -9,7 +9,7 @@
     "AttackPower": 791,
     "Impact": 717,
     "AccumulativeImpact": 563,
-    "BlastRadius": 20,
+    "BlastRadius": 15,
     "DirectHitAdjustment": 165,
     "Guidance": 360,
     "EffectiveRange": 360,

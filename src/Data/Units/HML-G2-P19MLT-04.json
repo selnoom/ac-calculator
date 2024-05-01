@@ -14,7 +14,7 @@
         "times": 4
     },
     "AccumulativeImpact": {
-        "value": 123,
+        "value": 105,
         "times": 4
     },
     "DirectHitAdjustment": 155.0,
@@ -23,7 +23,7 @@
     "HomingLockTime": 0.4,
     "MaxLockCount": 4.0,
     "TotalRounds": 180.0,
-    "ReloadTime": 3.0,
+    "ReloadTime": 3.6,
     "AmmunitionCost": 150.0,
     "Weight": 3250.0,
     "ENLoad": 165.0,

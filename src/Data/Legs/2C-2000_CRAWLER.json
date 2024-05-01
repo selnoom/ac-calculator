@@ -8,7 +8,7 @@
     "AttitudeStability": 799,
     "LoadLimit": 53700,
     "JumpDistance": 100,
-    "JumpHeight": 24,
+    "JumpHeight": 27,
     "Weight": 16300,
     "ENLoad": 280,
     "LegType": "Bipedal",

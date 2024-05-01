@@ -18,7 +18,7 @@
     "Recoil": 70,
     "IdealRange": 300,
     "EffectiveRange": 447,
-    "RapidFire": 0.5,
+    "RapidFire": 0.3,
     "ChgENLoad": 988,
     "ChargeTime": 4.3,
     "ChgAmmoConsumption": 3,

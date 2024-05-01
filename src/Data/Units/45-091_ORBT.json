@@ -7,7 +7,7 @@
     "AdditionalEffects": "None",
     "Manufacturer": "ALLMIND",
     "AttackPower": {
-        "value": 135,
+        "value": 144,
         "times": 3
     },
     "Impact": {
@@ -23,7 +23,7 @@
     "EffectiveRange": 262,
     "RapidFire": 1.0,
     "TotalRounds": 165,
-    "Cooling": 116,
+    "Cooling": 146,
     "AmmunitionCost": 100,
     "Weight": 2010,
     "ENLoad": 446,

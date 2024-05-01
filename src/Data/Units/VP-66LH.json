@@ -6,11 +6,11 @@
     "ReloadType": "Overheat",
     "Manufacturer": "ARQUEBUS CORP",
     "AttackPower": 175.0,
-    "Impact": 85.0,
+    "Impact": 95.0,
     "AccumulativeImpact": 39.0,
     "ATKHeatBuildup": 90.0,
     "ChgAttackPower": {
-        "value": 175,
+        "value": 220,
         "times": 6
     },
     "ChgImpact": {
@@ -28,7 +28,7 @@
     "EffectiveRange": 247.0,
     "RapidFire": 2.5,
     "ChgENLoad": 435.0,
-    "ChargeTime": 1.2,
+    "ChargeTime": 0.4,
     "TotalRounds": 380.0,
     "Cooling": 315.0,
     "AmmunitionCost": 80.0,

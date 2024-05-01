@@ -15,8 +15,8 @@
     "TotalRounds": 38.0,
     "ReloadTime": 7.1,
     "AmmunitionCost": 1500.0,
-    "Weight": 6420.0,
-    "ENLoad": 455.0,
+    "Weight": 5750.0,
+    "ENLoad": 364.0,
     "imagePath": "images/units/DIZZY.png",
     "PartSlot": [
         "Left Arm",

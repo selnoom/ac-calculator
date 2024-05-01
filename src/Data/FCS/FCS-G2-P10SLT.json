@@ -1,10 +1,10 @@
 {
     "PartName": "FCS-G2/P10SLT",
     "Manufacturer": "FURLONG DYNAMICS",
-    "CloseRangeAssist": 40,
+    "CloseRangeAssist": 31,
     "MediumRangeAssist": 41,
     "LongRangeAssist": 29,
-    "MissileLockCorrection": 150,
+    "MissileLockCorrection": 128,
     "MultiLockCorrection": 90,
     "Weight": 120,
     "ENLoad": 209,

@@ -9,7 +9,7 @@
     "LoadLimit": 85700,
     "JumpDistance": 56,
     "JumpHeight": 14,
-    "Weight": 28950,
+    "Weight": 31580,
     "ENLoad": 465,
     "LegType": "Bipedal",
     "PartSlot": ["Legs"],

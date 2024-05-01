@@ -6,7 +6,7 @@
     "ReloadType": "Magazine",
     "Manufacturer": "BAWS",
     "AttackPower": {
-        "value": 46,
+        "value": 51,
         "times": 4
     },
     "Impact": {
@@ -22,8 +22,8 @@
     "IdealRange": 117.0,
     "EffectiveRange": 236.0,
     "RapidFire": 8.1,
-    "MagazineRounds": 24.0,
-    "TotalRounds": 600.0,
+    "MagazineRounds": 28.0,
+    "TotalRounds": 700.0,
     "ReloadTime": 1.5,
     "AmmunitionCost": 30.0,
     "Weight": 2810.0,
