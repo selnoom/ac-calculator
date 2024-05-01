@@ -14,24 +14,14 @@ function About() {
       Reach me at:
       </p>
       <ul className="list-disc pl-5 mb-4">
-        <li>Email: nicholas@usp.br</li>
+        <li>Email: nicholas.pecanha79@gmail.com</li>
         <li>Discord: moonless6674</li>
-        <li>
-            <a href="https://www.linkedin.com/in/nicholas-pecanha/" 
-            className="text-blue-600 hover:underline"
-            target="_blank" 
-            rel="noopener noreferrer">
-            LinkedIn
-            </a>
-        </li>
-        {/* Other contact methods if available */}
       </ul>
 
       <h2 className="text-xl font-bold mb-3">Contributing</h2>
       <p>
         If you're interested in contributing to this project, please check out the GitHub repository.
       </p>
-      {/* Optionally, provide a link to the GitHub repository */}
       <a href="https://github.com/selnoom/ac-calculator" 
         className="text-blue-600 hover:underline"
         target="_blank" 
