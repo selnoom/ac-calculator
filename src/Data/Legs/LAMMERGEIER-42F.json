@@ -11,7 +11,7 @@
     "JumpHeight": 42,
     "Weight": 22430,
     "ENLoad": 790,
-    "LegType": "Bipedal",
+    "LegType": "Tetrapod",
     "PartSlot": ["Legs"],
     "FrameType": "Body",
     "imagePath": "images/legs/LAMMERGEIER-42F.png"
