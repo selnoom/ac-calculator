@@ -59,6 +59,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-email - nicholas@usp.br
+email - nicholas.pecanha79@gmail.com
 
 Project Link: [https://github.com/your_username_/ac-calculator](https://github.com/your_username_/ac-calculator)
