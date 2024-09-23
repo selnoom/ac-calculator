@@ -1,9 +1,9 @@
 {
     "PartName": "FC-008 TALBOT",
     "Manufacturer": "BALAM",
-    "CloseRangeAssist": 63,
-    "MediumRangeAssist": 54,
-    "LongRangeAssist": 11,
+    "CloseRangeAssist": 65,
+    "MediumRangeAssist": 57,
+    "LongRangeAssist": 32,
     "MissileLockCorrection": 103,
     "MultiLockCorrection": 62,
     "Weight": 140,

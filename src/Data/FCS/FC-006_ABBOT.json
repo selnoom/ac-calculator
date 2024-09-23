@@ -1,8 +1,8 @@
 {
     "PartName": "FC-006 ABBOT",
     "Manufacturer": "BALAM",
-    "CloseRangeAssist": 70,
-    "MediumRangeAssist": 32,
+    "CloseRangeAssist": 74,
+    "MediumRangeAssist": 38,
     "LongRangeAssist": 5,
     "MissileLockCorrection": 74,
     "MultiLockCorrection": 46,
