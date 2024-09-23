@@ -20,7 +20,7 @@ function About() {
 
       <h2 className="text-xl font-bold mb-3">Contributing</h2>
       <p>
-        If you're interested in contributing to this project, please check out the GitHub repository.
+          Check out the GitHub repository if you're intersted in contributing.
       </p>
       <a href="https://github.com/selnoom/ac-calculator" 
         className="text-blue-600 hover:underline"

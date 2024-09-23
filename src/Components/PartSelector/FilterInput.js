@@ -3,6 +3,7 @@ import React from 'react';
 function FilterInput({ value, onChange, placeholder = "Filter parts..." }) {
   return (
     <input 
+      // ref={ref}
       type="text" 
       placeholder={placeholder} 
       value={value}

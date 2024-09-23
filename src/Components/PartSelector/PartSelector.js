@@ -95,9 +95,10 @@ function PartSelector({ placeholder, onPartSelected, partType, boxIndex, selecto
   const toggleModal = async () => {
     if (!showList && parts.length === 0) {
         const allowedSlots = determineAllowedSlots(selectorIndex);
-        const parts = loadDataForPartType(partType, allowedSlots); // Pass partType and allowedSlots
+        const parts = loadDataForPartType(partType, allowedSlots);  // Pass partType and allowedSlots
         setParts(parts);
     }
+    setFilterText("");  // Clear the filter text every time the modal is toggled
     setShowList(prevShowList => !prevShowList);
   };
 

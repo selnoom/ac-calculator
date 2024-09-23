@@ -19,7 +19,7 @@ function Header() {
             </li>
           </ul>
           <div className="text-yellow-500 font-semibold text-normal sm:text-sm">
-            Finally got around to implementing 1.06 changes. Enjoy!
+            Updated with the 1.07 patch changes.
           </div>
         </nav>
       </Container>

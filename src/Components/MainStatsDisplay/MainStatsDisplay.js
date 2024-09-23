@@ -42,6 +42,7 @@ function MainStatsDisplay({ selectedParts }) {
       { name: "Total Arms Load", value: totalStats.total_arms_load },
       { name: "Arms Load Limit", value: totalStats.arms_load_limit },
       { name: "Total Load", value: totalStats.total_load },
+      { name: "Load Limit", value: totalStats.load_limit },
       { name: "Total EN Load", value: totalStats.EN_load },
       { name: "EN Output", value: totalStats.EN_output },
       { name: "Current Load", value: totalStats.total_load, isBar: true, maxValue: totalStats.load_limit },
