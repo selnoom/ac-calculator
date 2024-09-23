@@ -1,11 +1,11 @@
 {
     "PartName": "NACHTREIHER/42E",
     "Manufacturer": "SCHNEIDER",
-    "AP": 3500,
+    "AP": 3360,
     "AntiKineticDefense": 295,
     "AntiEnergyDefense": 330,
     "AntiExplosiveDefense": 298,
-    "AttitudeStability": 711,
+    "AttitudeStability": 622,
     "LoadLimit": 48650,
     "JumpDistance": 228,
     "JumpHeight": 52,

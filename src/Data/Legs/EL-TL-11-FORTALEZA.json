@@ -1,7 +1,7 @@
 {
     "PartName": "EL-TL-11 FORTALEZA",
     "Manufacturer": "ELCANO FOUNDRY",
-    "AP": 4860,
+    "AP": 5100,
     "AntiKineticDefense": 345,
     "AntiEnergyDefense": 311,
     "AntiExplosiveDefense": 314,
@@ -17,7 +17,7 @@
     "QBENConsumption": 720,
     "QBReloadTime": 0.5,
     "QBReloadIdealWeight": 69300,
-    "ABThrust": 8835,
+    "ABThrust": 8668,
     "ABENConsumption": 408,
     "Speed": 430,
     "QBSpeed": 440,
