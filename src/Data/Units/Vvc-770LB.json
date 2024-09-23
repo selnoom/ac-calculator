@@ -10,7 +10,7 @@
     "AccumulativeImpact": 330.0,
     "ConsecutiveHits": 1.0,
     "ChgAttackPower": {
-        "value": 1170,
+        "value": 1450,
         "times": 2
     },
     "ChgImpact": {
@@ -18,12 +18,12 @@
         "times": 2
     },
     "ChgAccumImpact": {
-        "value": 280,
+        "value": 360,
         "times": 2
     },
     "DirectHitAdjustment": 195.0,
     "PAInterference": 127.0,
-    "Cooling": 347.0,
+    "Cooling": 402.0,
     "Weight": 2060.0,
     "ENLoad": 247.0,
     "imagePath": "images/units/Vvc-770LB.png",

@@ -24,7 +24,7 @@
     "HomingLockTime": 0.4,
     "MaxLockCount": 3,
     "TotalRounds": 180,
-    "ReloadTime": 4.3,
+    "ReloadTime": 3.5,
     "AmmunitionCost": 70,
     "Weight": 3450,
     "ENLoad": 262,

@@ -6,15 +6,15 @@
     "ReloadType": "Magazine",
     "Manufacturer": "BAWS",
     "AttackPower": {
-        "value": 51,
-        "times": 4
-    },
-    "Impact": {
         "value": 48,
         "times": 4
     },
+    "Impact": {
+        "value": 44,
+        "times": 4
+    },
     "AccumulativeImpact": {
-        "value": 22,
+        "value": 20,
         "times": 4
     },
     "DirectHitAdjustment": 195.0,

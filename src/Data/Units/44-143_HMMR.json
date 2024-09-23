@@ -5,9 +5,9 @@
     "WeaponType": "Melee",
     "ReloadType": "Overheat",
     "Manufacturer": "ALLMIND",
-    "AttackPower": 1381.0,
-    "Impact": 810.0,
-    "AccumulativeImpact": 520.0,
+    "AttackPower": 1208.0,
+    "Impact": 690.0,
+    "AccumulativeImpact": 440.0,
     "ConsecutiveHits": 2.0,
     "ChgAttackPower": {
         "value": 265,

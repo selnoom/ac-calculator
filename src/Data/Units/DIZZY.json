@@ -13,9 +13,9 @@
     "Recoil": 100.0,
     "EffectiveRange": 285.0,
     "TotalRounds": 38.0,
-    "ReloadTime": 7.1,
+    "ReloadTime": 6.3,
     "AmmunitionCost": 1500.0,
-    "Weight": 5750.0,
+    "Weight": 5590.0,
     "ENLoad": 364.0,
     "imagePath": "images/units/DIZZY.png",
     "PartSlot": [

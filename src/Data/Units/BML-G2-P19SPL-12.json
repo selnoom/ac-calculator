@@ -22,7 +22,7 @@
     "DirectHitAdjustment": 140,
     "Guidance": 145,
     "EffectiveRange": 1425,
-    "HomingLockTime": 1.5,
+    "HomingLockTime": 1.0,
     "MaxLockCount": 2,
     "TotalRounds": 80,
     "ReloadTime": 6,
