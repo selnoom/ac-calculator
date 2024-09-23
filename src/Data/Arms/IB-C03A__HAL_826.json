@@ -10,7 +10,7 @@
     "ArmsLoadLimit": 14000,
     "RecoilControl": 125,
     "FirearmSpecialization": 123,
-    "MeleeSpecialization": 104,
+    "MeleeSpecialization": 114,
     "Weight": 14160,
     "ENLoad": 300,
     "PartSlot": ["Arms"],
