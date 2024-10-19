@@ -1,9 +1,10 @@
 import React from 'react';
 import MainStatBar from './MainStatBar';
 
-function MainStatsRow({ name, value, isBar = false, maxValue = 0, shouldRound = true }) {
+function MainStatsRow({ name, value, isBar = false, maxValue = 0, roundTo = 1 }) {
     const shouldShowValue = value !== undefined && value !== null && !isNaN(value) && value !== 0;
-    const roundedValue = shouldRound ? Math.round(value) : value;
+    const roundFactor = 1 / roundTo;
+    const roundedValue = Math.round(value * roundFactor) / roundFactor;
     const displayValue = isBar 
         ? `${Math.round(value || 0)} / ${Math.round(maxValue)}`
         : (shouldShowValue ? roundedValue : '');

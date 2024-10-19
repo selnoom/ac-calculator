@@ -81,3 +81,26 @@ export function computeAttitudeRecovery(weight) {
 export function computeQBENConsumption(baseConsumption, coreBoostAdj) {
   return baseConsumption * (2 - coreBoostAdj/100.);
 }
+
+export function computeQBReloadTime(baseReloadTime, idealWeight, weight) {
+  let weightDiff = (weight - idealWeight) / 10000.;
+  let multiplier = 0;
+  const [m1, q1, m2, q2, m3, q3, m4, q4] = [0.2, 1, 0.4, 0.9, 0.85, 0.45, 0.25, 2.25];
+
+  if (weightDiff <= 0) {
+    multiplier = 1;
+  }
+  else if (weightDiff <= 0.5) {
+    multiplier = m1 * weightDiff + q1;
+  } else if (weightDiff <= 1) {
+    multiplier = m2 * weightDiff + q2;
+  } else if (weightDiff <= 3) {
+    multiplier = m3 * weightDiff + q3;
+  } else if (weightDiff <= 5) {
+    multiplier = m4 * weightDiff + q4;
+  } else {
+    multiplier = 3.5;
+  }
+
+  return multiplier * baseReloadTime;
+}

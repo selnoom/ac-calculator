@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import computeTotalStats from '../../Utilities/ComputeTotalStats';
 import MainStatsRow from './MainStatsRow';
 import { average } from '../../Utilities/Math';
-import { getTargetTracking, computeBoostSpeed, computeAttitudeRecovery, computeQBENConsumption} from '../../Utilities/Conversions';
+import { getTargetTracking, computeBoostSpeed, computeAttitudeRecovery, computeQBENConsumption, computeQBReloadTime} from '../../Utilities/Conversions';
 
 function MainStatsDisplay({ selectedParts }) {
   const [totalStats, setTotalStats] = useState({});
@@ -34,7 +34,7 @@ function MainStatsDisplay({ selectedParts }) {
       { name: "Boost Speed", value: computeBoostSpeed(totalStats.total_weight ,totalStats.speed) },
       // { name: "QB Speed (Not completely accurate)", value: computeBoostSpeed(totalStats.qb_speed) },
       { name: "QB EN Consumption", value: computeQBENConsumption(totalStats.qb_EN_consumption, totalStats.booster_efficiency_adj) },
-      { name: "QB Reload Time", value: totalStats.qb_reload_time, shouldRound: false },
+      { name: "QB Reload Time", value: computeQBReloadTime(totalStats.qb_reload_time, totalStats.qb_reload_ideal_weight, totalStats.total_weight), roundTo: 0.01 },
       { name: "EN Capacity", value: totalStats.EN_capacity },
       // { name: "EN Supply Efficiency", value: totalStats.EN_supply_efficiency },
       // { name: "EN Recharge Delay", value: totalStats.EN_recharge_delay },
@@ -74,7 +74,7 @@ function MainStatsDisplay({ selectedParts }) {
           value={stat.value}
           isBar={stat.isBar || false}
           maxValue={stat.maxValue}
-          shouldRound={stat.shouldRound}
+          roundTo={stat.roundTo}
         />
       ))}
     </div>
