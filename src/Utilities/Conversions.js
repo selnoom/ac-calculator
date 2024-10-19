@@ -104,3 +104,22 @@ export function computeQBReloadTime(baseReloadTime, idealWeight, weight) {
 
   return multiplier * baseReloadTime;
 }
+
+export function computeENSupplyEfficiency(enOutput, enLoad) {
+  let enDiff = enOutput - enLoad;
+  let result = 0;
+  const [m1, q1, m2, q2] = [4.1667, 1500, 4.4148, 1058.8235];
+
+  if (enDiff < 0) {
+    result = 100;
+  }
+  else if (enDiff <= 1800) {
+    result = m1 * enDiff + q1;
+  } else if (enDiff <= 3500) {
+    result = m2 * enDiff + q2;
+  } else {
+    result = 16500;
+  }
+
+  return result;
+}
