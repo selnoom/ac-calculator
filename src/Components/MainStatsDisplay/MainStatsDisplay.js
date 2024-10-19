@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import computeTotalStats from '../../Utilities/ComputeTotalStats';
 import MainStatsRow from './MainStatsRow';
 import { average } from '../../Utilities/Math';
-import { getTargetTracking, computeBoostSpeed, computeAttitudeRecovery, computeQBENConsumption, computeQBReloadTime, computeENSupplyEfficiency, computeENRechargeDelay} from '../../Utilities/Conversions';
+import { getTargetTracking, computeBoostSpeed, computeQuickBoostSpeed, computeAttitudeRecovery, computeQBENConsumption, computeQBReloadTime, computeENSupplyEfficiency, computeENRechargeDelay} from '../../Utilities/Conversions';
 
 function MainStatsDisplay({ selectedParts }) {
   const [totalStats, setTotalStats] = useState({});
@@ -32,7 +32,7 @@ function MainStatsDisplay({ selectedParts }) {
       { name: "Attitude Recovery", value: computeAttitudeRecovery(totalStats.total_weight)},
       { name: "Target Tracking", value: getTargetTracking(totalStats.firearm_spec)},
       { name: "Boost Speed", value: computeBoostSpeed(totalStats.total_weight ,totalStats.speed) },
-      // { name: "QB Speed (Not completely accurate)", value: computeBoostSpeed(totalStats.qb_speed) },
+      { name: "QB Speed", value: computeQuickBoostSpeed(totalStats.total_weight, totalStats.qb_speed) },
       { name: "QB EN Consumption", value: computeQBENConsumption(totalStats.qb_EN_consumption, totalStats.booster_efficiency_adj) },
       { name: "QB Reload Time", value: computeQBReloadTime(totalStats.qb_reload_time, totalStats.qb_reload_ideal_weight, totalStats.total_weight), roundTo: 0.01 },
       { name: "EN Capacity", value: totalStats.EN_capacity },

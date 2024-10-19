@@ -50,6 +50,30 @@ export function computeBoostSpeed(totalWeight, hiddenBoostValue) {
   return hiddenBoostValue * multiplier;
 }
 
+export function computeQuickBoostSpeed(totalWeight, hiddenBoostValue) {
+  let multiplier;
+
+  if (totalWeight <= 40000) {
+      multiplier = 1;
+  } else if (totalWeight <= 62500) {
+      // Linear interpolation between 1 and 0.9
+      multiplier = 1.1778 - 0.0444 * totalWeight / 10000;
+  } else if (totalWeight <= 75000) {
+      // Linear interpolation between 0.9 and 0.85
+      multiplier = 1.15 - 0.04 * totalWeight / 10000;
+  } else if (totalWeight <= 80000) {
+      // Linear interpolation between 0.85 and 0.8
+      multiplier = 1.6 - 0.1 * totalWeight / 10000;
+  } else if (totalWeight <= 120000) {
+      // Linear interpolation between 0.8 and 0.7
+      multiplier = 1 - 0.025 * totalWeight / 10000;
+  } else {
+      multiplier = 0.7;
+  }
+
+  return hiddenBoostValue * multiplier;
+}
+
 export function computeAttitudeRecovery(weight) {
   const baseValue = 100;
   let multiplier = 0;
