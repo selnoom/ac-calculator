@@ -123,3 +123,7 @@ export function computeENSupplyEfficiency(enOutput, enLoad) {
 
   return result;
 }
+
+export function computeENRechargeDelay(baseRecharge, coreSupplyAdj) {
+  return 1000. / baseRecharge * (2 - coreSupplyAdj/100.);
+}
