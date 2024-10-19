@@ -72,7 +72,7 @@ function computeTotalStats(parts) {
       });
       
       if (generatorOutputAdj > 0) {
-        ENOutput = ENOutput * 0.01 * generatorOutputAdj;
+        ENOutput = Math.floor(ENOutput * 0.01 * generatorOutputAdj);
       }
       
     return {
