@@ -19,6 +19,7 @@ function computeTotalStats(parts) {
     let QBENConsumption = 0;
     let QBSpeed = 0;
     let generatorOutputAdj = 0;
+    let boosterEfficiencyAdj = 0;
 
     // Remove null and undefined values from array
     parts = parts.filter(part => part !== null && part !== undefined);
@@ -61,7 +62,7 @@ function computeTotalStats(parts) {
         QBENConsumption += part.QBENConsumption || 0;
         QBSpeed += part.QBSpeed || 0;
         generatorOutputAdj += part.GeneratorOutputAdj || 0;
-
+        boosterEfficiencyAdj += part.BoosterEfficiencyAdj || 0;
       });
       
       if (generatorOutputAdj > 0) {
@@ -88,6 +89,7 @@ function computeTotalStats(parts) {
       qb_reload_time: QBReloadTime,
       qb_EN_consumption: QBENConsumption,
       qb_speed: QBSpeed,
+      booster_efficiency_adj: boosterEfficiencyAdj,
     };
   }
 

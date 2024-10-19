@@ -77,3 +77,7 @@ export function computeAttitudeRecovery(weight) {
 
   return baseValue * multiplier;
 }
+
+export function computeQBENConsumption(baseConsumption, coreBoostAdj) {
+  return baseConsumption * (2 - coreBoostAdj/100.);
+}
