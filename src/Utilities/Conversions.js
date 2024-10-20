@@ -50,6 +50,30 @@ export function computeBoostSpeed(totalWeight, hiddenBoostValue) {
   return hiddenBoostValue * multiplier;
 }
 
+export function computeQuickBoostSpeed(totalWeight, hiddenBoostValue) {
+  let multiplier;
+
+  if (totalWeight <= 40000) {
+      multiplier = 1;
+  } else if (totalWeight <= 62500) {
+      // Linear interpolation between 1 and 0.9
+      multiplier = 1.1778 - 0.0444 * totalWeight / 10000;
+  } else if (totalWeight <= 75000) {
+      // Linear interpolation between 0.9 and 0.85
+      multiplier = 1.15 - 0.04 * totalWeight / 10000;
+  } else if (totalWeight <= 80000) {
+      // Linear interpolation between 0.85 and 0.8
+      multiplier = 1.6 - 0.1 * totalWeight / 10000;
+  } else if (totalWeight <= 120000) {
+      // Linear interpolation between 0.8 and 0.7
+      multiplier = 1 - 0.025 * totalWeight / 10000;
+  } else {
+      multiplier = 0.7;
+  }
+
+  return hiddenBoostValue * multiplier;
+}
+
 export function computeAttitudeRecovery(weight) {
   const baseValue = 100;
   let multiplier = 0;
@@ -76,4 +100,54 @@ export function computeAttitudeRecovery(weight) {
   }
 
   return baseValue * multiplier;
+}
+
+export function computeQBENConsumption(baseConsumption, coreBoostAdj) {
+  return baseConsumption * (2 - coreBoostAdj/100.);
+}
+
+export function computeQBReloadTime(baseReloadTime, idealWeight, weight) {
+  let weightDiff = (weight - idealWeight) / 10000.;
+  let multiplier = 0;
+  const [m1, q1, m2, q2, m3, q3, m4, q4] = [0.2, 1, 0.4, 0.9, 0.85, 0.45, 0.25, 2.25];
+
+  if (weightDiff <= 0) {
+    multiplier = 1;
+  }
+  else if (weightDiff <= 0.5) {
+    multiplier = m1 * weightDiff + q1;
+  } else if (weightDiff <= 1) {
+    multiplier = m2 * weightDiff + q2;
+  } else if (weightDiff <= 3) {
+    multiplier = m3 * weightDiff + q3;
+  } else if (weightDiff <= 5) {
+    multiplier = m4 * weightDiff + q4;
+  } else {
+    multiplier = 3.5;
+  }
+
+  return multiplier * baseReloadTime;
+}
+
+export function computeENSupplyEfficiency(enOutput, enLoad) {
+  let enDiff = enOutput - enLoad;
+  let result = 0;
+  const [m1, q1, m2, q2] = [4.1667, 1500., 4.4118, 1058.8235];
+
+  if (enDiff < 0) {
+    result = 100;
+  }
+  else if (enDiff <= 1800) {
+    result = m1 * enDiff + q1;
+  } else if (enDiff <= 3500) {
+    result = m2 * enDiff + q2;
+  } else {
+    result = 16500;
+  }
+
+  return result;
+}
+
+export function computeENRechargeDelay(baseRecharge, coreSupplyAdj) {
+  return 1000. / baseRecharge * (2 - coreSupplyAdj/100.);
 }

@@ -19,6 +19,10 @@ function computeTotalStats(parts) {
     let QBENConsumption = 0;
     let QBSpeed = 0;
     let generatorOutputAdj = 0;
+    let generatorSupplyAdjustment = 0;
+    let boosterEfficiencyAdj = 0;
+    let boosterIdealWeight = 0;
+    let ENRecharge = 0;
 
     // Remove null and undefined values from array
     parts = parts.filter(part => part !== null && part !== undefined);
@@ -61,11 +65,14 @@ function computeTotalStats(parts) {
         QBENConsumption += part.QBENConsumption || 0;
         QBSpeed += part.QBSpeed || 0;
         generatorOutputAdj += part.GeneratorOutputAdj || 0;
-
+        generatorSupplyAdjustment += part.GeneratorSupplyAdj || 0;
+        boosterEfficiencyAdj += part.BoosterEfficiencyAdj || 0;
+        boosterIdealWeight += part.QBReloadIdealWeight || 0;
+        ENRecharge += part.ENRecharge || 0;
       });
       
       if (generatorOutputAdj > 0) {
-        ENOutput = ENOutput * 0.01 * generatorOutputAdj;
+        ENOutput = Math.floor(ENOutput * 0.01 * generatorOutputAdj);
       }
       
     return {
@@ -88,6 +95,10 @@ function computeTotalStats(parts) {
       qb_reload_time: QBReloadTime,
       qb_EN_consumption: QBENConsumption,
       qb_speed: QBSpeed,
+      booster_efficiency_adj: boosterEfficiencyAdj,
+      generator_supply_adj: generatorSupplyAdjustment,
+      qb_reload_ideal_weight: boosterIdealWeight,
+      EN_recharge: ENRecharge,
     };
   }
 

@@ -16,7 +16,7 @@
     "Weight": 970,
     "ENLoad": 200,
     "Speed": 325,
-    "QBSpeed": 380,
+    "QBSpeed": 350,
     "PartSlot": ["Boosters"],
     "FrameType": "Inner",
     "imagePath": "images/boosters/BC-0400_MULE.png"
